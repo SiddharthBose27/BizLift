@@ -19,7 +19,14 @@ jobs:
           cache: npm
           cache-dependency-path: backend/package-lock.json
       - run: npm ci
-      - run: npm run smoke
+      - name: Create CI environment file
+  run: touch .env
+      - name: Run backend smoke test
+  run: npm run smoke
+  env:
+    NODE_ENV: test
+    PORT: 5002
+    BIZLIFT_DB_MODE: json
       - run: npm run test:all
 
   frontend:
