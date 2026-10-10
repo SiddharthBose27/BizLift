@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { Building2, Store, Users, RefreshCw, Plus, ShieldCheck, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const API = import.meta.env.VITE_API_BASE_URL || "http://localhost:5002";
+const API = import.meta.env.VITE_API_BASE_URL || "";
 const token = () => localStorage.getItem("bizlift_token") || "";
 const request = async (path, options = {}) => {
   const response = await fetch(`${API}/api/admin${path}`, { ...options, headers: { "Content-Type": "application/json", Authorization: `Bearer ${token()}`, ...(options.headers || {}) } });
