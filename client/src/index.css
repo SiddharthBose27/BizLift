@@ -1,0 +1,330 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #111111;
+  background: #f8f7f4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --background: #f8f7f4;
+  --foreground: #111111;
+  --surface: #ffffff;
+  --surface-2: #f0eee9;
+  --border: rgba(17, 17, 17, 0.10);
+  --muted: #73716c;
+}
+
+[data-theme="dark"] {
+  color: #f8f7f4;
+  background: #111111;
+  --background: #111111;
+  --foreground: #f8f7f4;
+  --surface: #181818;
+  --surface-2: #232323;
+  --border: rgba(255, 255, 255, 0.10);
+  --muted: #9d9a93;
+}
+
+html {
+  min-width: 320px;
+  background: var(--background);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(255, 107, 53, 0.22);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Batch 03 motion system: dependency-free reveal primitives that remain
+   smooth even when reduced-motion is enabled or animation libraries are unavailable. */
+[data-reveal] {
+  opacity: 0;
+  transform: translate3d(0, 28px, 0);
+  transition: opacity 700ms cubic-bezier(.22, 1, .36, 1), transform 700ms cubic-bezier(.22, 1, .36, 1);
+  will-change: opacity, transform;
+}
+
+[data-reveal="left"] {
+  transform: translate3d(-28px, 0, 0);
+}
+
+[data-reveal="right"] {
+  transform: translate3d(28px, 0, 0);
+}
+
+[data-reveal="stack"] {
+  transform: translate3d(0, 38px, 0) scale(.985);
+}
+
+[data-reveal="hero"] {
+  transform: translate3d(0, 18px, 0) scale(.985);
+  transition-duration: 900ms;
+}
+
+[data-reveal].is-revealed {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  [data-reveal],
+  [data-reveal="left"],
+  [data-reveal="right"],
+  [data-reveal="stack"],
+  [data-reveal="hero"] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* Batch 04: restrained 3D visual depth for the public home page.
+   This intentionally does not touch the authenticated shell/navigation. */
+.hero-3d-wrap{position:relative;min-height:520px;display:grid;place-items:center;perspective:1200px}.hero-3d-scene{position:relative;width:min(100%,540px);height:500px;transform-style:preserve-3d;transform:rotateX(4deg) rotateY(-7deg);animation:bizlift-scene-float 7s ease-in-out infinite}.hero-core{position:absolute;left:50%;top:50%;width:190px;height:190px;transform:translate(-50%,-50%) translateZ(70px);border-radius:50%;border:1px solid rgba(154,209,123,.45);background:radial-gradient(circle at 35% 30%,rgba(154,209,123,.24),rgba(18,24,18,.94) 58%,rgba(4,5,4,.98));box-shadow:0 0 80px rgba(154,209,123,.12),inset 0 0 40px rgba(154,209,123,.08);display:grid;place-items:center;transform-style:preserve-3d}.hero-core-glow{position:absolute;inset:18px;border-radius:50%;border:1px solid rgba(255,255,255,.08);animation:bizlift-core-pulse 3.8s ease-in-out infinite}.hero-core-inner{position:relative;z-index:2;text-align:center}.hero-orbit{position:absolute;left:50%;top:50%;border:1px solid rgba(154,209,123,.2);border-radius:50%;transform-style:preserve-3d}.hero-orbit-one{width:380px;height:210px;transform:translate(-50%,-50%) rotateX(66deg) rotateZ(-12deg) translateZ(35px);animation:bizlift-orbit-one 11s linear infinite}.hero-orbit-two{width:430px;height:270px;transform:translate(-50%,-50%) rotateX(68deg) rotateY(22deg) rotateZ(35deg) translateZ(-10px);border-color:rgba(255,255,255,.11);animation:bizlift-orbit-two 15s linear infinite reverse}.hero-float-card{position:absolute;min-width:145px;padding:16px 18px;border:1px solid rgba(255,255,255,.12);border-radius:18px;background:rgba(12,14,12,.72);box-shadow:0 18px 50px rgba(0,0,0,.28);backdrop-filter:blur(16px);transform-style:preserve-3d}.hero-card-top{left:8%;top:10%;transform:translateZ(100px) rotateY(8deg)}.hero-card-right{right:2%;top:39%;transform:translateZ(120px) rotateY(-8deg)}.hero-card-bottom{left:12%;bottom:8%;transform:translateZ(85px) rotateY(7deg)}
+@keyframes bizlift-scene-float{0%,100%{transform:rotateX(4deg) rotateY(-7deg) translateY(0)}50%{transform:rotateX(6deg) rotateY(-4deg) translateY(-10px)}}@keyframes bizlift-core-pulse{0%,100%{transform:scale(.96);opacity:.65}50%{transform:scale(1.04);opacity:1}}@keyframes bizlift-orbit-one{to{transform:translate(-50%,-50%) rotateX(66deg) rotateZ(348deg) translateZ(35px)}}@keyframes bizlift-orbit-two{to{transform:translate(-50%,-50%) rotateX(68deg) rotateY(22deg) rotateZ(-325deg) translateZ(-10px)}}
+@media(max-width:1023px){.hero-3d-wrap{min-height:430px}.hero-3d-scene{height:420px;transform:scale(.88)}}@media(prefers-reduced-motion:reduce){.hero-3d-scene,.hero-core-glow,.hero-orbit-one,.hero-orbit-two{animation:none}}
+
+/* Batch 5: keep Recharts responsive containers measurable inside flexible cards. */
+.recharts-responsive-container {
+  min-width: 0 !important;
+  width: 100% !important;
+}
+
+/* Batch 5: restrained dashboard interaction polish; no theme replacement. */
+.bizlift-dashboard-card {
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+.bizlift-dashboard-card:hover {
+  transform: translateY(-2px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .bizlift-dashboard-card { transition: none; }
+  .bizlift-dashboard-card:hover { transform: none; }
+}
+
+/* Batch 09 — Advanced UI/UX system.
+   Feature enhancement only: existing BizLift identity, navigation and green accent stay intact. */
+:root {
+  --bizlift-accent: #9ad17b;
+  --bizlift-accent-soft: rgba(154,209,123,.12);
+  --bizlift-radius: 24px;
+}
+
+.bizlift-advanced-page {
+  position: relative;
+  isolation: isolate;
+  overflow-x: hidden;
+}
+
+.bizlift-advanced-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(154,209,123,.09), transparent 28%),
+    radial-gradient(circle at 88% 18%, rgba(255,255,255,.045), transparent 26%),
+    radial-gradient(circle at 55% 90%, rgba(154,209,123,.045), transparent 30%);
+}
+
+.bizlift-advanced-page::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: .22;
+  background-image: linear-gradient(rgba(255,255,255,.018) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.018) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: linear-gradient(to bottom, black, transparent 92%);
+}
+
+.bizlift-public-page::before { position: absolute; height: 100%; }
+.bizlift-public-page::after { position: absolute; height: 100%; }
+
+.bizlift-feature-card,
+.bizlift-interactive-card,
+.bizlift-kpi-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 220ms cubic-bezier(.22,1,.36,1), border-color 220ms ease, box-shadow 220ms ease, background-color 220ms ease;
+}
+
+.bizlift-feature-card::before,
+.bizlift-interactive-card::before,
+.bizlift-kpi-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(120deg, rgba(255,255,255,.045), transparent 34%, rgba(154,209,123,.035));
+  opacity: .8;
+}
+
+.bizlift-feature-card:hover,
+.bizlift-interactive-card:hover,
+.bizlift-kpi-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(154,209,123,.28) !important;
+  box-shadow: 0 18px 55px rgba(0,0,0,.16), 0 0 0 1px rgba(154,209,123,.04);
+}
+
+.bizlift-kpi-card { min-height: 122px; }
+.bizlift-kpi-card > * { position: relative; z-index: 1; }
+
+.bizlift-auth-page main,
+.bizlift-selection-page main {
+  position: relative;
+}
+
+.bizlift-auth-page main::before,
+.bizlift-selection-page main::before {
+  content: "";
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  left: 50%;
+  top: 6%;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  border: 1px solid rgba(154,209,123,.10);
+  box-shadow: 0 0 90px rgba(154,209,123,.07), inset 0 0 70px rgba(154,209,123,.025);
+  pointer-events: none;
+}
+
+.bizlift-auth-page input,
+.bizlift-selection-page input,
+.bizlift-selection-page select {
+  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.bizlift-auth-page input:focus,
+.bizlift-selection-page input:focus,
+.bizlift-selection-page select:focus {
+  border-color: rgba(154,209,123,.48) !important;
+  box-shadow: 0 0 0 4px rgba(154,209,123,.07);
+}
+
+.bizlift-workflow-page button,
+.bizlift-analytics-page button,
+.bizlift-dashboard-page button {
+  transition: transform 180ms ease, filter 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.bizlift-workflow-page button:hover:not(:disabled),
+.bizlift-analytics-page button:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.bizlift-dashboard-page main {
+  scroll-margin-top: 24px;
+}
+
+.bizlift-dashboard-page .recharts-wrapper,
+.bizlift-analytics-page .recharts-wrapper {
+  transition: filter 220ms ease;
+}
+
+.bizlift-dashboard-page .recharts-wrapper:hover,
+.bizlift-analytics-page .recharts-wrapper:hover {
+  filter: brightness(1.05);
+}
+
+.bizlift-analytics-page section,
+.bizlift-analytics-page > main > div > div {
+  backdrop-filter: blur(12px);
+}
+
+/* Premium scrollbar without changing layout dimensions. */
+.bizlift-advanced-page::-webkit-scrollbar { width: 10px; height: 10px; }
+.bizlift-advanced-page::-webkit-scrollbar-track { background: transparent; }
+.bizlift-advanced-page::-webkit-scrollbar-thumb { background: rgba(154,209,123,.18); border-radius: 999px; border: 3px solid transparent; background-clip: padding-box; }
+.bizlift-advanced-page::-webkit-scrollbar-thumb:hover { background: rgba(154,209,123,.34); background-clip: padding-box; }
+
+@media (max-width: 768px) {
+  .bizlift-advanced-page::after { background-size: 30px 30px; opacity: .15; }
+  .bizlift-auth-page main::before,
+  .bizlift-selection-page main::before { width: 260px; height: 260px; }
+  .bizlift-feature-card:hover,
+  .bizlift-interactive-card:hover,
+  .bizlift-kpi-card:hover { transform: translateY(-1px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bizlift-feature-card,
+  .bizlift-interactive-card,
+  .bizlift-kpi-card,
+  .bizlift-workflow-page button,
+  .bizlift-analytics-page button,
+  .bizlift-dashboard-page button,
+  .bizlift-auth-page input,
+  .bizlift-selection-page input,
+  .bizlift-selection-page select { transition: none; }
+  .bizlift-feature-card:hover,
+  .bizlift-interactive-card:hover,
+  .bizlift-kpi-card:hover,
+  .bizlift-workflow-page button:hover:not(:disabled),
+  .bizlift-analytics-page button:hover:not(:disabled) { transform: none; }
+}
+
+/* Batch 09 REAL EXPERIENCE PASS — motion + 3D visual language */
+.bizlift-3d-stage { position:absolute; inset:0; pointer-events:auto; opacity:.96; }
+.bizlift-3d-stage canvas { width:100%!important; height:100%!important; }
+.bizlift-3d-stage-compact { opacity:.72; }
+.bizlift-experience-hero { position:absolute; inset:0; pointer-events:none; }
+.bizlift-orb-label { position:absolute; display:flex; align-items:center; gap:8px; padding:10px 13px; border:1px solid rgba(154,209,123,.24); border-radius:999px; background:rgba(7,10,7,.62); color:rgba(255,255,255,.86); box-shadow:0 12px 35px rgba(0,0,0,.22), inset 0 0 20px rgba(154,209,123,.035); backdrop-filter:blur(16px); font-size:11px; letter-spacing:.02em; }
+.bizlift-orb-label-a { left:7%; top:20%; }
+.bizlift-orb-label-b { right:4%; top:31%; }
+.bizlift-orb-label-c { left:17%; bottom:17%; }
+.bizlift-ambient-layer { position:absolute; inset:0; pointer-events:none; overflow:hidden; }
+.bizlift-ambient-pulse { position:absolute; width:380px; height:380px; border-radius:50%; filter:blur(2px); border:1px solid rgba(154,209,123,.08); box-shadow:0 0 100px rgba(154,209,123,.05), inset 0 0 100px rgba(154,209,123,.025); animation:bizlift-pulse 8s ease-in-out infinite; }
+.bizlift-ambient-pulse-1 { left:-180px; top:12%; }
+.bizlift-ambient-pulse-2 { right:-210px; bottom:5%; animation-delay:-3s; }
+.bizlift-ambient-line { position:absolute; width:65vw; height:1px; left:18%; top:34%; background:linear-gradient(90deg, transparent, rgba(154,209,123,.2), transparent); transform:rotate(-12deg); filter:blur(.2px); }
+.bizlift-intelligence-ribbon { display:flex; align-items:center; gap:8px; width:max-content; max-width:100%; padding:8px 12px; border:1px solid rgba(154,209,123,.22); border-radius:999px; background:rgba(154,209,123,.06); color:rgba(255,255,255,.76); backdrop-filter:blur(14px); font-size:11px; letter-spacing:.08em; text-transform:uppercase; }
+.bizlift-ribbon-label { color:#9ad17b; font-weight:800; }
+.bizlift-ribbon-value { color:rgba(255,255,255,.52); letter-spacing:.02em; text-transform:none; }
+.bizlift-live-dot { width:7px; height:7px; border-radius:50%; background:#9ad17b; box-shadow:0 0 0 5px rgba(154,209,123,.08),0 0 18px rgba(154,209,123,.55); animation:bizlift-live 2s ease-in-out infinite; }
+.bizlift-page-noise::after { content:""; position:fixed; inset:0; pointer-events:none; z-index:20; opacity:.035; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E"); }
+.bizlift-advanced-page { animation:bizlift-page-in .65s cubic-bezier(.22,1,.36,1) both; }
+.bizlift-advanced-page a, .bizlift-advanced-page button { -webkit-tap-highlight-color:transparent; }
+.bizlift-advanced-page button:active { transform:scale(.985); }
+.bizlift-feature-card, .bizlift-interactive-card, .bizlift-kpi-card { transform:translateZ(0); }
+.bizlift-feature-card::after, .bizlift-interactive-card::after, .bizlift-kpi-card::after { content:""; position:absolute; width:180px; height:180px; right:-90px; top:-100px; border-radius:50%; background:rgba(154,209,123,.045); filter:blur(22px); pointer-events:none; }
+.bizlift-workflow-page main, .bizlift-analytics-page main { position:relative; z-index:1; }
+.bizlift-dashboard-page > div, .bizlift-dashboard-page main { position:relative; z-index:1; }
+@keyframes bizlift-page-in { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:none} }
+@keyframes bizlift-pulse { 0%,100%{transform:scale(.94);opacity:.45} 50%{transform:scale(1.08);opacity:1} }
+@keyframes bizlift-live { 0%,100%{box-shadow:0 0 0 4px rgba(154,209,123,.06),0 0 12px rgba(154,209,123,.35)} 50%{box-shadow:0 0 0 7px rgba(154,209,123,.03),0 0 22px rgba(154,209,123,.7)} }
+@media(max-width:900px){.bizlift-orb-label-b{right:1%;top:24%}.bizlift-orb-label-a{left:2%;top:14%}.bizlift-orb-label-c{left:4%;bottom:10%}.bizlift-ribbon-value{display:none}}
+@media(prefers-reduced-motion:reduce){.bizlift-advanced-page,.bizlift-ambient-pulse,.bizlift-live-dot{animation:none}.bizlift-orb-label{transition:none}}
+
+.bizlift-tooltip{z-index:100;padding:8px 10px;border:1px solid rgba(154,209,123,.25);border-radius:10px;background:#0b0d0b;color:rgba(255,255,255,.82);font-size:11px;box-shadow:0 12px 35px rgba(0,0,0,.3);}
+
+.bizlift-mini-3d{position:absolute;right:-55px;top:75px;width:300px;height:300px;opacity:.42;filter:saturate(.8);mask-image:linear-gradient(to bottom,black 20%,transparent 90%);}
+.bizlift-mini-3d .bizlift-3d-stage{inset:0;}
+@media(max-width:900px){.bizlift-mini-3d{right:-120px;opacity:.24;transform:scale(.8);transform-origin:top right;}}

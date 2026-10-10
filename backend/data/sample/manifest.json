@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-09-14T00:00:00+05:30",
+  "generatorSeed": 20260914,
+  "notes": "Deterministic synthetic sample data for BizLift. Event data is intentionally large; master tables remain realistic and small.",
+  "datasets": {
+    "inventory_master": 35,
+    "recipes_master": 21,
+    "sales": 2500,
+    "inventory_transactions": 5000,
+    "waste_events": 2500,
+    "purchase_orders": 2000,
+    "demand_observations": 2500,
+    "suppliers": 2000
+  }
+}

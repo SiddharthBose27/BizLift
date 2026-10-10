@@ -1,0 +1,36 @@
+officeId,vendorId,inventoryItemId,itemName,category,unit,currentStock,minThreshold,costPrice,supplier,expiryDate
+techpark-one,snapeats,1,Milk,Dairy,litres,18,20,48,FreshFarm,2026-09-16
+techpark-one,snapeats,2,Bread,Bakery,packs,42,15,35,CityFoods,2026-09-19
+techpark-one,snapeats,3,Tomatoes,Vegetables,kg,0,10,30,VegSource,2026-09-23
+techpark-one,snapeats,4,Paneer,Dairy,kg,25,8,260,FreshFarm,2026-09-28
+techpark-one,snapeats,5,Butter,Dairy,kg,6,10,420,FreshFarm,2026-10-05
+techpark-one,snapeats,6,Tortilla,Bakery,pieces,30,12,12,CityFoods,2026-09-16
+techpark-one,snapeats,7,Curd,Dairy,kg,10,5,80,FreshFarm,2026-09-19
+techpark-one,snapeats,8,Potato,Vegetables,kg,45,15,32,VegSource,2026-09-23
+techpark-one,snapeats,9,Oil,Cooking,litres,22,8,115,MetroCash,2026-09-28
+techpark-one,snapeats,10,Burger Bun,Bakery,pieces,50,20,12,CityFoods,2026-10-05
+techpark-one,snapeats,11,Cheese,Dairy,kg,9,3,320,FreshFarm,2026-09-16
+techpark-one,quench,1,Milk,Dairy,litres,36,15,48,FreshFarm,2026-09-16
+techpark-one,quench,2,Cold Coffee Mix,Beverages,packs,10,8,140,BeanHouse,2026-09-29
+techpark-one,quench,3,Sugar,Pantry,kg,18,6,42,MetroCash,2026-10-14
+techpark-one,quench,4,Ice Cubes,Utilities,bags,4,6,25,CoolSupply,2026-10-29
+techpark-one,quench,5,Chocolate Syrup,Beverages,bottles,7,5,110,BeanHouse,2026-11-13
+techpark-one,quench,6,Potato,Vegetables,kg,45,15,32,VegSource,2026-09-16
+techpark-one,quench,7,Oil,Cooking,litres,22,8,115,MetroCash,2026-09-19
+techpark-one,quench,8,Burger Bun,Bakery,pieces,50,20,12,CityFoods,2026-09-23
+techpark-one,quench,9,Cheese,Dairy,kg,9,3,320,FreshFarm,2026-09-28
+techpark-one,south-delights,1,Idli Batter,Prepared Base,kg,14,12,55,SouthFresh,2026-09-21
+techpark-one,south-delights,2,Rice,Grains,kg,60,20,52,MetroCash,2026-09-29
+techpark-one,south-delights,3,Urad Dal,Grains,kg,16,10,110,MetroCash,2026-10-14
+techpark-one,south-delights,4,Sambar Base,Prepared Base,litres,5,8,85,SouthFresh,2026-10-29
+techpark-one,south-delights,5,Coconut Chutney,Condiments,litres,3,5,90,SouthFresh,2026-11-13
+techpark-one,south-delights,6,Ghee,Dairy,kg,4,4,540,FreshFarm,2026-09-16
+techpark-one,south-delights,7,Potato,Vegetables,kg,45,15,32,VegSource,2026-09-19
+techpark-one,south-delights,8,Oil,Cooking,litres,22,8,115,MetroCash,2026-09-23
+techpark-one,south-delights,9,Burger Bun,Bakery,pieces,50,20,12,CityFoods,2026-09-28
+techpark-one,south-delights,10,Cheese,Dairy,kg,9,3,320,FreshFarm,2026-10-05
+bennett-campus,campus-cafe,1,Potato,Vegetables,kg,35,12,42,VegSource,2026-09-16
+bennett-campus,campus-cafe,2,Oil,Cooking,litres,18,8,120,MetroCash,2026-09-19
+bennett-campus,campus-cafe,3,Burger Bun,Bakery,pieces,45,20,12,CityFoods,2026-09-23
+bennett-campus,campus-cafe,4,Cheese,Dairy,kg,8,3,320,FreshFarm,2026-09-28
+bennett-campus,campus-cafe,5,Sauce,Condiments,bottles,10,4,90,CityFoods,2026-11-13

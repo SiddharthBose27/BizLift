@@ -1,0 +1,661 @@
+// BizLift Batch 11 — production relational data foundation.
+// The application can continue using its demo JSON store until
+// BIZLIFT_DB_MODE=postgres is enabled in a deployment with PostgreSQL.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum InventoryStatus {
+  healthy
+  low
+  out
+}
+
+enum InventoryTransactionType {
+  sale_deduction
+  manual_adjustment
+  waste
+  purchase_receipt
+  return_in
+  return_out
+}
+
+enum OrderChannel {
+  pos
+  online
+  kiosk
+  other
+}
+
+enum PurchaseOrderStatus {
+  draft
+  submitted
+  approved
+  ordered
+  partially_received
+  received
+  cancelled
+}
+
+model Organization {
+  id        String   @id @default(cuid())
+  name      String
+  slug      String   @unique
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  offices   Office[]
+  users     User[]
+  suppliers Supplier[]
+  analyticsEvents AnalyticsEvent[]
+  metricSnapshots DataMetricSnapshot[]
+  mlModels       MLModel[]
+  mlTrainingRuns MLTrainingRun[]
+  mlPredictions  MLPrediction[]
+  mlDriftChecks  MLDriftCheck[]
+  aiCopilotRuns   AICopilotRun[]
+  auditEvents     AuditEvent[]
+
+  @@index([createdAt])
+  @@map("organizations")
+}
+
+model Office {
+  id             String       @id
+  organizationId String       @map("organization_id")
+  name           String
+  createdAt      DateTime     @default(now()) @map("created_at")
+  updatedAt      DateTime     @updatedAt @map("updated_at")
+
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  vendors      Vendor[]
+  users        User[]
+  inventory    InventoryItem[]
+  recipes      Recipe[]
+  sales        Sale[]
+  transactions InventoryTransaction[]
+  wasteEvents  WasteEvent[]
+  suppliers    Supplier[]
+  purchaseOrders PurchaseOrder[]
+  demandObservations DemandObservation[]
+  forecastRuns ForecastRun[]
+  analyticsEvents AnalyticsEvent[]
+  metricSnapshots DataMetricSnapshot[]
+  mlModels       MLModel[]
+  mlTrainingRuns MLTrainingRun[]
+  mlPredictions  MLPrediction[]
+  mlDriftChecks  MLDriftCheck[]
+  aiCopilotRuns   AICopilotRun[]
+  aiCopilotActions AICopilotAction[]
+  auditEvents     AuditEvent[]
+
+  @@index([organizationId])
+  @@map("offices")
+}
+
+model Vendor {
+  id        String   @id
+  officeId  String   @map("office_id")
+  name      String
+  email     String?
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  office       Office       @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  users        User[]
+  inventory    InventoryItem[]
+  recipes      Recipe[]
+  sales        Sale[]
+  transactions InventoryTransaction[]
+  wasteEvents  WasteEvent[]
+  suppliers    Supplier[]
+  purchaseOrders PurchaseOrder[]
+  demandObservations DemandObservation[]
+  forecastRuns ForecastRun[]
+  analyticsEvents AnalyticsEvent[]
+  metricSnapshots DataMetricSnapshot[]
+  mlModels       MLModel[]
+  mlTrainingRuns MLTrainingRun[]
+  mlPredictions  MLPrediction[]
+  mlDriftChecks  MLDriftCheck[]
+  aiCopilotRuns   AICopilotRun[]
+  aiCopilotActions AICopilotAction[]
+  auditEvents     AuditEvent[]
+
+  @@index([officeId])
+  @@map("vendors")
+}
+
+model User {
+  id           String   @id
+  organizationId String? @map("organization_id")
+  officeId     String?  @map("office_id")
+  vendorId     String?  @map("vendor_id")
+  name         String
+  email        String   @unique
+  role         String
+  passwordHash String   @map("password_hash")
+  isActive     Boolean  @default(true) @map("is_active")
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  organization Organization? @relation(fields: [organizationId], references: [id], onDelete: SetNull)
+  office       Office?       @relation(fields: [officeId], references: [id], onDelete: SetNull)
+  vendor       Vendor?       @relation(fields: [vendorId], references: [id], onDelete: SetNull)
+  sessions     Session[]
+  analyticsEvents AnalyticsEvent[]
+  auditEvents AuditEvent[]
+
+  @@index([organizationId])
+  @@index([officeId, vendorId])
+  @@index([role])
+  @@map("users")
+}
+
+model Session {
+  id        String   @id
+  userId    String   @map("user_id")
+  tokenHash String   @unique @map("token_hash")
+  expiresAt DateTime @map("expires_at")
+  createdAt DateTime @default(now()) @map("created_at")
+  revokedAt DateTime? @map("revoked_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, expiresAt])
+  @@index([expiresAt])
+  @@map("sessions")
+}
+
+model InventoryItem {
+  id            String          @id
+  officeId      String          @map("office_id")
+  vendorId      String          @map("vendor_id")
+  name          String
+  category      String?
+  unit          String
+  currentStock  Decimal         @default(0) @map("current_stock") @db.Decimal(14, 3)
+  minThreshold  Decimal         @default(0) @map("min_threshold") @db.Decimal(14, 3)
+  costPrice     Decimal         @default(0) @map("cost_price") @db.Decimal(14, 2)
+  sellingPrice  Decimal         @default(0) @map("selling_price") @db.Decimal(14, 2)
+  supplierName  String?         @map("supplier_name")
+  expiryDate    DateTime?       @map("expiry_date")
+  status        InventoryStatus  @default(healthy)
+  createdAt     DateTime        @default(now()) @map("created_at")
+  updatedAt     DateTime        @updatedAt @map("updated_at")
+
+  office       Office       @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  vendor       Vendor       @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+  recipeLinks  RecipeIngredient[]
+  transactions InventoryTransaction[]
+  wasteEvents  WasteEvent[]
+  purchaseItems PurchaseOrderItem[]
+
+  @@index([officeId, vendorId])
+  @@index([vendorId, status])
+  @@index([vendorId, expiryDate])
+  @@map("inventory_items")
+}
+
+model Recipe {
+  id        String   @id
+  officeId  String   @map("office_id")
+  vendorId  String   @map("vendor_id")
+  name      String
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  office       Office       @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  vendor       Vendor       @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+  ingredients  RecipeIngredient[]
+  sales        Sale[]
+  transactions InventoryTransaction[]
+
+  @@index([officeId, vendorId])
+  @@map("recipes")
+}
+
+model RecipeIngredient {
+  id              String        @id
+  recipeId        String        @map("recipe_id")
+  inventoryItemId String        @map("inventory_item_id")
+  quantity        Decimal       @db.Decimal(14, 3)
+  unit            String
+
+  recipe        Recipe        @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  inventoryItem InventoryItem @relation(fields: [inventoryItemId], references: [id], onDelete: Cascade)
+
+  @@unique([recipeId, inventoryItemId])
+  @@index([inventoryItemId])
+  @@map("recipe_ingredients")
+}
+
+model Sale {
+  id         String       @id
+  officeId   String       @map("office_id")
+  vendorId   String       @map("vendor_id")
+  recipeId   String?      @map("recipe_id")
+  recipeName String?      @map("recipe_name")
+  quantity   Decimal      @db.Decimal(14, 3)
+  unitPrice  Decimal?     @map("unit_price") @db.Decimal(14, 2)
+  totalAmount Decimal?    @map("total_amount") @db.Decimal(14, 2)
+  channel    OrderChannel @default(pos)
+  notes      String?
+  createdAt  DateTime     @default(now()) @map("created_at")
+
+  office Office @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  vendor Vendor @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+  recipe Recipe? @relation(fields: [recipeId], references: [id], onDelete: SetNull)
+  transactions InventoryTransaction[]
+
+  @@index([vendorId, createdAt])
+  @@index([officeId, createdAt])
+  @@map("sales")
+}
+
+model InventoryTransaction {
+  id                String                    @id
+  officeId          String                    @map("office_id")
+  vendorId          String                    @map("vendor_id")
+  inventoryItemId   String                    @map("inventory_item_id")
+  inventoryItemName String?                   @map("inventory_item_name")
+  type              InventoryTransactionType
+  direction         String
+  quantity          Decimal                   @db.Decimal(14, 3)
+  unit              String
+  beforeStock       Decimal                   @map("before_stock") @db.Decimal(14, 3)
+  afterStock        Decimal                   @map("after_stock") @db.Decimal(14, 3)
+  sourceType        String?                   @map("source_type")
+  sourceId          String?                   @map("source_id")
+  saleId            String?                   @map("sale_id")
+  recipeId          String?                   @map("recipe_id")
+  recipeName        String?                   @map("recipe_name")
+  createdAt         DateTime                  @default(now()) @map("created_at")
+
+  office        Office       @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  vendor        Vendor       @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+  inventoryItem InventoryItem @relation(fields: [inventoryItemId], references: [id], onDelete: Cascade)
+  sale          Sale?        @relation(fields: [saleId], references: [id], onDelete: SetNull)
+  recipe        Recipe?      @relation(fields: [recipeId], references: [id], onDelete: SetNull)
+
+  @@index([vendorId, createdAt])
+  @@index([inventoryItemId, createdAt])
+  @@index([sourceType, sourceId])
+  @@map("inventory_transactions")
+}
+
+model WasteEvent {
+  id                String   @id
+  officeId          String   @map("office_id")
+  vendorId          String   @map("vendor_id")
+  inventoryItemId   String   @map("inventory_item_id")
+  inventoryItemName String?  @map("inventory_item_name")
+  quantity          Decimal  @db.Decimal(14, 3)
+  unit              String
+  unitCost          Decimal  @map("unit_cost") @db.Decimal(14, 2)
+  reason            String
+  notes             String?
+  beforeStock       Decimal  @map("before_stock") @db.Decimal(14, 3)
+  afterStock        Decimal  @map("after_stock") @db.Decimal(14, 3)
+  createdAt         DateTime @default(now()) @map("created_at")
+
+  office        Office       @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  vendor        Vendor       @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+  inventoryItem InventoryItem @relation(fields: [inventoryItemId], references: [id], onDelete: Cascade)
+
+  @@index([vendorId, createdAt])
+  @@index([vendorId, reason])
+  @@map("waste_events")
+}
+
+model Supplier {
+  id             String   @id
+  organizationId String?  @map("organization_id")
+  officeId       String?  @map("office_id")
+  vendorId       String?  @map("vendor_id")
+  name           String
+  email          String?
+  phone          String?
+  leadTimeDays   Decimal? @map("lead_time_days") @db.Decimal(8, 2)
+  reliability    Decimal? @db.Decimal(5, 2)
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  organization Organization? @relation(fields: [organizationId], references: [id], onDelete: SetNull)
+  office       Office?       @relation(fields: [officeId], references: [id], onDelete: SetNull)
+  vendor       Vendor?       @relation(fields: [vendorId], references: [id], onDelete: SetNull)
+  purchaseOrders PurchaseOrder[]
+
+  @@index([organizationId])
+  @@index([officeId, vendorId])
+  @@map("suppliers")
+}
+
+model PurchaseOrder {
+  id           String             @id
+  officeId     String             @map("office_id")
+  vendorId     String             @map("vendor_id")
+  supplierId   String             @map("supplier_id")
+  status       PurchaseOrderStatus @default(draft)
+  totalAmount  Decimal            @default(0) @map("total_amount") @db.Decimal(14, 2)
+  expectedDate DateTime?          @map("expected_date")
+  createdAt    DateTime           @default(now()) @map("created_at")
+  updatedAt    DateTime           @updatedAt @map("updated_at")
+
+  office   Office   @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  vendor   Vendor   @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+  supplier Supplier @relation(fields: [supplierId], references: [id], onDelete: Restrict)
+  items    PurchaseOrderItem[]
+
+  @@index([vendorId, status])
+  @@index([supplierId, createdAt])
+  @@map("purchase_orders")
+}
+
+model PurchaseOrderItem {
+  id              String   @id
+  purchaseOrderId String   @map("purchase_order_id")
+  inventoryItemId String   @map("inventory_item_id")
+  quantity        Decimal  @db.Decimal(14, 3)
+  unitCost        Decimal  @map("unit_cost") @db.Decimal(14, 2)
+  receivedQty     Decimal  @default(0) @map("received_qty") @db.Decimal(14, 3)
+
+  purchaseOrder PurchaseOrder @relation(fields: [purchaseOrderId], references: [id], onDelete: Cascade)
+  inventoryItem InventoryItem @relation(fields: [inventoryItemId], references: [id], onDelete: Restrict)
+
+  @@index([inventoryItemId])
+  @@map("purchase_order_items")
+}
+
+model DemandObservation {
+  id          String   @id
+  officeId    String   @map("office_id")
+  vendorId    String   @map("vendor_id")
+  observedAt  DateTime @map("observed_at")
+  itemKey     String   @map("item_key")
+  quantity    Decimal  @db.Decimal(14, 3)
+  source      String?
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  office Office @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  vendor Vendor @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+
+  @@index([vendorId, itemKey, observedAt])
+  @@index([officeId, observedAt])
+  @@map("demand_observations")
+}
+
+model ForecastRun {
+  id          String   @id
+  officeId    String   @map("office_id")
+  vendorId    String   @map("vendor_id")
+  modelName   String   @map("model_name")
+  modelVersion String  @map("model_version")
+  horizon     Int
+  mae         Decimal? @db.Decimal(14, 6)
+  rmse        Decimal? @db.Decimal(14, 6)
+  mape        Decimal? @db.Decimal(14, 6)
+  confidence  Decimal? @db.Decimal(6, 5)
+  driftScore  Decimal? @map("drift_score") @db.Decimal(8, 5)
+  status      String
+  startedAt   DateTime @map("started_at")
+  completedAt DateTime? @map("completed_at")
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  office Office @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  vendor Vendor @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+
+  @@index([vendorId, createdAt])
+  @@index([modelName, modelVersion])
+  @@map("forecast_runs")
+}
+
+model RecommendationOutcome {
+  id             String   @id
+  officeId       String   @map("office_id")
+  vendorId       String   @map("vendor_id")
+  recommendationType String @map("recommendation_type")
+  recommendationId String  @map("recommendation_id")
+  action         String
+  outcome        String?
+  financialImpact Decimal? @map("financial_impact") @db.Decimal(14, 2)
+  createdAt      DateTime @default(now()) @map("created_at")
+
+  @@index([vendorId, createdAt])
+  @@index([recommendationType, recommendationId])
+  @@map("recommendation_outcomes")
+}
+
+model DataMetricSnapshot {
+  id             String   @id
+  organizationId String?  @map("organization_id")
+  officeId       String?  @map("office_id")
+  vendorId       String?  @map("vendor_id")
+  metricKey      String   @map("metric_key")
+  metricValue    Decimal  @map("metric_value") @db.Decimal(18, 4)
+  dimension      Json?
+  capturedAt     DateTime @map("captured_at")
+  createdAt      DateTime @default(now()) @map("created_at")
+
+  organization Organization? @relation(fields: [organizationId], references: [id], onDelete: SetNull)
+  office       Office?       @relation(fields: [officeId], references: [id], onDelete: SetNull)
+  vendor       Vendor?       @relation(fields: [vendorId], references: [id], onDelete: SetNull)
+
+  @@index([vendorId, metricKey, capturedAt])
+  @@index([officeId, metricKey, capturedAt])
+  @@index([organizationId, metricKey, capturedAt])
+  @@map("data_metric_snapshots")
+}
+
+model AnalyticsEvent {
+  id            String   @id
+  organizationId String? @map("organization_id")
+  officeId      String?  @map("office_id")
+  vendorId      String?  @map("vendor_id")
+  userId        String?  @map("user_id")
+  eventName     String   @map("event_name")
+  entityType    String?  @map("entity_type")
+  entityId      String?  @map("entity_id")
+  payload       Json?
+  createdAt     DateTime @default(now()) @map("created_at")
+
+  office        Office?       @relation(fields: [officeId], references: [id], onDelete: SetNull)
+  vendor        Vendor?       @relation(fields: [vendorId], references: [id], onDelete: SetNull)
+  user          User?         @relation(fields: [userId], references: [id], onDelete: SetNull)
+  organization  Organization? @relation(fields: [organizationId], references: [id], onDelete: SetNull)
+
+  @@index([organizationId, createdAt])
+  @@index([vendorId, eventName, createdAt])
+  @@index([entityType, entityId])
+  @@map("analytics_events")
+}
+
+model MLModel {
+  id             String   @id
+  organizationId String?  @map("organization_id")
+  officeId       String   @map("office_id")
+  vendorId       String   @map("vendor_id")
+  name           String
+  task           String
+  algorithm      String
+  version        String
+  status         String
+  isActive       Boolean  @default(false) @map("is_active")
+  featureSet     Json?    @map("feature_set")
+  hyperparameters Json?
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  organization Organization? @relation(fields: [organizationId], references: [id], onDelete: SetNull)
+  office       Office        @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  vendor       Vendor        @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+  trainingRuns MLTrainingRun[]
+  predictions  MLPrediction[]
+  driftChecks  MLDriftCheck[]
+
+  @@unique([vendorId, name, version])
+  @@index([vendorId, name, isActive])
+  @@index([officeId, task])
+  @@map("ml_models")
+}
+
+model MLTrainingRun {
+  id          String   @id
+  organizationId String? @map("organization_id")
+  officeId    String   @map("office_id")
+  vendorId    String   @map("vendor_id")
+  modelId    String   @map("model_id")
+  status     String
+  datasetRows Int     @map("dataset_rows")
+  trainRows  Int      @map("train_rows")
+  validationRows Int @map("validation_rows")
+  mae        Decimal? @db.Decimal(14, 6)
+  rmse       Decimal? @db.Decimal(14, 6)
+  mape       Decimal? @db.Decimal(14, 6)
+  startedAt  DateTime @map("started_at")
+  completedAt DateTime? @map("completed_at")
+  metadata   Json?
+  createdAt  DateTime @default(now()) @map("created_at")
+
+  organization Organization? @relation(fields: [organizationId], references: [id], onDelete: SetNull)
+  office       Office @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  vendor       Vendor @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+  model        MLModel @relation(fields: [modelId], references: [id], onDelete: Cascade)
+
+  @@index([vendorId, createdAt])
+  @@index([modelId, createdAt])
+  @@map("ml_training_runs")
+}
+
+model MLPrediction {
+  id          String   @id
+  organizationId String? @map("organization_id")
+  officeId    String   @map("office_id")
+  vendorId    String   @map("vendor_id")
+  modelId     String   @map("model_id")
+  itemKey     String   @map("item_key")
+  predictedAt DateTime @map("predicted_at")
+  horizonStep Int      @map("horizon_step")
+  predictedValue Decimal @map("predicted_value") @db.Decimal(14, 4)
+  lowerBound  Decimal? @map("lower_bound") @db.Decimal(14, 4)
+  upperBound  Decimal? @map("upper_bound") @db.Decimal(14, 4)
+  confidence  Decimal? @db.Decimal(6, 5)
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  organization Organization? @relation(fields: [organizationId], references: [id], onDelete: SetNull)
+  office       Office @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  vendor       Vendor @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+  model        MLModel @relation(fields: [modelId], references: [id], onDelete: Cascade)
+
+  @@index([vendorId, itemKey, predictedAt])
+  @@index([modelId, predictedAt])
+  @@map("ml_predictions")
+}
+
+model MLDriftCheck {
+  id          String   @id
+  organizationId String? @map("organization_id")
+  officeId    String   @map("office_id")
+  vendorId    String   @map("vendor_id")
+  modelId     String   @map("model_id")
+  feature     String
+  baselineMean Decimal? @map("baseline_mean") @db.Decimal(14, 6)
+  recentMean  Decimal? @map("recent_mean") @db.Decimal(14, 6)
+  driftScore  Decimal @map("drift_score") @db.Decimal(10, 6)
+  status      String
+  checkedAt   DateTime @map("checked_at")
+
+  organization Organization? @relation(fields: [organizationId], references: [id], onDelete: SetNull)
+  office       Office @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  vendor       Vendor @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+  model        MLModel @relation(fields: [modelId], references: [id], onDelete: Cascade)
+
+  @@index([vendorId, checkedAt])
+  @@index([modelId, checkedAt])
+  @@map("ml_drift_checks")
+}
+
+
+model AICopilotRun {
+  id             String   @id
+  organizationId String?  @map("organization_id")
+  officeId       String   @map("office_id")
+  vendorId       String   @map("vendor_id")
+  userId         String?  @map("user_id")
+  intent         String
+  status         String
+  summary        String
+  context        Json?
+  createdAt      DateTime @default(now()) @map("created_at")
+
+  organization Organization? @relation(fields: [organizationId], references: [id], onDelete: SetNull)
+  office       Office        @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  vendor       Vendor        @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+  actions      AICopilotAction[]
+
+  @@index([vendorId, createdAt])
+  @@index([officeId, createdAt])
+  @@map("ai_copilot_runs")
+}
+
+model AICopilotAction {
+  id             String   @id
+  runId          String   @map("run_id")
+  officeId       String   @map("office_id")
+  vendorId       String   @map("vendor_id")
+  actionType     String   @map("action_type")
+  title          String
+  rationale      String
+  priority       String
+  status         String   @default("proposed")
+  expectedImpact Decimal  @default(0) @map("expected_impact") @db.Decimal(14, 2)
+  payload        Json?
+  createdAt      DateTime @default(now()) @map("created_at")
+  actedAt        DateTime? @map("acted_at")
+
+  run    AICopilotRun @relation(fields: [runId], references: [id], onDelete: Cascade)
+  office Office        @relation(fields: [officeId], references: [id], onDelete: Cascade)
+  vendor Vendor        @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+
+  @@index([vendorId, status, createdAt])
+  @@index([runId])
+  @@map("ai_copilot_actions")
+}
+
+
+model AuditEvent {
+  id             String   @id
+  organizationId String?  @map("organization_id")
+  officeId       String?  @map("office_id")
+  vendorId       String?  @map("vendor_id")
+  userId         String?  @map("user_id")
+  requestId      String?  @map("request_id")
+  eventType      String   @map("event_type")
+  action         String
+  resourceType   String?  @map("resource_type")
+  resourceId     String?  @map("resource_id")
+  status         String
+  ipAddress      String?  @map("ip_address")
+  userAgent      String?  @map("user_agent")
+  metadata       Json?
+  createdAt      DateTime @default(now()) @map("created_at")
+
+  organization Organization? @relation(fields: [organizationId], references: [id], onDelete: SetNull)
+  office       Office?       @relation(fields: [officeId], references: [id], onDelete: SetNull)
+  vendor       Vendor?       @relation(fields: [vendorId], references: [id], onDelete: SetNull)
+  user         User?         @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([organizationId, createdAt])
+  @@index([officeId, createdAt])
+  @@index([vendorId, createdAt])
+  @@index([userId, createdAt])
+  @@index([eventType, createdAt])
+  @@index([requestId])
+  @@map("audit_events")
+}

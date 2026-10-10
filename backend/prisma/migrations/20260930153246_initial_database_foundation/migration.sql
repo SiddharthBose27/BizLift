@@ -1,0 +1,2 @@
+-- RenameIndex
+ALTER INDEX "recommendation_outcomes_recommendation_type_recommendation_id_i" RENAME TO "recommendation_outcomes_recommendation_type_recommendation__idx";

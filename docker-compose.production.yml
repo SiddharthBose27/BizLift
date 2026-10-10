@@ -1,0 +1,20 @@
+services:
+  backend:
+    build: ./backend
+    environment:
+      NODE_ENV: production
+      PORT: 5001
+      BIZLIFT_DB_MODE: postgres
+      DATABASE_URL: ${DATABASE_URL}
+      CORS_ORIGIN: ${CORS_ORIGIN}
+      SESSION_TTL_HOURS: ${SESSION_TTL_HOURS:-24}
+      BODY_LIMIT: ${BODY_LIMIT:-1mb}
+    ports:
+      - "5001:5001"
+
+  client:
+    build: ./client
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend

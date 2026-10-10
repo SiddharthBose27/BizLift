@@ -1,0 +1,22 @@
+officeId,vendorId,recipeId,menuItemName,sellingPrice,ingredientCount
+techpark-one,snapeats,1,Paneer Wrap,180,3
+techpark-one,snapeats,2,Butter Toast,90,2
+techpark-one,snapeats,3,French Fries,100,2
+techpark-one,snapeats,4,Veg Burger,150,2
+techpark-one,snapeats,5,Paneer Roll,160,2
+techpark-one,snapeats,6,Masala Sandwich,110,2
+techpark-one,quench,1,Cold Coffee,120,4
+techpark-one,quench,2,Mocha Shake,160,3
+techpark-one,quench,3,Iced Latte,150,2
+techpark-one,quench,4,Chocolate Frappe,190,2
+techpark-one,quench,5,Sweet Lassi,130,2
+techpark-one,quench,6,Cold Cocoa,160,2
+techpark-one,south-delights,1,Idli Plate,80,3
+techpark-one,south-delights,2,Ghee Dosa,140,3
+techpark-one,south-delights,3,Masala Dosa,130,2
+techpark-one,south-delights,4,Idli Sambar,90,2
+techpark-one,south-delights,5,Curd Rice,100,2
+techpark-one,south-delights,6,Ghee Idli,110,2
+bennett-campus,campus-cafe,1,French Fries,100,2
+bennett-campus,campus-cafe,2,Veg Burger,150,2
+bennett-campus,campus-cafe,3,Cheese Burger,190,3

@@ -1,0 +1,11 @@
+name,unit,category,current_stock,min_threshold,cost_price,selling_price,supplier_name,expiry_date
+Paneer,kg,Dairy,12,3,280,360,Fresh Farm,2026-12-31
+Tortilla Wrap,pcs,Bakery,120,25,12,25,Campus Foods,
+Onion,kg,Produce,15,4,35,60,Fresh Farm,2026-10-20
+Capsicum,kg,Produce,8,2,70,110,Fresh Farm,2026-10-18
+Mint Chutney,kg,Condiments,4,1,90,150,Campus Foods,2026-10-15
+Mayonnaise,kg,Condiments,5,1,130,210,Campus Foods,2027-01-31
+Cooking Oil,L,Pantry,10,2,125,180,Metro Wholesale,2027-06-30
+Cheese,kg,Dairy,6,1.5,320,450,Fresh Farm,2026-12-15
+Tomato,kg,Produce,10,3,40,70,Fresh Farm,2026-10-17
+Lettuce,kg,Produce,3,1,110,180,Fresh Farm,2026-10-12

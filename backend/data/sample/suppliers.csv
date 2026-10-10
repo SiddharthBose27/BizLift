@@ -1,0 +1,2001 @@
+supplier_id,office_id,vendor_id,supplier_name,category,rating,lead_time_days,on_time_rate,active
+sup_00001,bennett-campus,campus-cafe,PrimeFoods-0001,Pantry,4.3,5,0.947,True
+sup_00002,techpark-one,snapeats,CoolSupply-0002,Packaging,4.5,3,0.959,True
+sup_00003,techpark-one,quench,DailyHarvest-0003,Packaging,3.7,3,0.943,True
+sup_00004,techpark-one,quench,CoolSupply-0004,Dairy,3.4,7,0.836,True
+sup_00005,techpark-one,south-delights,BeanHouse-0005,Pantry,4.7,1,0.899,True
+sup_00006,techpark-one,snapeats,MetroCash-0006,Beverages,4.7,2,0.913,True
+sup_00007,techpark-one,quench,PrimeFoods-0007,Dairy,3.7,4,0.988,True
+sup_00008,techpark-one,quench,CampusSupply-0008,Packaging,4.0,7,0.913,True
+sup_00009,techpark-one,snapeats,CampusSupply-0009,Bakery,4.8,7,0.869,True
+sup_00010,techpark-one,snapeats,BeanHouse-0010,Pantry,4.1,1,0.942,True
+sup_00011,techpark-one,snapeats,SouthFresh-0011,Produce,4.4,7,0.911,True
+sup_00012,techpark-one,south-delights,CampusSupply-0012,Bakery,3.8,5,0.929,True
+sup_00013,techpark-one,south-delights,VegSource-0013,Beverages,3.8,6,0.826,True
+sup_00014,techpark-one,quench,BeanHouse-0014,Pantry,3.9,6,0.955,True
+sup_00015,techpark-one,south-delights,CoolSupply-0015,Cooking Oil,4.3,4,0.951,True
+sup_00016,bennett-campus,campus-cafe,VegSource-0016,Dairy,3.4,5,0.975,True
+sup_00017,techpark-one,snapeats,DailyHarvest-0017,Packaging,4.1,1,0.945,True
+sup_00018,techpark-one,snapeats,SouthFresh-0018,Pantry,3.4,4,0.91,True
+sup_00019,techpark-one,quench,PrimeFoods-0019,Dairy,4.2,4,0.875,True
+sup_00020,techpark-one,quench,PrimeFoods-0020,Cooking Oil,4.5,5,0.869,True
+sup_00021,bennett-campus,campus-cafe,CityFoods-0021,Bakery,4.6,2,0.834,True
+sup_00022,techpark-one,snapeats,VegSource-0022,Beverages,4.8,5,0.961,True
+sup_00023,techpark-one,south-delights,DailyHarvest-0023,Bakery,4.8,2,0.83,True
+sup_00024,techpark-one,south-delights,SouthFresh-0024,Beverages,3.2,3,0.905,True
+sup_00025,bennett-campus,campus-cafe,CityFoods-0025,Packaging,4.7,2,0.89,True
+sup_00026,bennett-campus,campus-cafe,VegSource-0026,Produce,4.0,4,0.827,True
+sup_00027,techpark-one,quench,CityFoods-0027,Cooking Oil,3.7,2,0.85,True
+sup_00028,techpark-one,snapeats,PrimeFoods-0028,Packaging,4.8,4,0.894,True
+sup_00029,techpark-one,snapeats,CoolSupply-0029,Dairy,4.6,7,0.893,True
+sup_00030,bennett-campus,campus-cafe,SouthFresh-0030,Beverages,3.5,4,0.955,True
+sup_00031,techpark-one,snapeats,SouthFresh-0031,Cooking Oil,4.1,4,0.911,True
+sup_00032,techpark-one,south-delights,VegSource-0032,Cooking Oil,3.5,7,0.967,True
+sup_00033,techpark-one,snapeats,VegSource-0033,Beverages,3.3,3,0.969,True
+sup_00034,techpark-one,south-delights,CampusSupply-0034,Bakery,4.0,2,0.874,True
+sup_00035,techpark-one,south-delights,CampusSupply-0035,Produce,3.9,3,0.843,True
+sup_00036,techpark-one,quench,CampusSupply-0036,Bakery,3.8,7,0.91,True
+sup_00037,techpark-one,south-delights,CampusSupply-0037,Pantry,3.8,2,0.949,True
+sup_00038,bennett-campus,campus-cafe,BeanHouse-0038,Produce,3.5,6,0.983,True
+sup_00039,techpark-one,quench,DailyHarvest-0039,Pantry,3.3,4,0.879,True
+sup_00040,bennett-campus,campus-cafe,VegSource-0040,Pantry,4.7,4,0.896,True
+sup_00041,techpark-one,quench,SouthFresh-0041,Pantry,4.4,5,0.979,True
+sup_00042,techpark-one,south-delights,SouthFresh-0042,Packaging,4.7,6,0.95,True
+sup_00043,techpark-one,quench,SouthFresh-0043,Packaging,4.8,6,0.878,True
+sup_00044,techpark-one,snapeats,PrimeFoods-0044,Dairy,4.4,3,0.823,True
+sup_00045,bennett-campus,campus-cafe,MetroCash-0045,Cooking Oil,4.9,2,0.887,True
+sup_00046,techpark-one,snapeats,CoolSupply-0046,Cooking Oil,4.2,7,0.878,True
+sup_00047,techpark-one,quench,VegSource-0047,Cooking Oil,3.3,2,0.828,True
+sup_00048,techpark-one,snapeats,MetroCash-0048,Produce,4.0,5,0.969,True
+sup_00049,techpark-one,snapeats,CityFoods-0049,Beverages,4.8,1,0.983,True
+sup_00050,techpark-one,quench,MetroCash-0050,Packaging,4.7,6,0.908,True
+sup_00051,techpark-one,south-delights,CampusSupply-0051,Cooking Oil,4.2,4,0.87,True
+sup_00052,techpark-one,snapeats,BeanHouse-0052,Produce,4.1,5,0.927,True
+sup_00053,techpark-one,south-delights,CityFoods-0053,Cooking Oil,4.5,3,0.942,True
+sup_00054,techpark-one,quench,CityFoods-0054,Bakery,4.0,4,0.821,True
+sup_00055,techpark-one,south-delights,PrimeFoods-0055,Packaging,4.7,3,0.823,True
+sup_00056,bennett-campus,campus-cafe,SouthFresh-0056,Bakery,3.7,3,0.868,True
+sup_00057,techpark-one,quench,CityFoods-0057,Bakery,3.8,4,0.945,True
+sup_00058,bennett-campus,campus-cafe,BeanHouse-0058,Pantry,4.0,7,0.981,True
+sup_00059,techpark-one,quench,PrimeFoods-0059,Produce,3.6,1,0.823,True
+sup_00060,techpark-one,south-delights,PrimeFoods-0060,Pantry,4.3,1,0.841,True
+sup_00061,techpark-one,south-delights,PrimeFoods-0061,Produce,4.6,2,0.826,True
+sup_00062,techpark-one,quench,MetroCash-0062,Produce,4.0,6,0.93,True
+sup_00063,techpark-one,south-delights,PrimeFoods-0063,Produce,3.3,4,0.955,True
+sup_00064,techpark-one,south-delights,CityFoods-0064,Dairy,3.8,6,0.92,True
+sup_00065,techpark-one,south-delights,CoolSupply-0065,Beverages,4.1,4,0.884,True
+sup_00066,techpark-one,snapeats,FreshFarm-0066,Cooking Oil,4.0,2,0.969,True
+sup_00067,bennett-campus,campus-cafe,VegSource-0067,Produce,3.6,3,0.864,True
+sup_00068,techpark-one,quench,FreshFarm-0068,Beverages,4.8,6,0.961,True
+sup_00069,techpark-one,quench,CityFoods-0069,Bakery,3.9,2,0.83,True
+sup_00070,bennett-campus,campus-cafe,MetroCash-0070,Packaging,4.0,1,0.932,True
+sup_00071,techpark-one,snapeats,CityFoods-0071,Dairy,3.2,4,0.833,True
+sup_00072,bennett-campus,campus-cafe,MetroCash-0072,Bakery,4.4,3,0.936,True
+sup_00073,techpark-one,south-delights,VegSource-0073,Packaging,4.1,5,0.861,True
+sup_00074,techpark-one,snapeats,BeanHouse-0074,Beverages,3.5,5,0.868,True
+sup_00075,techpark-one,quench,BeanHouse-0075,Beverages,3.3,5,0.966,True
+sup_00076,techpark-one,quench,FreshFarm-0076,Beverages,3.2,1,0.939,True
+sup_00077,techpark-one,quench,VegSource-0077,Pantry,3.7,5,0.954,True
+sup_00078,techpark-one,snapeats,FreshFarm-0078,Cooking Oil,4.3,5,0.929,True
+sup_00079,techpark-one,south-delights,BeanHouse-0079,Pantry,3.4,4,0.971,True
+sup_00080,techpark-one,snapeats,CoolSupply-0080,Cooking Oil,4.3,5,0.978,True
+sup_00081,techpark-one,south-delights,BeanHouse-0081,Beverages,3.7,2,0.889,True
+sup_00082,techpark-one,south-delights,VegSource-0082,Packaging,4.2,7,0.843,True
+sup_00083,bennett-campus,campus-cafe,CampusSupply-0083,Beverages,4.8,4,0.951,True
+sup_00084,techpark-one,south-delights,CityFoods-0084,Bakery,3.2,6,0.864,True
+sup_00085,techpark-one,quench,BeanHouse-0085,Produce,4.2,1,0.978,True
+sup_00086,techpark-one,quench,CityFoods-0086,Pantry,3.3,3,0.937,True
+sup_00087,techpark-one,quench,SouthFresh-0087,Packaging,3.9,1,0.828,True
+sup_00088,techpark-one,south-delights,CoolSupply-0088,Pantry,3.5,1,0.923,True
+sup_00089,bennett-campus,campus-cafe,BeanHouse-0089,Packaging,4.1,5,0.889,True
+sup_00090,bennett-campus,campus-cafe,MetroCash-0090,Produce,4.9,7,0.892,True
+sup_00091,techpark-one,south-delights,VegSource-0091,Beverages,3.8,3,0.878,True
+sup_00092,techpark-one,snapeats,PrimeFoods-0092,Produce,3.6,7,0.838,True
+sup_00093,techpark-one,quench,DailyHarvest-0093,Beverages,4.6,3,0.863,True
+sup_00094,techpark-one,snapeats,BeanHouse-0094,Cooking Oil,3.4,2,0.851,True
+sup_00095,techpark-one,south-delights,PrimeFoods-0095,Dairy,4.6,3,0.894,True
+sup_00096,techpark-one,south-delights,FreshFarm-0096,Cooking Oil,4.0,2,0.84,True
+sup_00097,techpark-one,south-delights,BeanHouse-0097,Dairy,3.7,1,0.93,True
+sup_00098,techpark-one,snapeats,PrimeFoods-0098,Dairy,3.5,5,0.876,True
+sup_00099,bennett-campus,campus-cafe,MetroCash-0099,Produce,4.7,3,0.892,True
+sup_00100,techpark-one,snapeats,VegSource-0100,Cooking Oil,3.6,4,0.986,True
+sup_00101,techpark-one,snapeats,CityFoods-0101,Bakery,3.6,4,0.956,True
+sup_00102,techpark-one,south-delights,CityFoods-0102,Pantry,3.4,3,0.846,True
+sup_00103,techpark-one,snapeats,VegSource-0103,Pantry,4.6,7,0.905,True
+sup_00104,techpark-one,south-delights,BeanHouse-0104,Produce,4.4,5,0.857,True
+sup_00105,bennett-campus,campus-cafe,CampusSupply-0105,Beverages,3.5,1,0.95,True
+sup_00106,techpark-one,south-delights,CoolSupply-0106,Bakery,3.4,1,0.936,True
+sup_00107,techpark-one,quench,BeanHouse-0107,Packaging,3.3,4,0.88,True
+sup_00108,techpark-one,south-delights,VegSource-0108,Packaging,4.5,3,0.882,True
+sup_00109,techpark-one,quench,DailyHarvest-0109,Produce,3.6,6,0.951,True
+sup_00110,techpark-one,quench,PrimeFoods-0110,Beverages,4.5,1,0.954,True
+sup_00111,techpark-one,quench,PrimeFoods-0111,Pantry,4.6,1,0.854,True
+sup_00112,techpark-one,snapeats,VegSource-0112,Produce,3.9,1,0.862,True
+sup_00113,techpark-one,quench,PrimeFoods-0113,Produce,4.3,2,0.887,True
+sup_00114,techpark-one,south-delights,MetroCash-0114,Cooking Oil,4.6,6,0.864,True
+sup_00115,techpark-one,quench,MetroCash-0115,Beverages,4.2,7,0.834,True
+sup_00116,bennett-campus,campus-cafe,BeanHouse-0116,Bakery,3.7,6,0.901,True
+sup_00117,techpark-one,snapeats,FreshFarm-0117,Produce,3.5,1,0.939,True
+sup_00118,techpark-one,quench,DailyHarvest-0118,Beverages,3.7,5,0.865,True
+sup_00119,techpark-one,snapeats,SouthFresh-0119,Pantry,4.4,5,0.91,True
+sup_00120,bennett-campus,campus-cafe,VegSource-0120,Bakery,4.1,6,0.969,True
+sup_00121,bennett-campus,campus-cafe,DailyHarvest-0121,Bakery,3.6,4,0.87,True
+sup_00122,techpark-one,south-delights,DailyHarvest-0122,Beverages,3.5,5,0.866,True
+sup_00123,techpark-one,south-delights,CampusSupply-0123,Cooking Oil,4.7,3,0.942,True
+sup_00124,techpark-one,south-delights,SouthFresh-0124,Cooking Oil,4.2,1,0.868,True
+sup_00125,techpark-one,snapeats,CampusSupply-0125,Dairy,4.2,5,0.934,True
+sup_00126,techpark-one,snapeats,MetroCash-0126,Pantry,3.3,7,0.958,True
+sup_00127,bennett-campus,campus-cafe,DailyHarvest-0127,Dairy,4.0,1,0.842,True
+sup_00128,techpark-one,quench,CityFoods-0128,Dairy,3.7,5,0.974,True
+sup_00129,techpark-one,south-delights,FreshFarm-0129,Beverages,4.6,3,0.948,True
+sup_00130,bennett-campus,campus-cafe,MetroCash-0130,Packaging,4.8,7,0.944,True
+sup_00131,techpark-one,quench,PrimeFoods-0131,Produce,4.3,5,0.873,True
+sup_00132,techpark-one,snapeats,CampusSupply-0132,Beverages,3.9,3,0.931,True
+sup_00133,bennett-campus,campus-cafe,FreshFarm-0133,Bakery,3.7,2,0.952,True
+sup_00134,bennett-campus,campus-cafe,CityFoods-0134,Packaging,4.7,3,0.99,True
+sup_00135,bennett-campus,campus-cafe,DailyHarvest-0135,Beverages,4.4,1,0.939,True
+sup_00136,bennett-campus,campus-cafe,CampusSupply-0136,Packaging,4.3,1,0.858,True
+sup_00137,techpark-one,quench,FreshFarm-0137,Pantry,4.4,2,0.93,True
+sup_00138,techpark-one,south-delights,CoolSupply-0138,Dairy,3.4,2,0.839,True
+sup_00139,techpark-one,south-delights,MetroCash-0139,Cooking Oil,4.1,2,0.966,True
+sup_00140,techpark-one,quench,VegSource-0140,Cooking Oil,3.3,3,0.977,True
+sup_00141,techpark-one,snapeats,BeanHouse-0141,Bakery,3.4,2,0.927,True
+sup_00142,techpark-one,snapeats,DailyHarvest-0142,Packaging,4.0,2,0.899,True
+sup_00143,techpark-one,snapeats,VegSource-0143,Dairy,3.5,1,0.841,True
+sup_00144,techpark-one,quench,CampusSupply-0144,Cooking Oil,4.8,7,0.926,True
+sup_00145,techpark-one,snapeats,FreshFarm-0145,Pantry,3.7,2,0.926,True
+sup_00146,techpark-one,snapeats,VegSource-0146,Beverages,4.5,6,0.973,True
+sup_00147,techpark-one,quench,CoolSupply-0147,Pantry,3.9,2,0.961,True
+sup_00148,techpark-one,south-delights,SouthFresh-0148,Dairy,4.6,7,0.983,True
+sup_00149,techpark-one,snapeats,CoolSupply-0149,Bakery,4.6,7,0.987,True
+sup_00150,bennett-campus,campus-cafe,VegSource-0150,Beverages,3.6,6,0.944,True
+sup_00151,techpark-one,quench,CampusSupply-0151,Cooking Oil,4.4,3,0.842,True
+sup_00152,techpark-one,quench,PrimeFoods-0152,Pantry,3.7,2,0.844,True
+sup_00153,techpark-one,south-delights,CoolSupply-0153,Bakery,4.8,3,0.902,True
+sup_00154,techpark-one,snapeats,CoolSupply-0154,Cooking Oil,3.8,4,0.855,True
+sup_00155,techpark-one,snapeats,SouthFresh-0155,Bakery,3.7,6,0.891,True
+sup_00156,bennett-campus,campus-cafe,DailyHarvest-0156,Packaging,3.3,1,0.989,True
+sup_00157,techpark-one,south-delights,DailyHarvest-0157,Dairy,3.7,3,0.921,True
+sup_00158,techpark-one,quench,FreshFarm-0158,Beverages,4.1,2,0.896,True
+sup_00159,techpark-one,quench,VegSource-0159,Pantry,3.3,6,0.956,True
+sup_00160,bennett-campus,campus-cafe,FreshFarm-0160,Packaging,4.2,1,0.858,True
+sup_00161,techpark-one,snapeats,SouthFresh-0161,Bakery,4.3,3,0.837,True
+sup_00162,techpark-one,snapeats,CityFoods-0162,Beverages,4.7,7,0.86,True
+sup_00163,techpark-one,quench,CityFoods-0163,Dairy,3.5,4,0.95,True
+sup_00164,techpark-one,south-delights,CoolSupply-0164,Packaging,4.5,4,0.888,True
+sup_00165,techpark-one,quench,DailyHarvest-0165,Packaging,4.7,3,0.913,True
+sup_00166,techpark-one,south-delights,CoolSupply-0166,Dairy,3.5,1,0.901,True
+sup_00167,bennett-campus,campus-cafe,DailyHarvest-0167,Packaging,4.3,7,0.927,True
+sup_00168,techpark-one,snapeats,MetroCash-0168,Produce,3.9,4,0.92,True
+sup_00169,bennett-campus,campus-cafe,DailyHarvest-0169,Bakery,4.7,7,0.887,True
+sup_00170,techpark-one,south-delights,CampusSupply-0170,Bakery,3.5,2,0.888,True
+sup_00171,techpark-one,south-delights,PrimeFoods-0171,Pantry,4.0,2,0.899,True
+sup_00172,techpark-one,quench,FreshFarm-0172,Produce,3.9,3,0.966,True
+sup_00173,bennett-campus,campus-cafe,PrimeFoods-0173,Pantry,3.8,4,0.95,True
+sup_00174,bennett-campus,campus-cafe,SouthFresh-0174,Pantry,4.6,1,0.848,True
+sup_00175,techpark-one,snapeats,BeanHouse-0175,Cooking Oil,4.2,3,0.956,True
+sup_00176,techpark-one,snapeats,BeanHouse-0176,Pantry,4.8,3,0.841,True
+sup_00177,techpark-one,south-delights,BeanHouse-0177,Produce,4.9,2,0.826,True
+sup_00178,techpark-one,south-delights,CityFoods-0178,Pantry,4.4,2,0.938,True
+sup_00179,bennett-campus,campus-cafe,DailyHarvest-0179,Cooking Oil,4.5,6,0.92,True
+sup_00180,bennett-campus,campus-cafe,SouthFresh-0180,Pantry,3.4,7,0.973,True
+sup_00181,techpark-one,snapeats,MetroCash-0181,Beverages,3.3,1,0.931,True
+sup_00182,bennett-campus,campus-cafe,BeanHouse-0182,Produce,4.8,2,0.962,True
+sup_00183,techpark-one,quench,CityFoods-0183,Packaging,4.6,7,0.969,True
+sup_00184,techpark-one,south-delights,MetroCash-0184,Packaging,3.9,5,0.95,True
+sup_00185,techpark-one,snapeats,CityFoods-0185,Dairy,4.1,3,0.979,True
+sup_00186,techpark-one,south-delights,CityFoods-0186,Packaging,3.3,6,0.935,True
+sup_00187,techpark-one,south-delights,DailyHarvest-0187,Beverages,3.8,7,0.9,True
+sup_00188,techpark-one,snapeats,BeanHouse-0188,Packaging,4.5,5,0.989,True
+sup_00189,techpark-one,snapeats,CityFoods-0189,Dairy,4.3,5,0.969,True
+sup_00190,bennett-campus,campus-cafe,MetroCash-0190,Produce,4.5,2,0.871,True
+sup_00191,bennett-campus,campus-cafe,FreshFarm-0191,Cooking Oil,4.9,4,0.888,True
+sup_00192,techpark-one,snapeats,SouthFresh-0192,Cooking Oil,3.3,7,0.863,True
+sup_00193,bennett-campus,campus-cafe,DailyHarvest-0193,Packaging,4.7,3,0.822,True
+sup_00194,techpark-one,snapeats,CoolSupply-0194,Beverages,4.0,5,0.936,True
+sup_00195,techpark-one,quench,MetroCash-0195,Pantry,4.6,1,0.946,True
+sup_00196,techpark-one,snapeats,PrimeFoods-0196,Bakery,4.8,2,0.925,True
+sup_00197,bennett-campus,campus-cafe,DailyHarvest-0197,Cooking Oil,4.3,1,0.989,True
+sup_00198,techpark-one,quench,CampusSupply-0198,Pantry,4.3,7,0.974,True
+sup_00199,techpark-one,quench,CampusSupply-0199,Cooking Oil,4.6,7,0.931,True
+sup_00200,bennett-campus,campus-cafe,FreshFarm-0200,Dairy,4.8,3,0.884,True
+sup_00201,techpark-one,quench,PrimeFoods-0201,Beverages,3.6,3,0.949,True
+sup_00202,techpark-one,quench,CampusSupply-0202,Produce,3.8,5,0.828,True
+sup_00203,techpark-one,south-delights,DailyHarvest-0203,Bakery,4.4,3,0.903,True
+sup_00204,techpark-one,snapeats,FreshFarm-0204,Cooking Oil,3.8,4,0.986,True
+sup_00205,bennett-campus,campus-cafe,PrimeFoods-0205,Beverages,4.3,3,0.872,True
+sup_00206,bennett-campus,campus-cafe,CoolSupply-0206,Cooking Oil,3.5,1,0.863,True
+sup_00207,techpark-one,quench,CoolSupply-0207,Packaging,3.6,4,0.907,True
+sup_00208,techpark-one,south-delights,BeanHouse-0208,Beverages,4.9,3,0.935,True
+sup_00209,bennett-campus,campus-cafe,VegSource-0209,Packaging,3.7,7,0.902,True
+sup_00210,bennett-campus,campus-cafe,CampusSupply-0210,Dairy,3.8,4,0.897,True
+sup_00211,techpark-one,south-delights,SouthFresh-0211,Packaging,4.7,3,0.916,True
+sup_00212,techpark-one,snapeats,FreshFarm-0212,Produce,3.8,6,0.865,True
+sup_00213,bennett-campus,campus-cafe,PrimeFoods-0213,Pantry,4.6,3,0.932,True
+sup_00214,bennett-campus,campus-cafe,CampusSupply-0214,Bakery,3.5,6,0.92,True
+sup_00215,techpark-one,south-delights,VegSource-0215,Beverages,4.0,4,0.944,True
+sup_00216,techpark-one,snapeats,CoolSupply-0216,Packaging,4.3,1,0.901,True
+sup_00217,techpark-one,south-delights,DailyHarvest-0217,Cooking Oil,4.4,1,0.975,True
+sup_00218,techpark-one,snapeats,FreshFarm-0218,Bakery,4.2,7,0.869,True
+sup_00219,techpark-one,snapeats,CampusSupply-0219,Produce,4.9,4,0.869,True
+sup_00220,bennett-campus,campus-cafe,BeanHouse-0220,Cooking Oil,3.6,7,0.896,True
+sup_00221,techpark-one,quench,BeanHouse-0221,Dairy,4.9,6,0.986,True
+sup_00222,techpark-one,snapeats,CampusSupply-0222,Beverages,3.8,1,0.934,True
+sup_00223,techpark-one,snapeats,FreshFarm-0223,Dairy,4.2,2,0.833,True
+sup_00224,techpark-one,snapeats,CoolSupply-0224,Packaging,4.4,3,0.875,True
+sup_00225,techpark-one,snapeats,CoolSupply-0225,Produce,4.9,7,0.922,True
+sup_00226,bennett-campus,campus-cafe,MetroCash-0226,Bakery,3.2,1,0.851,True
+sup_00227,techpark-one,snapeats,CoolSupply-0227,Pantry,4.3,2,0.931,True
+sup_00228,techpark-one,south-delights,CampusSupply-0228,Bakery,4.5,5,0.896,True
+sup_00229,bennett-campus,campus-cafe,DailyHarvest-0229,Bakery,3.7,1,0.98,True
+sup_00230,techpark-one,south-delights,PrimeFoods-0230,Packaging,4.6,2,0.94,True
+sup_00231,techpark-one,snapeats,CampusSupply-0231,Produce,4.9,5,0.83,True
+sup_00232,techpark-one,south-delights,SouthFresh-0232,Beverages,4.6,3,0.829,True
+sup_00233,bennett-campus,campus-cafe,DailyHarvest-0233,Cooking Oil,4.4,7,0.943,True
+sup_00234,techpark-one,quench,MetroCash-0234,Packaging,4.1,5,0.852,True
+sup_00235,techpark-one,snapeats,DailyHarvest-0235,Pantry,4.6,5,0.925,True
+sup_00236,techpark-one,quench,SouthFresh-0236,Pantry,3.3,3,0.825,True
+sup_00237,techpark-one,quench,BeanHouse-0237,Packaging,4.8,7,0.875,True
+sup_00238,bennett-campus,campus-cafe,PrimeFoods-0238,Cooking Oil,4.6,4,0.87,True
+sup_00239,techpark-one,quench,VegSource-0239,Cooking Oil,3.4,4,0.822,True
+sup_00240,techpark-one,south-delights,FreshFarm-0240,Dairy,4.0,6,0.972,True
+sup_00241,techpark-one,snapeats,CityFoods-0241,Dairy,4.6,4,0.931,True
+sup_00242,techpark-one,quench,PrimeFoods-0242,Cooking Oil,4.2,5,0.843,True
+sup_00243,bennett-campus,campus-cafe,CityFoods-0243,Dairy,3.4,7,0.962,True
+sup_00244,bennett-campus,campus-cafe,CityFoods-0244,Bakery,3.3,3,0.862,True
+sup_00245,techpark-one,quench,DailyHarvest-0245,Dairy,4.6,3,0.881,True
+sup_00246,bennett-campus,campus-cafe,VegSource-0246,Cooking Oil,4.1,2,0.951,True
+sup_00247,bennett-campus,campus-cafe,BeanHouse-0247,Pantry,4.3,3,0.988,True
+sup_00248,techpark-one,quench,DailyHarvest-0248,Packaging,4.6,7,0.89,True
+sup_00249,bennett-campus,campus-cafe,VegSource-0249,Dairy,3.4,3,0.865,True
+sup_00250,bennett-campus,campus-cafe,CampusSupply-0250,Pantry,3.6,5,0.911,True
+sup_00251,techpark-one,south-delights,CityFoods-0251,Cooking Oil,3.3,5,0.923,True
+sup_00252,techpark-one,snapeats,PrimeFoods-0252,Pantry,3.9,4,0.957,True
+sup_00253,techpark-one,south-delights,VegSource-0253,Bakery,3.8,6,0.948,True
+sup_00254,techpark-one,south-delights,FreshFarm-0254,Bakery,4.9,6,0.896,True
+sup_00255,techpark-one,south-delights,PrimeFoods-0255,Pantry,4.6,4,0.914,True
+sup_00256,techpark-one,south-delights,FreshFarm-0256,Produce,4.0,6,0.907,True
+sup_00257,techpark-one,snapeats,CoolSupply-0257,Bakery,4.2,6,0.961,True
+sup_00258,techpark-one,south-delights,CityFoods-0258,Bakery,3.9,7,0.839,True
+sup_00259,techpark-one,quench,DailyHarvest-0259,Pantry,3.5,4,0.859,True
+sup_00260,techpark-one,quench,CampusSupply-0260,Bakery,4.6,5,0.88,True
+sup_00261,techpark-one,south-delights,PrimeFoods-0261,Cooking Oil,4.2,2,0.85,True
+sup_00262,techpark-one,quench,FreshFarm-0262,Packaging,4.2,1,0.844,True
+sup_00263,techpark-one,quench,BeanHouse-0263,Cooking Oil,3.4,1,0.947,True
+sup_00264,techpark-one,south-delights,DailyHarvest-0264,Cooking Oil,4.9,1,0.949,True
+sup_00265,techpark-one,snapeats,SouthFresh-0265,Dairy,4.1,3,0.867,True
+sup_00266,bennett-campus,campus-cafe,CoolSupply-0266,Dairy,4.2,4,0.831,True
+sup_00267,techpark-one,quench,CityFoods-0267,Bakery,4.3,5,0.897,True
+sup_00268,techpark-one,quench,SouthFresh-0268,Dairy,3.9,4,0.911,True
+sup_00269,techpark-one,south-delights,MetroCash-0269,Bakery,4.5,4,0.924,True
+sup_00270,techpark-one,snapeats,BeanHouse-0270,Pantry,3.3,3,0.958,True
+sup_00271,techpark-one,quench,FreshFarm-0271,Pantry,3.8,4,0.822,True
+sup_00272,techpark-one,south-delights,CityFoods-0272,Dairy,3.4,1,0.896,True
+sup_00273,techpark-one,south-delights,CoolSupply-0273,Bakery,3.8,4,0.889,True
+sup_00274,bennett-campus,campus-cafe,PrimeFoods-0274,Bakery,4.0,3,0.899,True
+sup_00275,techpark-one,snapeats,BeanHouse-0275,Packaging,4.5,3,0.973,True
+sup_00276,techpark-one,snapeats,DailyHarvest-0276,Packaging,3.9,4,0.941,True
+sup_00277,techpark-one,snapeats,PrimeFoods-0277,Produce,3.9,2,0.878,True
+sup_00278,techpark-one,south-delights,PrimeFoods-0278,Pantry,4.9,1,0.821,True
+sup_00279,techpark-one,snapeats,CoolSupply-0279,Packaging,4.2,1,0.977,True
+sup_00280,techpark-one,south-delights,FreshFarm-0280,Cooking Oil,4.4,6,0.947,True
+sup_00281,techpark-one,snapeats,FreshFarm-0281,Cooking Oil,4.4,2,0.833,True
+sup_00282,bennett-campus,campus-cafe,CampusSupply-0282,Cooking Oil,3.2,4,0.841,True
+sup_00283,techpark-one,snapeats,PrimeFoods-0283,Pantry,3.3,3,0.905,True
+sup_00284,techpark-one,quench,VegSource-0284,Dairy,4.3,3,0.98,True
+sup_00285,techpark-one,quench,SouthFresh-0285,Bakery,4.5,4,0.935,True
+sup_00286,bennett-campus,campus-cafe,VegSource-0286,Beverages,3.7,1,0.821,True
+sup_00287,techpark-one,quench,CampusSupply-0287,Packaging,4.6,2,0.949,True
+sup_00288,techpark-one,quench,CoolSupply-0288,Cooking Oil,3.5,1,0.952,True
+sup_00289,techpark-one,quench,FreshFarm-0289,Packaging,3.5,2,0.823,True
+sup_00290,techpark-one,quench,CityFoods-0290,Dairy,4.7,3,0.851,True
+sup_00291,techpark-one,quench,FreshFarm-0291,Cooking Oil,4.7,2,0.858,True
+sup_00292,techpark-one,snapeats,SouthFresh-0292,Cooking Oil,3.5,1,0.971,True
+sup_00293,bennett-campus,campus-cafe,VegSource-0293,Produce,3.5,3,0.953,True
+sup_00294,techpark-one,quench,CoolSupply-0294,Cooking Oil,3.2,2,0.832,True
+sup_00295,techpark-one,snapeats,MetroCash-0295,Produce,4.8,2,0.877,True
+sup_00296,techpark-one,snapeats,CoolSupply-0296,Bakery,4.8,3,0.937,True
+sup_00297,techpark-one,snapeats,PrimeFoods-0297,Produce,3.9,7,0.956,True
+sup_00298,bennett-campus,campus-cafe,BeanHouse-0298,Beverages,4.2,5,0.953,True
+sup_00299,techpark-one,snapeats,BeanHouse-0299,Bakery,3.6,5,0.892,True
+sup_00300,bennett-campus,campus-cafe,CoolSupply-0300,Packaging,4.5,3,0.881,True
+sup_00301,bennett-campus,campus-cafe,FreshFarm-0301,Cooking Oil,4.9,4,0.864,True
+sup_00302,techpark-one,quench,PrimeFoods-0302,Cooking Oil,3.9,6,0.917,True
+sup_00303,techpark-one,south-delights,SouthFresh-0303,Dairy,4.1,6,0.905,True
+sup_00304,techpark-one,south-delights,CampusSupply-0304,Bakery,4.0,6,0.87,True
+sup_00305,techpark-one,snapeats,BeanHouse-0305,Packaging,3.8,4,0.886,True
+sup_00306,bennett-campus,campus-cafe,CampusSupply-0306,Beverages,3.9,2,0.834,True
+sup_00307,bennett-campus,campus-cafe,SouthFresh-0307,Pantry,3.4,1,0.839,True
+sup_00308,techpark-one,south-delights,BeanHouse-0308,Pantry,4.4,4,0.988,True
+sup_00309,techpark-one,south-delights,MetroCash-0309,Bakery,4.7,6,0.888,True
+sup_00310,techpark-one,quench,BeanHouse-0310,Pantry,4.8,6,0.833,True
+sup_00311,techpark-one,south-delights,DailyHarvest-0311,Bakery,4.0,1,0.83,True
+sup_00312,techpark-one,snapeats,PrimeFoods-0312,Packaging,4.6,5,0.853,True
+sup_00313,techpark-one,south-delights,DailyHarvest-0313,Cooking Oil,3.4,1,0.985,True
+sup_00314,techpark-one,quench,SouthFresh-0314,Beverages,3.9,1,0.837,True
+sup_00315,bennett-campus,campus-cafe,VegSource-0315,Cooking Oil,3.8,7,0.907,True
+sup_00316,bennett-campus,campus-cafe,SouthFresh-0316,Packaging,4.5,1,0.954,True
+sup_00317,techpark-one,snapeats,CoolSupply-0317,Dairy,4.8,6,0.84,True
+sup_00318,techpark-one,south-delights,CoolSupply-0318,Dairy,4.6,1,0.914,True
+sup_00319,bennett-campus,campus-cafe,CampusSupply-0319,Pantry,4.0,1,0.962,True
+sup_00320,techpark-one,snapeats,CoolSupply-0320,Beverages,4.7,4,0.875,True
+sup_00321,bennett-campus,campus-cafe,CityFoods-0321,Bakery,4.2,1,0.968,True
+sup_00322,techpark-one,snapeats,DailyHarvest-0322,Packaging,3.3,2,0.959,True
+sup_00323,techpark-one,south-delights,CampusSupply-0323,Pantry,4.9,2,0.985,True
+sup_00324,techpark-one,quench,VegSource-0324,Produce,3.4,6,0.856,True
+sup_00325,bennett-campus,campus-cafe,PrimeFoods-0325,Produce,4.5,2,0.85,True
+sup_00326,techpark-one,snapeats,CoolSupply-0326,Cooking Oil,4.6,4,0.899,True
+sup_00327,bennett-campus,campus-cafe,MetroCash-0327,Packaging,4.5,5,0.934,True
+sup_00328,techpark-one,quench,SouthFresh-0328,Packaging,4.1,6,0.988,True
+sup_00329,bennett-campus,campus-cafe,VegSource-0329,Packaging,4.7,1,0.928,True
+sup_00330,bennett-campus,campus-cafe,FreshFarm-0330,Produce,4.7,4,0.942,True
+sup_00331,techpark-one,quench,MetroCash-0331,Pantry,4.8,5,0.932,True
+sup_00332,techpark-one,quench,CampusSupply-0332,Pantry,3.8,5,0.883,True
+sup_00333,bennett-campus,campus-cafe,SouthFresh-0333,Pantry,4.6,1,0.885,True
+sup_00334,techpark-one,south-delights,DailyHarvest-0334,Produce,4.0,5,0.896,True
+sup_00335,bennett-campus,campus-cafe,CoolSupply-0335,Dairy,4.1,4,0.824,True
+sup_00336,techpark-one,quench,CampusSupply-0336,Dairy,4.8,2,0.826,True
+sup_00337,techpark-one,snapeats,SouthFresh-0337,Pantry,4.2,4,0.959,True
+sup_00338,bennett-campus,campus-cafe,VegSource-0338,Beverages,3.9,1,0.82,True
+sup_00339,techpark-one,south-delights,PrimeFoods-0339,Packaging,4.9,1,0.915,True
+sup_00340,techpark-one,quench,DailyHarvest-0340,Bakery,4.3,4,0.842,True
+sup_00341,techpark-one,south-delights,CoolSupply-0341,Pantry,3.5,1,0.857,True
+sup_00342,techpark-one,south-delights,PrimeFoods-0342,Bakery,3.2,5,0.891,True
+sup_00343,techpark-one,south-delights,PrimeFoods-0343,Produce,3.8,2,0.919,True
+sup_00344,techpark-one,south-delights,VegSource-0344,Dairy,4.5,2,0.971,True
+sup_00345,techpark-one,snapeats,FreshFarm-0345,Produce,4.3,7,0.908,True
+sup_00346,bennett-campus,campus-cafe,CampusSupply-0346,Cooking Oil,3.9,6,0.962,True
+sup_00347,techpark-one,quench,MetroCash-0347,Bakery,4.2,7,0.988,True
+sup_00348,techpark-one,quench,SouthFresh-0348,Beverages,4.4,7,0.848,True
+sup_00349,techpark-one,quench,DailyHarvest-0349,Cooking Oil,4.1,1,0.976,True
+sup_00350,bennett-campus,campus-cafe,CoolSupply-0350,Beverages,4.8,6,0.84,True
+sup_00351,techpark-one,snapeats,CampusSupply-0351,Produce,4.4,4,0.926,True
+sup_00352,techpark-one,snapeats,SouthFresh-0352,Dairy,4.3,5,0.949,True
+sup_00353,bennett-campus,campus-cafe,MetroCash-0353,Dairy,3.4,4,0.848,True
+sup_00354,techpark-one,snapeats,DailyHarvest-0354,Bakery,4.7,1,0.836,True
+sup_00355,bennett-campus,campus-cafe,VegSource-0355,Dairy,3.7,1,0.973,True
+sup_00356,bennett-campus,campus-cafe,VegSource-0356,Bakery,3.6,6,0.93,True
+sup_00357,bennett-campus,campus-cafe,FreshFarm-0357,Packaging,4.6,3,0.984,True
+sup_00358,techpark-one,quench,CampusSupply-0358,Beverages,3.4,3,0.838,True
+sup_00359,techpark-one,snapeats,PrimeFoods-0359,Dairy,3.3,2,0.857,True
+sup_00360,techpark-one,south-delights,DailyHarvest-0360,Dairy,4.6,5,0.892,True
+sup_00361,bennett-campus,campus-cafe,BeanHouse-0361,Pantry,4.4,5,0.914,True
+sup_00362,bennett-campus,campus-cafe,SouthFresh-0362,Beverages,4.0,2,0.949,True
+sup_00363,techpark-one,south-delights,VegSource-0363,Beverages,4.5,7,0.879,True
+sup_00364,bennett-campus,campus-cafe,CoolSupply-0364,Dairy,3.6,4,0.975,True
+sup_00365,techpark-one,snapeats,MetroCash-0365,Cooking Oil,3.7,1,0.892,True
+sup_00366,techpark-one,snapeats,DailyHarvest-0366,Packaging,4.8,1,0.821,True
+sup_00367,techpark-one,quench,BeanHouse-0367,Produce,4.4,2,0.906,True
+sup_00368,bennett-campus,campus-cafe,CoolSupply-0368,Packaging,3.5,6,0.854,True
+sup_00369,techpark-one,snapeats,CityFoods-0369,Dairy,4.5,7,0.945,True
+sup_00370,techpark-one,snapeats,BeanHouse-0370,Pantry,3.8,4,0.873,True
+sup_00371,techpark-one,quench,CityFoods-0371,Bakery,4.6,6,0.879,True
+sup_00372,techpark-one,snapeats,CoolSupply-0372,Pantry,4.1,6,0.986,True
+sup_00373,bennett-campus,campus-cafe,BeanHouse-0373,Pantry,3.9,5,0.91,True
+sup_00374,bennett-campus,campus-cafe,CoolSupply-0374,Cooking Oil,4.3,5,0.825,True
+sup_00375,techpark-one,south-delights,VegSource-0375,Pantry,3.2,4,0.832,True
+sup_00376,techpark-one,quench,CampusSupply-0376,Cooking Oil,4.0,2,0.933,True
+sup_00377,techpark-one,snapeats,CityFoods-0377,Bakery,4.0,2,0.899,True
+sup_00378,bennett-campus,campus-cafe,BeanHouse-0378,Dairy,4.2,6,0.937,True
+sup_00379,techpark-one,snapeats,BeanHouse-0379,Pantry,4.0,5,0.954,True
+sup_00380,techpark-one,quench,CoolSupply-0380,Dairy,3.7,7,0.873,True
+sup_00381,techpark-one,south-delights,FreshFarm-0381,Bakery,3.2,4,0.861,True
+sup_00382,techpark-one,south-delights,DailyHarvest-0382,Cooking Oil,4.9,5,0.919,True
+sup_00383,techpark-one,snapeats,CampusSupply-0383,Packaging,4.4,4,0.84,True
+sup_00384,techpark-one,south-delights,DailyHarvest-0384,Beverages,4.1,2,0.968,True
+sup_00385,techpark-one,quench,DailyHarvest-0385,Dairy,4.0,4,0.849,True
+sup_00386,bennett-campus,campus-cafe,FreshFarm-0386,Pantry,3.4,1,0.944,True
+sup_00387,bennett-campus,campus-cafe,CoolSupply-0387,Beverages,4.7,2,0.878,True
+sup_00388,techpark-one,south-delights,CampusSupply-0388,Packaging,4.9,4,0.836,True
+sup_00389,bennett-campus,campus-cafe,CityFoods-0389,Packaging,3.9,5,0.987,True
+sup_00390,techpark-one,quench,MetroCash-0390,Bakery,3.9,5,0.935,True
+sup_00391,bennett-campus,campus-cafe,CityFoods-0391,Produce,4.2,4,0.934,True
+sup_00392,techpark-one,quench,DailyHarvest-0392,Beverages,3.3,3,0.839,True
+sup_00393,techpark-one,south-delights,CoolSupply-0393,Pantry,3.7,6,0.89,True
+sup_00394,bennett-campus,campus-cafe,SouthFresh-0394,Produce,3.7,5,0.869,True
+sup_00395,techpark-one,south-delights,SouthFresh-0395,Produce,3.8,3,0.831,True
+sup_00396,techpark-one,south-delights,PrimeFoods-0396,Cooking Oil,4.8,5,0.9,True
+sup_00397,techpark-one,south-delights,BeanHouse-0397,Pantry,4.5,4,0.904,True
+sup_00398,techpark-one,quench,FreshFarm-0398,Dairy,4.2,1,0.964,True
+sup_00399,techpark-one,south-delights,FreshFarm-0399,Dairy,4.0,5,0.845,True
+sup_00400,techpark-one,south-delights,VegSource-0400,Cooking Oil,3.7,4,0.979,True
+sup_00401,techpark-one,quench,DailyHarvest-0401,Beverages,4.1,6,0.864,True
+sup_00402,techpark-one,south-delights,CityFoods-0402,Beverages,4.9,5,0.977,True
+sup_00403,techpark-one,snapeats,MetroCash-0403,Pantry,4.3,1,0.976,True
+sup_00404,bennett-campus,campus-cafe,SouthFresh-0404,Pantry,3.7,2,0.959,True
+sup_00405,techpark-one,snapeats,CampusSupply-0405,Dairy,3.5,3,0.909,True
+sup_00406,techpark-one,quench,MetroCash-0406,Beverages,4.2,5,0.9,True
+sup_00407,techpark-one,quench,CoolSupply-0407,Beverages,3.4,2,0.976,True
+sup_00408,bennett-campus,campus-cafe,DailyHarvest-0408,Beverages,4.6,6,0.834,True
+sup_00409,techpark-one,south-delights,CityFoods-0409,Packaging,3.7,1,0.882,True
+sup_00410,bennett-campus,campus-cafe,MetroCash-0410,Produce,3.5,5,0.97,True
+sup_00411,techpark-one,south-delights,BeanHouse-0411,Bakery,4.5,7,0.865,True
+sup_00412,bennett-campus,campus-cafe,CityFoods-0412,Bakery,3.9,4,0.867,True
+sup_00413,bennett-campus,campus-cafe,CoolSupply-0413,Beverages,4.5,7,0.906,True
+sup_00414,techpark-one,snapeats,DailyHarvest-0414,Dairy,4.4,1,0.84,True
+sup_00415,techpark-one,quench,CityFoods-0415,Pantry,4.9,2,0.912,True
+sup_00416,techpark-one,quench,CampusSupply-0416,Produce,3.9,7,0.907,True
+sup_00417,techpark-one,quench,PrimeFoods-0417,Packaging,4.6,5,0.968,True
+sup_00418,techpark-one,south-delights,SouthFresh-0418,Pantry,3.4,2,0.909,True
+sup_00419,techpark-one,quench,BeanHouse-0419,Packaging,4.1,5,0.847,True
+sup_00420,techpark-one,snapeats,CityFoods-0420,Pantry,4.1,4,0.859,True
+sup_00421,bennett-campus,campus-cafe,CityFoods-0421,Dairy,4.9,4,0.85,True
+sup_00422,techpark-one,south-delights,CampusSupply-0422,Bakery,4.8,6,0.838,True
+sup_00423,techpark-one,snapeats,SouthFresh-0423,Beverages,4.7,1,0.964,True
+sup_00424,techpark-one,snapeats,BeanHouse-0424,Cooking Oil,3.9,4,0.948,True
+sup_00425,techpark-one,quench,FreshFarm-0425,Produce,4.1,5,0.92,True
+sup_00426,techpark-one,south-delights,CoolSupply-0426,Beverages,4.2,2,0.863,True
+sup_00427,techpark-one,south-delights,VegSource-0427,Packaging,4.1,1,0.847,True
+sup_00428,techpark-one,snapeats,FreshFarm-0428,Beverages,3.6,1,0.916,True
+sup_00429,bennett-campus,campus-cafe,CoolSupply-0429,Cooking Oil,4.7,1,0.898,True
+sup_00430,techpark-one,snapeats,FreshFarm-0430,Cooking Oil,4.2,5,0.904,True
+sup_00431,bennett-campus,campus-cafe,PrimeFoods-0431,Cooking Oil,4.0,5,0.96,True
+sup_00432,techpark-one,quench,CoolSupply-0432,Pantry,4.3,2,0.987,True
+sup_00433,techpark-one,snapeats,PrimeFoods-0433,Packaging,4.3,3,0.835,True
+sup_00434,techpark-one,snapeats,MetroCash-0434,Pantry,4.4,3,0.84,True
+sup_00435,techpark-one,quench,VegSource-0435,Packaging,4.4,4,0.924,True
+sup_00436,bennett-campus,campus-cafe,DailyHarvest-0436,Cooking Oil,3.4,6,0.869,True
+sup_00437,techpark-one,snapeats,CityFoods-0437,Beverages,3.6,4,0.954,True
+sup_00438,techpark-one,snapeats,CoolSupply-0438,Pantry,3.8,5,0.846,True
+sup_00439,techpark-one,quench,CampusSupply-0439,Bakery,3.8,6,0.87,True
+sup_00440,bennett-campus,campus-cafe,PrimeFoods-0440,Produce,4.4,3,0.931,True
+sup_00441,techpark-one,snapeats,DailyHarvest-0441,Packaging,3.4,4,0.932,True
+sup_00442,bennett-campus,campus-cafe,CampusSupply-0442,Beverages,3.5,4,0.881,True
+sup_00443,bennett-campus,campus-cafe,FreshFarm-0443,Dairy,4.6,4,0.956,True
+sup_00444,techpark-one,south-delights,SouthFresh-0444,Dairy,4.7,7,0.898,True
+sup_00445,bennett-campus,campus-cafe,FreshFarm-0445,Cooking Oil,3.9,4,0.841,True
+sup_00446,techpark-one,snapeats,PrimeFoods-0446,Beverages,4.4,6,0.884,True
+sup_00447,techpark-one,snapeats,FreshFarm-0447,Dairy,3.6,1,0.873,True
+sup_00448,techpark-one,south-delights,MetroCash-0448,Packaging,4.5,6,0.957,True
+sup_00449,techpark-one,quench,BeanHouse-0449,Packaging,3.9,4,0.851,True
+sup_00450,techpark-one,south-delights,MetroCash-0450,Cooking Oil,4.2,5,0.824,True
+sup_00451,techpark-one,quench,DailyHarvest-0451,Dairy,4.7,2,0.881,True
+sup_00452,bennett-campus,campus-cafe,MetroCash-0452,Beverages,4.4,5,0.966,True
+sup_00453,techpark-one,snapeats,PrimeFoods-0453,Bakery,3.6,2,0.886,True
+sup_00454,techpark-one,south-delights,CampusSupply-0454,Dairy,3.9,2,0.909,True
+sup_00455,techpark-one,south-delights,BeanHouse-0455,Bakery,4.8,1,0.841,True
+sup_00456,techpark-one,quench,VegSource-0456,Bakery,3.5,3,0.825,True
+sup_00457,techpark-one,quench,CityFoods-0457,Pantry,4.4,7,0.978,True
+sup_00458,techpark-one,snapeats,CampusSupply-0458,Cooking Oil,3.4,3,0.939,True
+sup_00459,techpark-one,snapeats,CoolSupply-0459,Cooking Oil,3.3,5,0.899,True
+sup_00460,techpark-one,snapeats,PrimeFoods-0460,Packaging,4.1,2,0.845,True
+sup_00461,techpark-one,snapeats,SouthFresh-0461,Cooking Oil,4.2,4,0.89,True
+sup_00462,techpark-one,quench,BeanHouse-0462,Bakery,4.1,1,0.945,True
+sup_00463,techpark-one,snapeats,FreshFarm-0463,Cooking Oil,4.3,2,0.937,True
+sup_00464,techpark-one,snapeats,MetroCash-0464,Bakery,4.5,7,0.966,True
+sup_00465,techpark-one,snapeats,CoolSupply-0465,Dairy,4.6,1,0.949,True
+sup_00466,techpark-one,quench,VegSource-0466,Packaging,4.3,4,0.899,True
+sup_00467,techpark-one,snapeats,DailyHarvest-0467,Dairy,3.6,7,0.832,True
+sup_00468,techpark-one,snapeats,CoolSupply-0468,Bakery,3.9,3,0.848,True
+sup_00469,techpark-one,south-delights,VegSource-0469,Dairy,4.0,7,0.982,True
+sup_00470,bennett-campus,campus-cafe,CoolSupply-0470,Produce,4.2,4,0.885,True
+sup_00471,techpark-one,quench,VegSource-0471,Dairy,3.9,2,0.948,True
+sup_00472,bennett-campus,campus-cafe,FreshFarm-0472,Pantry,4.0,4,0.93,True
+sup_00473,techpark-one,quench,CityFoods-0473,Packaging,4.8,3,0.866,True
+sup_00474,techpark-one,south-delights,CampusSupply-0474,Cooking Oil,4.5,4,0.861,True
+sup_00475,bennett-campus,campus-cafe,FreshFarm-0475,Produce,3.9,7,0.856,True
+sup_00476,techpark-one,snapeats,CampusSupply-0476,Produce,4.7,5,0.91,True
+sup_00477,techpark-one,south-delights,MetroCash-0477,Pantry,4.2,7,0.987,True
+sup_00478,techpark-one,south-delights,MetroCash-0478,Packaging,3.3,1,0.956,True
+sup_00479,techpark-one,snapeats,PrimeFoods-0479,Bakery,4.9,1,0.96,True
+sup_00480,bennett-campus,campus-cafe,CityFoods-0480,Cooking Oil,4.6,2,0.973,True
+sup_00481,bennett-campus,campus-cafe,FreshFarm-0481,Cooking Oil,4.7,4,0.909,True
+sup_00482,techpark-one,snapeats,PrimeFoods-0482,Dairy,3.5,3,0.909,True
+sup_00483,techpark-one,quench,SouthFresh-0483,Bakery,4.3,6,0.861,True
+sup_00484,bennett-campus,campus-cafe,DailyHarvest-0484,Bakery,3.4,1,0.973,True
+sup_00485,techpark-one,south-delights,PrimeFoods-0485,Beverages,3.3,6,0.943,True
+sup_00486,techpark-one,south-delights,CoolSupply-0486,Packaging,4.3,3,0.845,True
+sup_00487,bennett-campus,campus-cafe,FreshFarm-0487,Bakery,4.8,2,0.984,True
+sup_00488,bennett-campus,campus-cafe,DailyHarvest-0488,Beverages,3.4,7,0.949,True
+sup_00489,techpark-one,south-delights,CityFoods-0489,Beverages,4.2,7,0.928,True
+sup_00490,techpark-one,quench,CampusSupply-0490,Dairy,3.3,6,0.945,True
+sup_00491,techpark-one,quench,PrimeFoods-0491,Packaging,3.8,7,0.962,True
+sup_00492,techpark-one,south-delights,CoolSupply-0492,Produce,3.7,7,0.929,True
+sup_00493,techpark-one,snapeats,CityFoods-0493,Bakery,3.5,2,0.907,True
+sup_00494,bennett-campus,campus-cafe,CampusSupply-0494,Produce,3.8,2,0.827,True
+sup_00495,techpark-one,south-delights,MetroCash-0495,Dairy,4.1,7,0.963,True
+sup_00496,techpark-one,snapeats,BeanHouse-0496,Produce,4.3,5,0.884,True
+sup_00497,techpark-one,snapeats,MetroCash-0497,Bakery,3.3,1,0.834,True
+sup_00498,techpark-one,snapeats,BeanHouse-0498,Produce,3.3,5,0.931,True
+sup_00499,techpark-one,south-delights,CampusSupply-0499,Packaging,4.2,3,0.828,True
+sup_00500,techpark-one,south-delights,CoolSupply-0500,Dairy,4.4,6,0.903,True
+sup_00501,techpark-one,quench,BeanHouse-0501,Bakery,4.7,4,0.831,True
+sup_00502,techpark-one,south-delights,FreshFarm-0502,Beverages,3.7,4,0.969,True
+sup_00503,techpark-one,snapeats,DailyHarvest-0503,Produce,3.8,6,0.931,True
+sup_00504,techpark-one,south-delights,PrimeFoods-0504,Beverages,4.0,6,0.909,True
+sup_00505,techpark-one,south-delights,FreshFarm-0505,Cooking Oil,4.4,7,0.887,True
+sup_00506,techpark-one,quench,BeanHouse-0506,Beverages,3.4,1,0.947,True
+sup_00507,bennett-campus,campus-cafe,BeanHouse-0507,Cooking Oil,4.1,5,0.874,True
+sup_00508,bennett-campus,campus-cafe,CityFoods-0508,Beverages,3.9,3,0.892,True
+sup_00509,techpark-one,south-delights,BeanHouse-0509,Produce,3.8,7,0.844,True
+sup_00510,techpark-one,quench,VegSource-0510,Pantry,4.8,6,0.971,True
+sup_00511,bennett-campus,campus-cafe,CityFoods-0511,Packaging,4.0,2,0.894,True
+sup_00512,bennett-campus,campus-cafe,SouthFresh-0512,Produce,4.6,1,0.879,True
+sup_00513,techpark-one,south-delights,DailyHarvest-0513,Cooking Oil,3.6,2,0.976,True
+sup_00514,techpark-one,quench,CampusSupply-0514,Cooking Oil,3.8,2,0.863,True
+sup_00515,techpark-one,south-delights,MetroCash-0515,Packaging,3.3,1,0.866,True
+sup_00516,bennett-campus,campus-cafe,CoolSupply-0516,Produce,4.5,1,0.901,True
+sup_00517,techpark-one,south-delights,BeanHouse-0517,Produce,3.8,7,0.952,True
+sup_00518,bennett-campus,campus-cafe,BeanHouse-0518,Bakery,3.7,7,0.947,True
+sup_00519,bennett-campus,campus-cafe,PrimeFoods-0519,Cooking Oil,4.5,7,0.964,True
+sup_00520,techpark-one,quench,VegSource-0520,Dairy,4.7,3,0.875,True
+sup_00521,techpark-one,quench,VegSource-0521,Cooking Oil,4.7,2,0.924,True
+sup_00522,techpark-one,quench,CampusSupply-0522,Pantry,4.1,7,0.925,True
+sup_00523,techpark-one,snapeats,FreshFarm-0523,Dairy,3.2,5,0.975,True
+sup_00524,techpark-one,south-delights,DailyHarvest-0524,Cooking Oil,4.7,4,0.921,True
+sup_00525,techpark-one,quench,VegSource-0525,Pantry,4.7,2,0.945,True
+sup_00526,bennett-campus,campus-cafe,CampusSupply-0526,Bakery,4.1,7,0.835,True
+sup_00527,techpark-one,snapeats,SouthFresh-0527,Packaging,4.1,1,0.953,True
+sup_00528,bennett-campus,campus-cafe,CoolSupply-0528,Beverages,4.2,1,0.985,True
+sup_00529,bennett-campus,campus-cafe,MetroCash-0529,Cooking Oil,3.8,4,0.845,True
+sup_00530,techpark-one,quench,PrimeFoods-0530,Bakery,4.3,2,0.897,True
+sup_00531,techpark-one,snapeats,MetroCash-0531,Pantry,4.2,3,0.907,True
+sup_00532,bennett-campus,campus-cafe,PrimeFoods-0532,Cooking Oil,4.5,2,0.882,True
+sup_00533,bennett-campus,campus-cafe,CityFoods-0533,Cooking Oil,3.8,2,0.952,True
+sup_00534,techpark-one,south-delights,CityFoods-0534,Bakery,4.1,4,0.842,True
+sup_00535,techpark-one,south-delights,CoolSupply-0535,Produce,4.7,4,0.878,True
+sup_00536,techpark-one,south-delights,CampusSupply-0536,Cooking Oil,3.6,4,0.958,True
+sup_00537,techpark-one,quench,CoolSupply-0537,Produce,3.6,3,0.833,True
+sup_00538,bennett-campus,campus-cafe,FreshFarm-0538,Bakery,4.5,4,0.887,True
+sup_00539,techpark-one,snapeats,MetroCash-0539,Pantry,3.9,6,0.929,True
+sup_00540,techpark-one,snapeats,BeanHouse-0540,Cooking Oil,4.4,6,0.909,True
+sup_00541,techpark-one,quench,CoolSupply-0541,Bakery,3.8,1,0.95,True
+sup_00542,techpark-one,snapeats,SouthFresh-0542,Beverages,3.9,5,0.911,True
+sup_00543,techpark-one,south-delights,CampusSupply-0543,Pantry,4.8,5,0.932,True
+sup_00544,techpark-one,south-delights,MetroCash-0544,Produce,4.4,1,0.91,True
+sup_00545,techpark-one,south-delights,CityFoods-0545,Pantry,3.5,2,0.883,True
+sup_00546,bennett-campus,campus-cafe,DailyHarvest-0546,Bakery,3.5,5,0.856,True
+sup_00547,techpark-one,quench,FreshFarm-0547,Packaging,4.5,7,0.94,True
+sup_00548,techpark-one,quench,PrimeFoods-0548,Pantry,4.7,3,0.911,True
+sup_00549,techpark-one,snapeats,BeanHouse-0549,Dairy,4.4,2,0.969,True
+sup_00550,techpark-one,snapeats,PrimeFoods-0550,Packaging,3.5,1,0.929,True
+sup_00551,bennett-campus,campus-cafe,CampusSupply-0551,Cooking Oil,3.5,6,0.836,True
+sup_00552,bennett-campus,campus-cafe,VegSource-0552,Cooking Oil,3.4,3,0.884,True
+sup_00553,techpark-one,snapeats,CampusSupply-0553,Cooking Oil,3.8,7,0.872,True
+sup_00554,techpark-one,south-delights,PrimeFoods-0554,Packaging,3.3,2,0.854,True
+sup_00555,techpark-one,south-delights,CampusSupply-0555,Pantry,4.5,3,0.845,True
+sup_00556,techpark-one,south-delights,CampusSupply-0556,Beverages,3.6,1,0.834,True
+sup_00557,techpark-one,snapeats,FreshFarm-0557,Bakery,4.6,5,0.847,True
+sup_00558,techpark-one,quench,CampusSupply-0558,Bakery,4.0,7,0.839,True
+sup_00559,techpark-one,south-delights,CoolSupply-0559,Beverages,3.8,3,0.914,True
+sup_00560,techpark-one,snapeats,FreshFarm-0560,Produce,3.2,7,0.864,True
+sup_00561,techpark-one,snapeats,FreshFarm-0561,Bakery,4.4,1,0.885,True
+sup_00562,techpark-one,snapeats,BeanHouse-0562,Beverages,4.2,1,0.839,True
+sup_00563,bennett-campus,campus-cafe,PrimeFoods-0563,Packaging,4.7,2,0.856,True
+sup_00564,techpark-one,south-delights,BeanHouse-0564,Produce,4.2,6,0.979,True
+sup_00565,techpark-one,south-delights,CampusSupply-0565,Beverages,4.5,4,0.839,True
+sup_00566,techpark-one,quench,MetroCash-0566,Produce,4.5,6,0.92,True
+sup_00567,techpark-one,quench,FreshFarm-0567,Dairy,3.9,2,0.914,True
+sup_00568,techpark-one,quench,CityFoods-0568,Bakery,3.3,5,0.941,True
+sup_00569,techpark-one,quench,CampusSupply-0569,Dairy,4.5,1,0.91,True
+sup_00570,techpark-one,quench,FreshFarm-0570,Pantry,3.4,6,0.881,True
+sup_00571,techpark-one,quench,FreshFarm-0571,Packaging,4.1,2,0.978,True
+sup_00572,techpark-one,south-delights,PrimeFoods-0572,Produce,4.5,1,0.873,True
+sup_00573,techpark-one,snapeats,CityFoods-0573,Pantry,4.5,2,0.84,True
+sup_00574,techpark-one,south-delights,MetroCash-0574,Dairy,3.5,7,0.927,True
+sup_00575,techpark-one,south-delights,PrimeFoods-0575,Bakery,3.5,1,0.858,True
+sup_00576,techpark-one,south-delights,CampusSupply-0576,Produce,4.6,7,0.874,True
+sup_00577,techpark-one,quench,MetroCash-0577,Dairy,4.7,6,0.852,True
+sup_00578,techpark-one,south-delights,PrimeFoods-0578,Cooking Oil,4.8,3,0.933,True
+sup_00579,techpark-one,snapeats,SouthFresh-0579,Beverages,3.8,1,0.924,True
+sup_00580,techpark-one,quench,FreshFarm-0580,Beverages,4.5,1,0.88,True
+sup_00581,techpark-one,quench,CoolSupply-0581,Beverages,3.7,6,0.958,True
+sup_00582,techpark-one,snapeats,CoolSupply-0582,Produce,3.7,3,0.919,True
+sup_00583,techpark-one,south-delights,CampusSupply-0583,Cooking Oil,4.4,1,0.865,True
+sup_00584,techpark-one,south-delights,PrimeFoods-0584,Bakery,4.3,7,0.862,True
+sup_00585,bennett-campus,campus-cafe,CoolSupply-0585,Dairy,4.5,3,0.825,True
+sup_00586,techpark-one,south-delights,CityFoods-0586,Cooking Oil,3.8,3,0.941,True
+sup_00587,bennett-campus,campus-cafe,FreshFarm-0587,Produce,3.3,7,0.956,True
+sup_00588,bennett-campus,campus-cafe,MetroCash-0588,Pantry,3.9,1,0.867,True
+sup_00589,techpark-one,quench,SouthFresh-0589,Bakery,3.9,1,0.951,True
+sup_00590,bennett-campus,campus-cafe,BeanHouse-0590,Beverages,4.7,4,0.902,True
+sup_00591,techpark-one,south-delights,VegSource-0591,Pantry,4.1,6,0.868,True
+sup_00592,techpark-one,quench,VegSource-0592,Pantry,3.9,5,0.893,True
+sup_00593,bennett-campus,campus-cafe,CityFoods-0593,Pantry,4.9,3,0.92,True
+sup_00594,techpark-one,snapeats,CoolSupply-0594,Beverages,4.0,6,0.911,True
+sup_00595,bennett-campus,campus-cafe,SouthFresh-0595,Pantry,4.7,1,0.979,True
+sup_00596,techpark-one,quench,PrimeFoods-0596,Packaging,4.8,7,0.972,True
+sup_00597,techpark-one,south-delights,CampusSupply-0597,Pantry,3.7,7,0.879,True
+sup_00598,techpark-one,quench,CampusSupply-0598,Beverages,3.2,2,0.876,True
+sup_00599,techpark-one,south-delights,CampusSupply-0599,Packaging,4.8,5,0.917,True
+sup_00600,techpark-one,quench,FreshFarm-0600,Produce,3.5,7,0.869,True
+sup_00601,techpark-one,south-delights,CoolSupply-0601,Produce,3.8,5,0.886,True
+sup_00602,bennett-campus,campus-cafe,PrimeFoods-0602,Dairy,4.1,7,0.973,True
+sup_00603,techpark-one,snapeats,DailyHarvest-0603,Produce,4.2,6,0.905,True
+sup_00604,techpark-one,snapeats,CampusSupply-0604,Packaging,4.9,5,0.935,True
+sup_00605,bennett-campus,campus-cafe,DailyHarvest-0605,Bakery,3.3,3,0.867,True
+sup_00606,bennett-campus,campus-cafe,MetroCash-0606,Pantry,3.4,3,0.846,True
+sup_00607,techpark-one,snapeats,CoolSupply-0607,Produce,4.2,1,0.956,True
+sup_00608,techpark-one,snapeats,CoolSupply-0608,Produce,3.5,6,0.842,True
+sup_00609,bennett-campus,campus-cafe,CityFoods-0609,Produce,4.8,2,0.897,True
+sup_00610,bennett-campus,campus-cafe,DailyHarvest-0610,Beverages,4.3,3,0.958,True
+sup_00611,techpark-one,quench,FreshFarm-0611,Dairy,4.8,2,0.903,True
+sup_00612,bennett-campus,campus-cafe,BeanHouse-0612,Cooking Oil,4.4,3,0.842,True
+sup_00613,techpark-one,snapeats,VegSource-0613,Cooking Oil,4.4,5,0.89,True
+sup_00614,techpark-one,snapeats,VegSource-0614,Bakery,3.3,2,0.92,True
+sup_00615,techpark-one,snapeats,SouthFresh-0615,Beverages,3.9,1,0.95,True
+sup_00616,techpark-one,snapeats,CampusSupply-0616,Pantry,4.4,6,0.972,True
+sup_00617,techpark-one,snapeats,CoolSupply-0617,Beverages,3.7,3,0.936,True
+sup_00618,techpark-one,quench,VegSource-0618,Pantry,4.0,2,0.833,True
+sup_00619,techpark-one,quench,DailyHarvest-0619,Beverages,3.4,7,0.956,True
+sup_00620,bennett-campus,campus-cafe,CoolSupply-0620,Packaging,3.7,7,0.979,True
+sup_00621,bennett-campus,campus-cafe,BeanHouse-0621,Packaging,4.7,1,0.829,True
+sup_00622,bennett-campus,campus-cafe,VegSource-0622,Beverages,4.0,5,0.835,True
+sup_00623,techpark-one,quench,BeanHouse-0623,Dairy,4.2,6,0.828,True
+sup_00624,techpark-one,snapeats,FreshFarm-0624,Bakery,4.3,7,0.962,True
+sup_00625,techpark-one,south-delights,VegSource-0625,Bakery,4.1,1,0.877,True
+sup_00626,techpark-one,south-delights,VegSource-0626,Pantry,3.7,4,0.823,True
+sup_00627,techpark-one,quench,VegSource-0627,Bakery,4.7,2,0.904,True
+sup_00628,techpark-one,snapeats,CampusSupply-0628,Dairy,3.7,3,0.828,True
+sup_00629,bennett-campus,campus-cafe,SouthFresh-0629,Dairy,4.8,7,0.856,True
+sup_00630,techpark-one,south-delights,CampusSupply-0630,Cooking Oil,3.3,6,0.873,True
+sup_00631,techpark-one,snapeats,DailyHarvest-0631,Packaging,3.6,1,0.857,True
+sup_00632,techpark-one,snapeats,CityFoods-0632,Packaging,3.4,6,0.927,True
+sup_00633,bennett-campus,campus-cafe,FreshFarm-0633,Pantry,3.7,2,0.923,True
+sup_00634,bennett-campus,campus-cafe,CampusSupply-0634,Dairy,4.1,3,0.859,True
+sup_00635,techpark-one,south-delights,FreshFarm-0635,Produce,4.0,3,0.96,True
+sup_00636,techpark-one,south-delights,CoolSupply-0636,Packaging,4.2,1,0.821,True
+sup_00637,techpark-one,snapeats,SouthFresh-0637,Produce,4.3,7,0.935,True
+sup_00638,techpark-one,south-delights,VegSource-0638,Dairy,3.2,2,0.935,True
+sup_00639,techpark-one,quench,CoolSupply-0639,Bakery,4.1,3,0.861,True
+sup_00640,techpark-one,snapeats,BeanHouse-0640,Beverages,4.0,3,0.854,True
+sup_00641,bennett-campus,campus-cafe,CoolSupply-0641,Cooking Oil,4.8,6,0.838,True
+sup_00642,bennett-campus,campus-cafe,VegSource-0642,Packaging,4.6,4,0.968,True
+sup_00643,techpark-one,quench,PrimeFoods-0643,Produce,3.5,5,0.86,True
+sup_00644,techpark-one,snapeats,FreshFarm-0644,Produce,4.5,4,0.871,True
+sup_00645,techpark-one,snapeats,CoolSupply-0645,Pantry,3.7,5,0.902,True
+sup_00646,bennett-campus,campus-cafe,CampusSupply-0646,Dairy,3.5,3,0.898,True
+sup_00647,bennett-campus,campus-cafe,SouthFresh-0647,Cooking Oil,4.2,2,0.849,True
+sup_00648,techpark-one,quench,SouthFresh-0648,Produce,4.6,5,0.882,True
+sup_00649,techpark-one,snapeats,DailyHarvest-0649,Cooking Oil,3.6,3,0.85,True
+sup_00650,techpark-one,south-delights,SouthFresh-0650,Beverages,4.9,1,0.926,True
+sup_00651,techpark-one,south-delights,BeanHouse-0651,Pantry,4.6,1,0.873,True
+sup_00652,techpark-one,south-delights,CampusSupply-0652,Produce,4.1,2,0.906,True
+sup_00653,techpark-one,snapeats,CampusSupply-0653,Packaging,3.3,6,0.883,True
+sup_00654,techpark-one,snapeats,PrimeFoods-0654,Packaging,3.4,2,0.934,True
+sup_00655,techpark-one,south-delights,DailyHarvest-0655,Cooking Oil,4.6,5,0.899,True
+sup_00656,techpark-one,south-delights,MetroCash-0656,Dairy,3.8,5,0.852,True
+sup_00657,bennett-campus,campus-cafe,MetroCash-0657,Pantry,3.8,7,0.956,True
+sup_00658,techpark-one,quench,SouthFresh-0658,Cooking Oil,3.6,4,0.964,True
+sup_00659,bennett-campus,campus-cafe,SouthFresh-0659,Pantry,4.7,5,0.845,True
+sup_00660,bennett-campus,campus-cafe,BeanHouse-0660,Pantry,4.4,5,0.923,True
+sup_00661,bennett-campus,campus-cafe,CampusSupply-0661,Cooking Oil,4.7,7,0.901,True
+sup_00662,techpark-one,south-delights,BeanHouse-0662,Cooking Oil,4.2,2,0.983,True
+sup_00663,techpark-one,quench,VegSource-0663,Dairy,3.9,7,0.868,True
+sup_00664,bennett-campus,campus-cafe,SouthFresh-0664,Packaging,3.8,3,0.938,True
+sup_00665,techpark-one,quench,CampusSupply-0665,Dairy,3.4,6,0.95,True
+sup_00666,techpark-one,snapeats,DailyHarvest-0666,Pantry,4.3,7,0.876,True
+sup_00667,bennett-campus,campus-cafe,CoolSupply-0667,Produce,4.2,6,0.847,True
+sup_00668,techpark-one,south-delights,CampusSupply-0668,Beverages,4.4,3,0.925,True
+sup_00669,techpark-one,south-delights,DailyHarvest-0669,Pantry,3.6,7,0.845,True
+sup_00670,techpark-one,south-delights,BeanHouse-0670,Dairy,4.8,2,0.903,True
+sup_00671,bennett-campus,campus-cafe,VegSource-0671,Pantry,4.7,5,0.916,True
+sup_00672,techpark-one,snapeats,BeanHouse-0672,Beverages,3.4,5,0.899,True
+sup_00673,techpark-one,quench,CityFoods-0673,Beverages,4.8,1,0.825,True
+sup_00674,techpark-one,snapeats,VegSource-0674,Produce,3.4,3,0.883,True
+sup_00675,bennett-campus,campus-cafe,CoolSupply-0675,Dairy,4.1,2,0.98,True
+sup_00676,techpark-one,south-delights,SouthFresh-0676,Produce,3.8,2,0.947,True
+sup_00677,techpark-one,snapeats,CoolSupply-0677,Produce,3.4,4,0.969,True
+sup_00678,techpark-one,snapeats,MetroCash-0678,Beverages,4.3,2,0.894,True
+sup_00679,techpark-one,snapeats,CampusSupply-0679,Dairy,3.5,4,0.935,True
+sup_00680,bennett-campus,campus-cafe,CityFoods-0680,Packaging,3.9,7,0.923,True
+sup_00681,techpark-one,south-delights,VegSource-0681,Pantry,4.5,7,0.947,True
+sup_00682,techpark-one,quench,CityFoods-0682,Cooking Oil,4.7,1,0.936,True
+sup_00683,techpark-one,quench,MetroCash-0683,Bakery,4.5,3,0.838,True
+sup_00684,techpark-one,south-delights,VegSource-0684,Dairy,3.5,7,0.912,True
+sup_00685,bennett-campus,campus-cafe,VegSource-0685,Packaging,3.6,4,0.861,True
+sup_00686,bennett-campus,campus-cafe,MetroCash-0686,Packaging,4.6,3,0.843,True
+sup_00687,techpark-one,quench,MetroCash-0687,Pantry,4.2,6,0.824,True
+sup_00688,bennett-campus,campus-cafe,VegSource-0688,Packaging,4.1,2,0.904,True
+sup_00689,techpark-one,quench,FreshFarm-0689,Bakery,4.3,1,0.954,True
+sup_00690,techpark-one,snapeats,SouthFresh-0690,Bakery,3.6,4,0.903,True
+sup_00691,bennett-campus,campus-cafe,VegSource-0691,Beverages,4.0,7,0.973,True
+sup_00692,techpark-one,south-delights,BeanHouse-0692,Cooking Oil,3.3,5,0.832,True
+sup_00693,bennett-campus,campus-cafe,VegSource-0693,Cooking Oil,3.8,7,0.875,True
+sup_00694,bennett-campus,campus-cafe,CityFoods-0694,Packaging,4.8,2,0.926,True
+sup_00695,techpark-one,snapeats,DailyHarvest-0695,Bakery,3.9,7,0.827,True
+sup_00696,techpark-one,south-delights,SouthFresh-0696,Cooking Oil,4.7,3,0.94,True
+sup_00697,techpark-one,quench,MetroCash-0697,Bakery,4.9,5,0.858,True
+sup_00698,techpark-one,snapeats,MetroCash-0698,Beverages,4.2,3,0.912,True
+sup_00699,techpark-one,snapeats,SouthFresh-0699,Cooking Oil,4.1,1,0.879,True
+sup_00700,techpark-one,snapeats,DailyHarvest-0700,Cooking Oil,3.9,3,0.928,True
+sup_00701,techpark-one,south-delights,PrimeFoods-0701,Cooking Oil,4.2,3,0.854,True
+sup_00702,bennett-campus,campus-cafe,SouthFresh-0702,Beverages,4.5,6,0.916,True
+sup_00703,techpark-one,quench,PrimeFoods-0703,Cooking Oil,3.3,7,0.886,True
+sup_00704,techpark-one,snapeats,VegSource-0704,Pantry,4.8,2,0.981,True
+sup_00705,techpark-one,snapeats,PrimeFoods-0705,Cooking Oil,4.8,1,0.961,True
+sup_00706,techpark-one,snapeats,SouthFresh-0706,Packaging,4.2,4,0.854,True
+sup_00707,techpark-one,quench,BeanHouse-0707,Dairy,3.2,7,0.928,True
+sup_00708,techpark-one,quench,SouthFresh-0708,Dairy,4.5,4,0.891,True
+sup_00709,techpark-one,snapeats,BeanHouse-0709,Produce,3.8,7,0.93,True
+sup_00710,techpark-one,quench,VegSource-0710,Dairy,4.1,2,0.956,True
+sup_00711,techpark-one,south-delights,DailyHarvest-0711,Packaging,3.7,2,0.98,True
+sup_00712,techpark-one,snapeats,CampusSupply-0712,Cooking Oil,4.0,1,0.839,True
+sup_00713,techpark-one,quench,DailyHarvest-0713,Dairy,3.4,6,0.838,True
+sup_00714,techpark-one,snapeats,DailyHarvest-0714,Produce,4.6,7,0.946,True
+sup_00715,techpark-one,quench,FreshFarm-0715,Pantry,3.7,3,0.965,True
+sup_00716,techpark-one,south-delights,BeanHouse-0716,Dairy,4.3,7,0.963,True
+sup_00717,techpark-one,quench,CoolSupply-0717,Dairy,3.9,5,0.98,True
+sup_00718,techpark-one,quench,FreshFarm-0718,Packaging,3.8,5,0.881,True
+sup_00719,techpark-one,south-delights,DailyHarvest-0719,Produce,4.6,3,0.939,True
+sup_00720,techpark-one,snapeats,CampusSupply-0720,Cooking Oil,4.2,5,0.844,True
+sup_00721,bennett-campus,campus-cafe,MetroCash-0721,Pantry,4.3,4,0.884,True
+sup_00722,bennett-campus,campus-cafe,CampusSupply-0722,Pantry,4.2,4,0.977,True
+sup_00723,techpark-one,snapeats,MetroCash-0723,Cooking Oil,4.1,1,0.955,True
+sup_00724,techpark-one,south-delights,DailyHarvest-0724,Cooking Oil,4.0,7,0.835,True
+sup_00725,techpark-one,quench,FreshFarm-0725,Packaging,4.3,4,0.966,True
+sup_00726,techpark-one,south-delights,FreshFarm-0726,Cooking Oil,4.8,6,0.868,True
+sup_00727,bennett-campus,campus-cafe,VegSource-0727,Produce,4.6,2,0.963,True
+sup_00728,techpark-one,south-delights,DailyHarvest-0728,Produce,4.2,3,0.839,True
+sup_00729,techpark-one,south-delights,CampusSupply-0729,Produce,4.5,1,0.895,True
+sup_00730,techpark-one,snapeats,PrimeFoods-0730,Cooking Oil,4.9,1,0.918,True
+sup_00731,techpark-one,quench,PrimeFoods-0731,Dairy,4.9,2,0.861,True
+sup_00732,techpark-one,south-delights,CityFoods-0732,Dairy,3.7,2,0.94,True
+sup_00733,techpark-one,snapeats,CoolSupply-0733,Pantry,4.6,6,0.957,True
+sup_00734,techpark-one,south-delights,FreshFarm-0734,Produce,4.0,1,0.948,True
+sup_00735,techpark-one,snapeats,MetroCash-0735,Dairy,3.9,7,0.838,True
+sup_00736,techpark-one,snapeats,MetroCash-0736,Pantry,4.1,2,0.944,True
+sup_00737,techpark-one,south-delights,MetroCash-0737,Pantry,3.5,5,0.872,True
+sup_00738,techpark-one,south-delights,FreshFarm-0738,Dairy,4.1,4,0.954,True
+sup_00739,bennett-campus,campus-cafe,MetroCash-0739,Bakery,4.4,7,0.825,True
+sup_00740,techpark-one,south-delights,BeanHouse-0740,Produce,3.7,2,0.896,True
+sup_00741,techpark-one,quench,BeanHouse-0741,Produce,4.0,3,0.882,True
+sup_00742,techpark-one,quench,PrimeFoods-0742,Dairy,4.4,5,0.881,True
+sup_00743,techpark-one,quench,SouthFresh-0743,Dairy,4.2,2,0.869,True
+sup_00744,techpark-one,south-delights,CityFoods-0744,Beverages,4.4,3,0.877,True
+sup_00745,techpark-one,snapeats,CityFoods-0745,Beverages,4.4,7,0.925,True
+sup_00746,techpark-one,quench,FreshFarm-0746,Cooking Oil,3.3,5,0.901,True
+sup_00747,techpark-one,snapeats,SouthFresh-0747,Produce,4.6,7,0.859,True
+sup_00748,techpark-one,south-delights,VegSource-0748,Beverages,3.5,5,0.869,True
+sup_00749,techpark-one,south-delights,VegSource-0749,Cooking Oil,3.5,3,0.916,True
+sup_00750,techpark-one,snapeats,FreshFarm-0750,Dairy,4.1,4,0.82,True
+sup_00751,techpark-one,south-delights,MetroCash-0751,Cooking Oil,4.8,3,0.822,True
+sup_00752,bennett-campus,campus-cafe,DailyHarvest-0752,Pantry,4.8,2,0.846,True
+sup_00753,techpark-one,quench,CityFoods-0753,Pantry,4.5,3,0.903,True
+sup_00754,bennett-campus,campus-cafe,CoolSupply-0754,Dairy,4.2,1,0.855,True
+sup_00755,techpark-one,snapeats,BeanHouse-0755,Dairy,4.5,7,0.87,True
+sup_00756,techpark-one,south-delights,VegSource-0756,Beverages,3.8,3,0.857,True
+sup_00757,techpark-one,snapeats,BeanHouse-0757,Bakery,3.8,4,0.858,True
+sup_00758,bennett-campus,campus-cafe,CampusSupply-0758,Pantry,4.9,1,0.914,True
+sup_00759,techpark-one,quench,VegSource-0759,Bakery,3.8,6,0.884,True
+sup_00760,techpark-one,snapeats,CoolSupply-0760,Packaging,3.2,1,0.881,True
+sup_00761,techpark-one,quench,MetroCash-0761,Cooking Oil,3.4,4,0.955,True
+sup_00762,bennett-campus,campus-cafe,DailyHarvest-0762,Packaging,4.7,2,0.845,True
+sup_00763,bennett-campus,campus-cafe,FreshFarm-0763,Cooking Oil,3.9,3,0.915,True
+sup_00764,techpark-one,quench,CityFoods-0764,Cooking Oil,4.7,1,0.851,True
+sup_00765,techpark-one,snapeats,PrimeFoods-0765,Produce,4.2,1,0.96,True
+sup_00766,techpark-one,south-delights,CampusSupply-0766,Cooking Oil,3.7,7,0.827,True
+sup_00767,techpark-one,south-delights,SouthFresh-0767,Beverages,3.9,7,0.855,True
+sup_00768,bennett-campus,campus-cafe,FreshFarm-0768,Cooking Oil,4.2,6,0.948,True
+sup_00769,techpark-one,quench,SouthFresh-0769,Produce,4.6,4,0.897,True
+sup_00770,techpark-one,south-delights,VegSource-0770,Beverages,4.0,5,0.923,True
+sup_00771,bennett-campus,campus-cafe,DailyHarvest-0771,Produce,3.6,5,0.829,True
+sup_00772,bennett-campus,campus-cafe,DailyHarvest-0772,Dairy,3.9,2,0.834,True
+sup_00773,techpark-one,quench,SouthFresh-0773,Pantry,4.7,6,0.982,True
+sup_00774,techpark-one,quench,DailyHarvest-0774,Dairy,4.3,1,0.835,True
+sup_00775,techpark-one,snapeats,PrimeFoods-0775,Pantry,4.3,7,0.935,True
+sup_00776,techpark-one,south-delights,CoolSupply-0776,Produce,3.2,3,0.911,True
+sup_00777,techpark-one,snapeats,MetroCash-0777,Packaging,3.4,2,0.878,True
+sup_00778,techpark-one,snapeats,CampusSupply-0778,Dairy,4.1,4,0.982,True
+sup_00779,techpark-one,south-delights,BeanHouse-0779,Cooking Oil,3.4,1,0.977,True
+sup_00780,techpark-one,quench,SouthFresh-0780,Dairy,3.6,1,0.856,True
+sup_00781,techpark-one,snapeats,MetroCash-0781,Produce,4.5,3,0.872,True
+sup_00782,techpark-one,snapeats,CityFoods-0782,Dairy,4.8,6,0.959,True
+sup_00783,techpark-one,south-delights,PrimeFoods-0783,Beverages,3.3,5,0.863,True
+sup_00784,techpark-one,snapeats,CoolSupply-0784,Packaging,3.7,4,0.821,True
+sup_00785,techpark-one,snapeats,BeanHouse-0785,Produce,4.5,3,0.974,True
+sup_00786,techpark-one,quench,FreshFarm-0786,Packaging,4.4,5,0.851,True
+sup_00787,techpark-one,south-delights,PrimeFoods-0787,Produce,4.3,2,0.93,True
+sup_00788,techpark-one,quench,CityFoods-0788,Cooking Oil,3.2,2,0.956,True
+sup_00789,techpark-one,south-delights,BeanHouse-0789,Dairy,3.8,4,0.83,True
+sup_00790,techpark-one,snapeats,FreshFarm-0790,Produce,4.7,6,0.899,True
+sup_00791,techpark-one,quench,PrimeFoods-0791,Pantry,4.3,5,0.93,True
+sup_00792,bennett-campus,campus-cafe,DailyHarvest-0792,Dairy,3.3,5,0.853,True
+sup_00793,bennett-campus,campus-cafe,SouthFresh-0793,Bakery,3.8,4,0.883,True
+sup_00794,techpark-one,quench,SouthFresh-0794,Bakery,4.3,6,0.893,True
+sup_00795,bennett-campus,campus-cafe,MetroCash-0795,Beverages,3.4,1,0.827,True
+sup_00796,techpark-one,snapeats,SouthFresh-0796,Packaging,4.0,7,0.944,True
+sup_00797,bennett-campus,campus-cafe,DailyHarvest-0797,Bakery,4.1,1,0.883,True
+sup_00798,techpark-one,south-delights,PrimeFoods-0798,Pantry,3.8,5,0.849,True
+sup_00799,techpark-one,quench,FreshFarm-0799,Produce,4.4,1,0.909,True
+sup_00800,techpark-one,quench,CoolSupply-0800,Bakery,3.9,1,0.947,True
+sup_00801,bennett-campus,campus-cafe,CityFoods-0801,Bakery,3.8,3,0.952,True
+sup_00802,bennett-campus,campus-cafe,FreshFarm-0802,Produce,3.2,6,0.979,True
+sup_00803,bennett-campus,campus-cafe,VegSource-0803,Beverages,3.4,3,0.844,True
+sup_00804,techpark-one,quench,PrimeFoods-0804,Pantry,3.3,2,0.948,True
+sup_00805,techpark-one,snapeats,CoolSupply-0805,Produce,4.2,2,0.853,True
+sup_00806,techpark-one,snapeats,MetroCash-0806,Beverages,4.7,3,0.987,True
+sup_00807,techpark-one,south-delights,SouthFresh-0807,Beverages,4.7,7,0.834,True
+sup_00808,techpark-one,quench,CampusSupply-0808,Dairy,4.5,2,0.967,True
+sup_00809,techpark-one,quench,SouthFresh-0809,Packaging,4.4,1,0.913,True
+sup_00810,bennett-campus,campus-cafe,CityFoods-0810,Cooking Oil,4.3,4,0.822,True
+sup_00811,techpark-one,quench,CoolSupply-0811,Packaging,4.5,2,0.986,True
+sup_00812,techpark-one,south-delights,PrimeFoods-0812,Beverages,4.7,7,0.915,True
+sup_00813,bennett-campus,campus-cafe,DailyHarvest-0813,Produce,4.8,5,0.931,True
+sup_00814,techpark-one,south-delights,VegSource-0814,Dairy,4.6,7,0.907,True
+sup_00815,bennett-campus,campus-cafe,CampusSupply-0815,Dairy,3.5,7,0.947,True
+sup_00816,techpark-one,quench,MetroCash-0816,Produce,4.2,2,0.847,True
+sup_00817,techpark-one,south-delights,CityFoods-0817,Packaging,3.6,6,0.823,True
+sup_00818,techpark-one,quench,MetroCash-0818,Beverages,4.2,5,0.861,True
+sup_00819,techpark-one,south-delights,SouthFresh-0819,Packaging,3.5,4,0.986,True
+sup_00820,techpark-one,snapeats,MetroCash-0820,Packaging,4.0,6,0.946,True
+sup_00821,techpark-one,snapeats,PrimeFoods-0821,Bakery,3.3,5,0.952,True
+sup_00822,bennett-campus,campus-cafe,FreshFarm-0822,Dairy,4.4,5,0.847,True
+sup_00823,techpark-one,quench,PrimeFoods-0823,Produce,4.1,2,0.9,True
+sup_00824,techpark-one,snapeats,CampusSupply-0824,Pantry,3.9,4,0.911,True
+sup_00825,techpark-one,south-delights,BeanHouse-0825,Beverages,4.6,1,0.985,True
+sup_00826,techpark-one,snapeats,CityFoods-0826,Beverages,3.4,5,0.949,True
+sup_00827,techpark-one,quench,DailyHarvest-0827,Dairy,4.7,6,0.852,True
+sup_00828,techpark-one,quench,SouthFresh-0828,Dairy,3.5,6,0.847,True
+sup_00829,techpark-one,quench,PrimeFoods-0829,Dairy,3.8,3,0.893,True
+sup_00830,bennett-campus,campus-cafe,CityFoods-0830,Produce,4.8,3,0.919,True
+sup_00831,techpark-one,snapeats,FreshFarm-0831,Dairy,3.7,7,0.912,True
+sup_00832,techpark-one,quench,PrimeFoods-0832,Produce,3.4,5,0.952,True
+sup_00833,bennett-campus,campus-cafe,MetroCash-0833,Packaging,4.8,1,0.948,True
+sup_00834,techpark-one,south-delights,CoolSupply-0834,Packaging,4.2,3,0.971,True
+sup_00835,techpark-one,south-delights,PrimeFoods-0835,Beverages,4.2,5,0.821,True
+sup_00836,techpark-one,snapeats,DailyHarvest-0836,Cooking Oil,4.8,5,0.848,True
+sup_00837,techpark-one,quench,DailyHarvest-0837,Pantry,3.5,3,0.928,True
+sup_00838,techpark-one,quench,SouthFresh-0838,Packaging,4.8,7,0.927,True
+sup_00839,techpark-one,quench,CityFoods-0839,Bakery,3.4,2,0.91,True
+sup_00840,bennett-campus,campus-cafe,VegSource-0840,Pantry,3.7,6,0.934,True
+sup_00841,techpark-one,quench,CampusSupply-0841,Beverages,4.1,4,0.899,True
+sup_00842,techpark-one,south-delights,PrimeFoods-0842,Beverages,4.5,5,0.959,True
+sup_00843,bennett-campus,campus-cafe,FreshFarm-0843,Packaging,4.2,5,0.91,True
+sup_00844,techpark-one,quench,CityFoods-0844,Cooking Oil,4.3,3,0.84,True
+sup_00845,techpark-one,quench,CityFoods-0845,Packaging,4.2,6,0.877,True
+sup_00846,techpark-one,south-delights,CityFoods-0846,Produce,3.4,1,0.977,True
+sup_00847,bennett-campus,campus-cafe,CoolSupply-0847,Packaging,3.5,3,0.892,True
+sup_00848,techpark-one,quench,CoolSupply-0848,Beverages,4.2,1,0.969,True
+sup_00849,bennett-campus,campus-cafe,CityFoods-0849,Pantry,3.7,5,0.943,True
+sup_00850,techpark-one,snapeats,CampusSupply-0850,Beverages,3.3,3,0.912,True
+sup_00851,bennett-campus,campus-cafe,MetroCash-0851,Produce,3.9,6,0.909,True
+sup_00852,bennett-campus,campus-cafe,MetroCash-0852,Dairy,3.6,7,0.94,True
+sup_00853,techpark-one,snapeats,MetroCash-0853,Dairy,3.3,5,0.932,True
+sup_00854,techpark-one,snapeats,FreshFarm-0854,Pantry,4.3,6,0.837,True
+sup_00855,bennett-campus,campus-cafe,VegSource-0855,Produce,3.3,5,0.871,True
+sup_00856,bennett-campus,campus-cafe,CoolSupply-0856,Pantry,4.5,3,0.954,True
+sup_00857,techpark-one,south-delights,BeanHouse-0857,Dairy,3.6,2,0.884,True
+sup_00858,techpark-one,south-delights,SouthFresh-0858,Packaging,3.6,5,0.879,True
+sup_00859,bennett-campus,campus-cafe,CampusSupply-0859,Cooking Oil,3.5,1,0.847,True
+sup_00860,techpark-one,south-delights,BeanHouse-0860,Dairy,4.0,5,0.938,True
+sup_00861,bennett-campus,campus-cafe,MetroCash-0861,Pantry,4.2,6,0.912,True
+sup_00862,techpark-one,snapeats,BeanHouse-0862,Cooking Oil,4.2,5,0.901,True
+sup_00863,techpark-one,quench,CampusSupply-0863,Dairy,4.8,2,0.854,True
+sup_00864,techpark-one,quench,SouthFresh-0864,Cooking Oil,4.0,7,0.981,True
+sup_00865,techpark-one,snapeats,DailyHarvest-0865,Packaging,4.2,1,0.823,True
+sup_00866,bennett-campus,campus-cafe,MetroCash-0866,Beverages,4.7,2,0.878,True
+sup_00867,techpark-one,snapeats,VegSource-0867,Packaging,4.7,2,0.916,True
+sup_00868,bennett-campus,campus-cafe,FreshFarm-0868,Dairy,3.6,7,0.894,True
+sup_00869,techpark-one,south-delights,CampusSupply-0869,Beverages,3.9,6,0.918,True
+sup_00870,bennett-campus,campus-cafe,VegSource-0870,Dairy,4.4,6,0.97,True
+sup_00871,bennett-campus,campus-cafe,MetroCash-0871,Produce,3.8,3,0.832,True
+sup_00872,techpark-one,quench,FreshFarm-0872,Cooking Oil,4.4,3,0.969,True
+sup_00873,techpark-one,quench,BeanHouse-0873,Dairy,4.2,6,0.824,True
+sup_00874,techpark-one,snapeats,PrimeFoods-0874,Produce,3.9,1,0.84,True
+sup_00875,techpark-one,quench,CampusSupply-0875,Packaging,3.4,2,0.837,True
+sup_00876,bennett-campus,campus-cafe,FreshFarm-0876,Bakery,4.3,3,0.889,True
+sup_00877,techpark-one,snapeats,SouthFresh-0877,Pantry,4.2,5,0.93,True
+sup_00878,bennett-campus,campus-cafe,FreshFarm-0878,Packaging,3.7,2,0.912,True
+sup_00879,bennett-campus,campus-cafe,FreshFarm-0879,Packaging,3.8,1,0.934,True
+sup_00880,bennett-campus,campus-cafe,BeanHouse-0880,Packaging,4.0,7,0.896,True
+sup_00881,techpark-one,snapeats,FreshFarm-0881,Packaging,4.6,2,0.861,True
+sup_00882,techpark-one,south-delights,VegSource-0882,Cooking Oil,3.7,1,0.842,True
+sup_00883,bennett-campus,campus-cafe,BeanHouse-0883,Cooking Oil,4.6,6,0.845,True
+sup_00884,techpark-one,snapeats,PrimeFoods-0884,Bakery,4.0,7,0.884,True
+sup_00885,bennett-campus,campus-cafe,MetroCash-0885,Dairy,4.5,3,0.97,True
+sup_00886,techpark-one,quench,CampusSupply-0886,Produce,4.1,2,0.841,True
+sup_00887,bennett-campus,campus-cafe,FreshFarm-0887,Beverages,4.0,1,0.841,True
+sup_00888,techpark-one,quench,CoolSupply-0888,Packaging,3.3,1,0.887,True
+sup_00889,techpark-one,south-delights,FreshFarm-0889,Beverages,4.8,4,0.824,True
+sup_00890,bennett-campus,campus-cafe,VegSource-0890,Produce,4.8,4,0.986,True
+sup_00891,techpark-one,south-delights,MetroCash-0891,Bakery,3.6,3,0.873,True
+sup_00892,techpark-one,south-delights,FreshFarm-0892,Beverages,3.8,7,0.938,True
+sup_00893,techpark-one,quench,CoolSupply-0893,Beverages,3.6,1,0.843,True
+sup_00894,techpark-one,quench,MetroCash-0894,Packaging,4.2,2,0.87,True
+sup_00895,techpark-one,south-delights,CoolSupply-0895,Cooking Oil,4.7,4,0.875,True
+sup_00896,techpark-one,quench,VegSource-0896,Cooking Oil,4.0,2,0.933,True
+sup_00897,techpark-one,snapeats,FreshFarm-0897,Bakery,3.4,6,0.852,True
+sup_00898,bennett-campus,campus-cafe,MetroCash-0898,Packaging,4.1,2,0.873,True
+sup_00899,techpark-one,quench,CoolSupply-0899,Packaging,3.8,6,0.989,True
+sup_00900,techpark-one,quench,DailyHarvest-0900,Pantry,4.2,4,0.882,True
+sup_00901,bennett-campus,campus-cafe,CoolSupply-0901,Produce,4.4,6,0.927,True
+sup_00902,techpark-one,snapeats,FreshFarm-0902,Bakery,4.3,3,0.985,True
+sup_00903,techpark-one,south-delights,CampusSupply-0903,Beverages,4.7,6,0.957,True
+sup_00904,techpark-one,quench,CoolSupply-0904,Bakery,4.0,4,0.959,True
+sup_00905,bennett-campus,campus-cafe,FreshFarm-0905,Produce,4.8,4,0.915,True
+sup_00906,techpark-one,snapeats,FreshFarm-0906,Dairy,3.6,6,0.901,True
+sup_00907,techpark-one,snapeats,CampusSupply-0907,Bakery,4.4,6,0.961,True
+sup_00908,bennett-campus,campus-cafe,DailyHarvest-0908,Packaging,4.9,3,0.865,True
+sup_00909,techpark-one,snapeats,DailyHarvest-0909,Pantry,4.5,4,0.959,True
+sup_00910,bennett-campus,campus-cafe,BeanHouse-0910,Pantry,4.1,4,0.834,True
+sup_00911,techpark-one,snapeats,CityFoods-0911,Cooking Oil,3.7,6,0.912,True
+sup_00912,techpark-one,south-delights,CityFoods-0912,Beverages,4.2,7,0.831,True
+sup_00913,techpark-one,quench,CityFoods-0913,Bakery,4.4,1,0.874,True
+sup_00914,techpark-one,south-delights,MetroCash-0914,Bakery,4.0,4,0.895,True
+sup_00915,bennett-campus,campus-cafe,CampusSupply-0915,Bakery,3.6,3,0.873,True
+sup_00916,techpark-one,south-delights,CoolSupply-0916,Produce,4.6,2,0.932,True
+sup_00917,techpark-one,quench,CampusSupply-0917,Dairy,3.5,6,0.862,True
+sup_00918,bennett-campus,campus-cafe,MetroCash-0918,Bakery,4.6,4,0.862,True
+sup_00919,techpark-one,quench,CityFoods-0919,Packaging,4.3,4,0.946,True
+sup_00920,techpark-one,quench,SouthFresh-0920,Pantry,3.5,5,0.978,True
+sup_00921,techpark-one,quench,SouthFresh-0921,Beverages,4.2,4,0.959,True
+sup_00922,bennett-campus,campus-cafe,CampusSupply-0922,Beverages,4.8,1,0.923,True
+sup_00923,techpark-one,quench,MetroCash-0923,Pantry,4.7,6,0.952,True
+sup_00924,techpark-one,south-delights,CityFoods-0924,Pantry,3.3,1,0.895,True
+sup_00925,techpark-one,quench,FreshFarm-0925,Produce,3.5,2,0.985,True
+sup_00926,bennett-campus,campus-cafe,MetroCash-0926,Cooking Oil,3.3,2,0.826,True
+sup_00927,techpark-one,snapeats,CityFoods-0927,Cooking Oil,4.6,6,0.956,True
+sup_00928,techpark-one,south-delights,CampusSupply-0928,Packaging,4.7,7,0.825,True
+sup_00929,techpark-one,south-delights,CoolSupply-0929,Beverages,3.2,5,0.905,True
+sup_00930,techpark-one,south-delights,CampusSupply-0930,Produce,4.7,4,0.822,True
+sup_00931,techpark-one,snapeats,CityFoods-0931,Produce,4.8,6,0.895,True
+sup_00932,bennett-campus,campus-cafe,BeanHouse-0932,Cooking Oil,4.3,2,0.919,True
+sup_00933,techpark-one,snapeats,SouthFresh-0933,Dairy,4.5,1,0.916,True
+sup_00934,techpark-one,snapeats,FreshFarm-0934,Packaging,3.3,5,0.909,True
+sup_00935,techpark-one,snapeats,MetroCash-0935,Bakery,4.0,6,0.954,True
+sup_00936,bennett-campus,campus-cafe,CityFoods-0936,Dairy,4.3,4,0.924,True
+sup_00937,bennett-campus,campus-cafe,MetroCash-0937,Pantry,3.3,4,0.985,True
+sup_00938,bennett-campus,campus-cafe,DailyHarvest-0938,Bakery,4.2,5,0.923,True
+sup_00939,techpark-one,quench,PrimeFoods-0939,Dairy,3.3,6,0.946,True
+sup_00940,techpark-one,quench,BeanHouse-0940,Pantry,3.8,3,0.914,True
+sup_00941,techpark-one,quench,VegSource-0941,Cooking Oil,3.4,5,0.917,True
+sup_00942,bennett-campus,campus-cafe,CampusSupply-0942,Produce,4.8,4,0.939,True
+sup_00943,techpark-one,south-delights,MetroCash-0943,Cooking Oil,4.3,4,0.901,True
+sup_00944,bennett-campus,campus-cafe,BeanHouse-0944,Pantry,3.7,3,0.901,True
+sup_00945,bennett-campus,campus-cafe,DailyHarvest-0945,Cooking Oil,3.7,6,0.974,True
+sup_00946,bennett-campus,campus-cafe,CoolSupply-0946,Cooking Oil,4.7,1,0.952,True
+sup_00947,techpark-one,south-delights,SouthFresh-0947,Bakery,3.5,5,0.882,True
+sup_00948,techpark-one,south-delights,VegSource-0948,Cooking Oil,3.6,7,0.829,True
+sup_00949,techpark-one,snapeats,FreshFarm-0949,Packaging,3.5,6,0.868,True
+sup_00950,bennett-campus,campus-cafe,CityFoods-0950,Produce,3.7,7,0.891,True
+sup_00951,techpark-one,snapeats,MetroCash-0951,Beverages,3.9,4,0.974,True
+sup_00952,techpark-one,quench,VegSource-0952,Bakery,4.1,7,0.859,True
+sup_00953,techpark-one,quench,MetroCash-0953,Dairy,3.7,1,0.853,True
+sup_00954,techpark-one,south-delights,MetroCash-0954,Produce,3.5,3,0.951,True
+sup_00955,techpark-one,quench,CampusSupply-0955,Dairy,4.9,4,0.859,True
+sup_00956,bennett-campus,campus-cafe,PrimeFoods-0956,Dairy,4.6,7,0.882,True
+sup_00957,techpark-one,snapeats,CoolSupply-0957,Pantry,4.6,3,0.839,True
+sup_00958,bennett-campus,campus-cafe,SouthFresh-0958,Bakery,4.3,2,0.952,True
+sup_00959,techpark-one,quench,SouthFresh-0959,Produce,3.9,6,0.987,True
+sup_00960,techpark-one,quench,VegSource-0960,Dairy,3.4,1,0.915,True
+sup_00961,bennett-campus,campus-cafe,FreshFarm-0961,Bakery,3.3,4,0.846,True
+sup_00962,techpark-one,snapeats,SouthFresh-0962,Packaging,4.4,3,0.907,True
+sup_00963,bennett-campus,campus-cafe,FreshFarm-0963,Dairy,4.5,5,0.973,True
+sup_00964,techpark-one,snapeats,SouthFresh-0964,Bakery,4.1,1,0.846,True
+sup_00965,techpark-one,snapeats,BeanHouse-0965,Bakery,4.6,2,0.9,True
+sup_00966,techpark-one,quench,DailyHarvest-0966,Dairy,3.8,3,0.829,True
+sup_00967,techpark-one,south-delights,VegSource-0967,Packaging,3.7,1,0.917,True
+sup_00968,techpark-one,quench,DailyHarvest-0968,Dairy,4.1,3,0.846,True
+sup_00969,techpark-one,quench,DailyHarvest-0969,Beverages,4.4,7,0.855,True
+sup_00970,techpark-one,south-delights,VegSource-0970,Dairy,3.7,5,0.932,True
+sup_00971,techpark-one,snapeats,DailyHarvest-0971,Produce,3.8,3,0.924,True
+sup_00972,techpark-one,snapeats,MetroCash-0972,Produce,4.2,7,0.933,True
+sup_00973,techpark-one,quench,MetroCash-0973,Bakery,4.3,6,0.927,True
+sup_00974,techpark-one,quench,VegSource-0974,Beverages,3.3,5,0.984,True
+sup_00975,techpark-one,snapeats,SouthFresh-0975,Produce,3.8,4,0.964,True
+sup_00976,techpark-one,quench,VegSource-0976,Pantry,3.7,1,0.844,True
+sup_00977,techpark-one,south-delights,FreshFarm-0977,Beverages,4.1,7,0.847,True
+sup_00978,techpark-one,south-delights,SouthFresh-0978,Dairy,4.2,4,0.985,True
+sup_00979,techpark-one,south-delights,MetroCash-0979,Packaging,4.5,3,0.977,True
+sup_00980,bennett-campus,campus-cafe,DailyHarvest-0980,Bakery,3.3,7,0.834,True
+sup_00981,techpark-one,quench,VegSource-0981,Dairy,3.3,6,0.934,True
+sup_00982,techpark-one,snapeats,CityFoods-0982,Dairy,4.8,1,0.939,True
+sup_00983,techpark-one,south-delights,FreshFarm-0983,Pantry,3.4,1,0.846,True
+sup_00984,techpark-one,south-delights,BeanHouse-0984,Dairy,3.5,1,0.877,True
+sup_00985,bennett-campus,campus-cafe,MetroCash-0985,Produce,3.7,6,0.881,True
+sup_00986,techpark-one,snapeats,CampusSupply-0986,Produce,3.5,1,0.901,True
+sup_00987,techpark-one,quench,CoolSupply-0987,Beverages,4.2,7,0.833,True
+sup_00988,techpark-one,snapeats,BeanHouse-0988,Packaging,4.7,1,0.839,True
+sup_00989,techpark-one,snapeats,FreshFarm-0989,Cooking Oil,4.9,6,0.845,True
+sup_00990,techpark-one,snapeats,DailyHarvest-0990,Beverages,3.8,5,0.97,True
+sup_00991,techpark-one,quench,MetroCash-0991,Pantry,3.5,3,0.879,True
+sup_00992,bennett-campus,campus-cafe,CoolSupply-0992,Bakery,4.0,7,0.853,True
+sup_00993,techpark-one,south-delights,BeanHouse-0993,Packaging,4.3,3,0.83,True
+sup_00994,techpark-one,south-delights,CampusSupply-0994,Beverages,4.5,5,0.889,True
+sup_00995,techpark-one,south-delights,BeanHouse-0995,Dairy,4.0,7,0.899,True
+sup_00996,techpark-one,snapeats,MetroCash-0996,Bakery,4.8,4,0.913,True
+sup_00997,techpark-one,south-delights,CityFoods-0997,Produce,3.2,5,0.831,True
+sup_00998,bennett-campus,campus-cafe,CampusSupply-0998,Beverages,3.5,7,0.88,True
+sup_00999,techpark-one,snapeats,MetroCash-0999,Dairy,3.9,3,0.942,True
+sup_01000,techpark-one,quench,CoolSupply-1000,Beverages,3.6,5,0.923,True
+sup_01001,techpark-one,quench,CityFoods-1001,Bakery,4.5,7,0.921,True
+sup_01002,bennett-campus,campus-cafe,PrimeFoods-1002,Dairy,3.4,6,0.904,True
+sup_01003,bennett-campus,campus-cafe,BeanHouse-1003,Produce,3.5,3,0.832,True
+sup_01004,techpark-one,snapeats,MetroCash-1004,Pantry,4.3,5,0.985,True
+sup_01005,techpark-one,snapeats,SouthFresh-1005,Packaging,4.1,6,0.928,True
+sup_01006,techpark-one,quench,FreshFarm-1006,Bakery,4.6,6,0.98,True
+sup_01007,techpark-one,quench,CampusSupply-1007,Dairy,4.8,3,0.955,True
+sup_01008,bennett-campus,campus-cafe,PrimeFoods-1008,Bakery,4.0,5,0.956,True
+sup_01009,techpark-one,snapeats,SouthFresh-1009,Packaging,3.3,6,0.866,True
+sup_01010,techpark-one,quench,FreshFarm-1010,Bakery,4.0,2,0.824,True
+sup_01011,bennett-campus,campus-cafe,SouthFresh-1011,Pantry,4.6,1,0.865,True
+sup_01012,bennett-campus,campus-cafe,SouthFresh-1012,Pantry,4.5,4,0.98,True
+sup_01013,techpark-one,snapeats,DailyHarvest-1013,Bakery,4.5,5,0.916,True
+sup_01014,techpark-one,south-delights,CoolSupply-1014,Beverages,3.7,4,0.867,True
+sup_01015,bennett-campus,campus-cafe,CoolSupply-1015,Packaging,4.0,3,0.951,True
+sup_01016,techpark-one,south-delights,SouthFresh-1016,Cooking Oil,4.6,5,0.943,True
+sup_01017,bennett-campus,campus-cafe,MetroCash-1017,Bakery,3.9,2,0.974,True
+sup_01018,techpark-one,quench,SouthFresh-1018,Produce,4.6,1,0.827,True
+sup_01019,bennett-campus,campus-cafe,PrimeFoods-1019,Dairy,3.5,5,0.832,True
+sup_01020,techpark-one,quench,PrimeFoods-1020,Beverages,4.0,1,0.89,True
+sup_01021,techpark-one,quench,VegSource-1021,Cooking Oil,4.9,1,0.982,True
+sup_01022,techpark-one,quench,CoolSupply-1022,Packaging,3.7,5,0.843,True
+sup_01023,bennett-campus,campus-cafe,CoolSupply-1023,Packaging,3.5,1,0.837,True
+sup_01024,techpark-one,south-delights,BeanHouse-1024,Beverages,3.7,3,0.915,True
+sup_01025,techpark-one,south-delights,VegSource-1025,Packaging,4.4,1,0.873,True
+sup_01026,techpark-one,south-delights,CoolSupply-1026,Beverages,4.3,5,0.863,True
+sup_01027,techpark-one,snapeats,VegSource-1027,Produce,4.0,1,0.895,True
+sup_01028,techpark-one,snapeats,CampusSupply-1028,Dairy,3.8,5,0.957,True
+sup_01029,techpark-one,snapeats,MetroCash-1029,Beverages,4.6,6,0.894,True
+sup_01030,techpark-one,snapeats,DailyHarvest-1030,Bakery,3.8,7,0.936,True
+sup_01031,techpark-one,quench,VegSource-1031,Pantry,4.6,6,0.938,True
+sup_01032,techpark-one,quench,CampusSupply-1032,Produce,3.5,5,0.947,True
+sup_01033,techpark-one,quench,CoolSupply-1033,Produce,4.9,2,0.892,True
+sup_01034,techpark-one,south-delights,BeanHouse-1034,Bakery,3.3,3,0.902,True
+sup_01035,techpark-one,snapeats,CampusSupply-1035,Bakery,3.5,3,0.858,True
+sup_01036,bennett-campus,campus-cafe,MetroCash-1036,Dairy,4.5,3,0.923,True
+sup_01037,techpark-one,south-delights,CoolSupply-1037,Pantry,3.6,6,0.925,True
+sup_01038,techpark-one,quench,PrimeFoods-1038,Beverages,3.8,1,0.91,True
+sup_01039,techpark-one,quench,MetroCash-1039,Cooking Oil,3.7,5,0.972,True
+sup_01040,techpark-one,snapeats,VegSource-1040,Packaging,4.3,4,0.886,True
+sup_01041,techpark-one,snapeats,CoolSupply-1041,Packaging,3.6,2,0.889,True
+sup_01042,techpark-one,south-delights,CoolSupply-1042,Pantry,4.4,3,0.954,True
+sup_01043,techpark-one,quench,FreshFarm-1043,Cooking Oil,3.5,5,0.834,True
+sup_01044,techpark-one,snapeats,PrimeFoods-1044,Beverages,4.8,1,0.908,True
+sup_01045,techpark-one,snapeats,CampusSupply-1045,Produce,3.2,1,0.838,True
+sup_01046,bennett-campus,campus-cafe,BeanHouse-1046,Produce,4.1,4,0.826,True
+sup_01047,techpark-one,south-delights,CityFoods-1047,Dairy,3.4,7,0.97,True
+sup_01048,techpark-one,quench,BeanHouse-1048,Beverages,4.4,5,0.89,True
+sup_01049,techpark-one,quench,CityFoods-1049,Dairy,3.6,4,0.931,True
+sup_01050,techpark-one,quench,DailyHarvest-1050,Bakery,4.6,4,0.975,True
+sup_01051,techpark-one,snapeats,CoolSupply-1051,Dairy,4.5,1,0.928,True
+sup_01052,techpark-one,quench,CoolSupply-1052,Packaging,4.0,1,0.921,True
+sup_01053,techpark-one,quench,CoolSupply-1053,Pantry,3.5,4,0.979,True
+sup_01054,bennett-campus,campus-cafe,CoolSupply-1054,Pantry,4.7,7,0.875,True
+sup_01055,techpark-one,quench,CoolSupply-1055,Beverages,3.6,3,0.942,True
+sup_01056,techpark-one,snapeats,BeanHouse-1056,Pantry,3.5,4,0.96,True
+sup_01057,techpark-one,snapeats,FreshFarm-1057,Packaging,4.7,3,0.925,True
+sup_01058,bennett-campus,campus-cafe,FreshFarm-1058,Produce,3.4,4,0.965,True
+sup_01059,bennett-campus,campus-cafe,CoolSupply-1059,Dairy,3.2,2,0.827,True
+sup_01060,techpark-one,quench,PrimeFoods-1060,Produce,3.2,5,0.868,True
+sup_01061,techpark-one,snapeats,DailyHarvest-1061,Dairy,3.2,4,0.887,True
+sup_01062,techpark-one,south-delights,PrimeFoods-1062,Produce,4.6,6,0.88,True
+sup_01063,techpark-one,quench,SouthFresh-1063,Produce,3.8,7,0.943,True
+sup_01064,techpark-one,south-delights,DailyHarvest-1064,Dairy,3.6,7,0.841,True
+sup_01065,techpark-one,snapeats,VegSource-1065,Bakery,3.2,6,0.953,True
+sup_01066,bennett-campus,campus-cafe,FreshFarm-1066,Cooking Oil,4.2,1,0.879,True
+sup_01067,techpark-one,snapeats,MetroCash-1067,Packaging,3.8,5,0.886,True
+sup_01068,bennett-campus,campus-cafe,CampusSupply-1068,Cooking Oil,4.4,2,0.971,True
+sup_01069,techpark-one,quench,BeanHouse-1069,Packaging,3.3,3,0.93,True
+sup_01070,techpark-one,south-delights,CampusSupply-1070,Pantry,4.7,7,0.947,True
+sup_01071,techpark-one,south-delights,BeanHouse-1071,Dairy,4.1,5,0.856,True
+sup_01072,techpark-one,south-delights,MetroCash-1072,Dairy,3.5,6,0.863,True
+sup_01073,bennett-campus,campus-cafe,PrimeFoods-1073,Pantry,4.1,6,0.887,True
+sup_01074,techpark-one,snapeats,CoolSupply-1074,Cooking Oil,4.1,1,0.857,True
+sup_01075,techpark-one,snapeats,VegSource-1075,Dairy,4.3,4,0.88,True
+sup_01076,techpark-one,quench,FreshFarm-1076,Pantry,3.9,6,0.829,True
+sup_01077,techpark-one,quench,CampusSupply-1077,Beverages,3.3,5,0.89,True
+sup_01078,bennett-campus,campus-cafe,SouthFresh-1078,Pantry,3.4,5,0.944,True
+sup_01079,techpark-one,quench,VegSource-1079,Packaging,4.5,3,0.908,True
+sup_01080,techpark-one,quench,CityFoods-1080,Pantry,3.5,5,0.972,True
+sup_01081,bennett-campus,campus-cafe,PrimeFoods-1081,Dairy,4.9,5,0.825,True
+sup_01082,bennett-campus,campus-cafe,VegSource-1082,Dairy,3.4,6,0.874,True
+sup_01083,techpark-one,quench,CityFoods-1083,Dairy,3.8,5,0.975,True
+sup_01084,techpark-one,quench,FreshFarm-1084,Dairy,3.3,3,0.836,True
+sup_01085,techpark-one,south-delights,DailyHarvest-1085,Beverages,4.9,6,0.88,True
+sup_01086,techpark-one,snapeats,DailyHarvest-1086,Beverages,4.8,7,0.83,True
+sup_01087,techpark-one,south-delights,CampusSupply-1087,Produce,3.5,6,0.921,True
+sup_01088,techpark-one,south-delights,MetroCash-1088,Bakery,4.7,3,0.988,True
+sup_01089,techpark-one,snapeats,BeanHouse-1089,Cooking Oil,3.3,1,0.844,True
+sup_01090,techpark-one,snapeats,CityFoods-1090,Packaging,3.9,4,0.967,True
+sup_01091,techpark-one,snapeats,FreshFarm-1091,Cooking Oil,4.0,1,0.975,True
+sup_01092,bennett-campus,campus-cafe,MetroCash-1092,Pantry,4.7,7,0.937,True
+sup_01093,bennett-campus,campus-cafe,MetroCash-1093,Bakery,3.9,1,0.939,True
+sup_01094,techpark-one,snapeats,BeanHouse-1094,Bakery,4.4,3,0.962,True
+sup_01095,bennett-campus,campus-cafe,CoolSupply-1095,Pantry,4.7,4,0.924,True
+sup_01096,techpark-one,quench,MetroCash-1096,Beverages,3.8,6,0.906,True
+sup_01097,techpark-one,south-delights,CityFoods-1097,Packaging,4.7,7,0.936,True
+sup_01098,techpark-one,quench,VegSource-1098,Packaging,3.4,4,0.951,True
+sup_01099,techpark-one,quench,CampusSupply-1099,Dairy,3.9,2,0.957,True
+sup_01100,bennett-campus,campus-cafe,CoolSupply-1100,Dairy,3.3,1,0.922,True
+sup_01101,bennett-campus,campus-cafe,DailyHarvest-1101,Dairy,4.3,2,0.904,True
+sup_01102,bennett-campus,campus-cafe,CampusSupply-1102,Bakery,3.2,2,0.851,True
+sup_01103,bennett-campus,campus-cafe,DailyHarvest-1103,Cooking Oil,4.4,2,0.989,True
+sup_01104,techpark-one,quench,VegSource-1104,Pantry,4.8,6,0.98,True
+sup_01105,techpark-one,snapeats,CoolSupply-1105,Bakery,4.8,3,0.976,True
+sup_01106,bennett-campus,campus-cafe,CoolSupply-1106,Beverages,3.7,4,0.826,True
+sup_01107,bennett-campus,campus-cafe,CityFoods-1107,Bakery,4.3,1,0.822,True
+sup_01108,techpark-one,quench,VegSource-1108,Beverages,3.8,6,0.838,True
+sup_01109,techpark-one,quench,VegSource-1109,Produce,3.3,7,0.918,True
+sup_01110,techpark-one,snapeats,CityFoods-1110,Packaging,3.6,7,0.972,True
+sup_01111,bennett-campus,campus-cafe,CampusSupply-1111,Pantry,4.6,4,0.91,True
+sup_01112,techpark-one,snapeats,SouthFresh-1112,Bakery,4.2,6,0.952,True
+sup_01113,bennett-campus,campus-cafe,DailyHarvest-1113,Packaging,3.9,1,0.824,True
+sup_01114,techpark-one,quench,CoolSupply-1114,Pantry,4.2,2,0.89,True
+sup_01115,bennett-campus,campus-cafe,CityFoods-1115,Pantry,3.3,4,0.872,True
+sup_01116,bennett-campus,campus-cafe,CoolSupply-1116,Dairy,4.9,3,0.845,True
+sup_01117,bennett-campus,campus-cafe,BeanHouse-1117,Produce,3.3,1,0.855,True
+sup_01118,techpark-one,south-delights,MetroCash-1118,Beverages,3.7,2,0.862,True
+sup_01119,techpark-one,snapeats,MetroCash-1119,Cooking Oil,4.5,1,0.867,True
+sup_01120,techpark-one,quench,FreshFarm-1120,Produce,3.7,1,0.874,True
+sup_01121,techpark-one,quench,CoolSupply-1121,Packaging,4.1,2,0.865,True
+sup_01122,techpark-one,snapeats,CityFoods-1122,Pantry,3.8,6,0.838,True
+sup_01123,techpark-one,snapeats,PrimeFoods-1123,Packaging,3.3,6,0.91,True
+sup_01124,bennett-campus,campus-cafe,VegSource-1124,Beverages,4.5,5,0.947,True
+sup_01125,techpark-one,quench,MetroCash-1125,Packaging,4.4,2,0.889,True
+sup_01126,techpark-one,quench,CityFoods-1126,Pantry,4.4,2,0.989,True
+sup_01127,techpark-one,south-delights,BeanHouse-1127,Beverages,4.8,3,0.988,True
+sup_01128,techpark-one,quench,CoolSupply-1128,Pantry,4.8,5,0.903,True
+sup_01129,techpark-one,quench,PrimeFoods-1129,Dairy,4.1,4,0.926,True
+sup_01130,bennett-campus,campus-cafe,CoolSupply-1130,Packaging,4.8,4,0.882,True
+sup_01131,bennett-campus,campus-cafe,MetroCash-1131,Pantry,3.9,5,0.87,True
+sup_01132,techpark-one,snapeats,CityFoods-1132,Cooking Oil,3.4,7,0.823,True
+sup_01133,techpark-one,quench,CityFoods-1133,Bakery,3.7,6,0.824,True
+sup_01134,bennett-campus,campus-cafe,DailyHarvest-1134,Packaging,4.1,4,0.874,True
+sup_01135,techpark-one,quench,PrimeFoods-1135,Pantry,3.9,1,0.952,True
+sup_01136,techpark-one,snapeats,CampusSupply-1136,Beverages,4.6,6,0.897,True
+sup_01137,techpark-one,south-delights,SouthFresh-1137,Bakery,3.7,4,0.964,True
+sup_01138,techpark-one,south-delights,FreshFarm-1138,Bakery,3.5,5,0.937,True
+sup_01139,bennett-campus,campus-cafe,VegSource-1139,Produce,3.3,6,0.882,True
+sup_01140,techpark-one,south-delights,CityFoods-1140,Bakery,4.7,1,0.895,True
+sup_01141,techpark-one,south-delights,VegSource-1141,Produce,4.5,1,0.858,True
+sup_01142,techpark-one,snapeats,PrimeFoods-1142,Cooking Oil,3.3,2,0.823,True
+sup_01143,bennett-campus,campus-cafe,CityFoods-1143,Dairy,4.8,6,0.852,True
+sup_01144,bennett-campus,campus-cafe,VegSource-1144,Bakery,3.3,2,0.946,True
+sup_01145,techpark-one,snapeats,MetroCash-1145,Bakery,4.5,4,0.969,True
+sup_01146,bennett-campus,campus-cafe,CampusSupply-1146,Produce,4.0,1,0.948,True
+sup_01147,techpark-one,snapeats,SouthFresh-1147,Beverages,3.8,3,0.879,True
+sup_01148,bennett-campus,campus-cafe,VegSource-1148,Produce,4.3,2,0.896,True
+sup_01149,techpark-one,quench,VegSource-1149,Dairy,4.2,4,0.982,True
+sup_01150,techpark-one,snapeats,CityFoods-1150,Produce,4.8,1,0.983,True
+sup_01151,techpark-one,snapeats,CoolSupply-1151,Packaging,4.4,4,0.947,True
+sup_01152,techpark-one,snapeats,CoolSupply-1152,Pantry,3.4,4,0.865,True
+sup_01153,techpark-one,south-delights,CoolSupply-1153,Beverages,3.4,7,0.936,True
+sup_01154,techpark-one,quench,SouthFresh-1154,Pantry,3.2,7,0.933,True
+sup_01155,bennett-campus,campus-cafe,MetroCash-1155,Cooking Oil,3.2,4,0.888,True
+sup_01156,bennett-campus,campus-cafe,PrimeFoods-1156,Dairy,3.4,4,0.962,True
+sup_01157,techpark-one,snapeats,FreshFarm-1157,Beverages,3.8,7,0.892,True
+sup_01158,techpark-one,snapeats,CoolSupply-1158,Bakery,4.5,6,0.894,True
+sup_01159,bennett-campus,campus-cafe,FreshFarm-1159,Pantry,3.4,4,0.853,True
+sup_01160,techpark-one,south-delights,CityFoods-1160,Produce,3.9,6,0.951,True
+sup_01161,techpark-one,quench,SouthFresh-1161,Cooking Oil,3.6,2,0.962,True
+sup_01162,techpark-one,quench,BeanHouse-1162,Bakery,4.3,7,0.881,True
+sup_01163,bennett-campus,campus-cafe,PrimeFoods-1163,Pantry,3.7,1,0.9,True
+sup_01164,techpark-one,south-delights,SouthFresh-1164,Bakery,4.1,3,0.902,True
+sup_01165,bennett-campus,campus-cafe,CampusSupply-1165,Bakery,3.4,5,0.989,True
+sup_01166,bennett-campus,campus-cafe,FreshFarm-1166,Bakery,4.9,7,0.914,True
+sup_01167,techpark-one,snapeats,VegSource-1167,Pantry,4.2,3,0.856,True
+sup_01168,techpark-one,quench,FreshFarm-1168,Packaging,4.2,1,0.883,True
+sup_01169,bennett-campus,campus-cafe,CoolSupply-1169,Produce,3.8,5,0.854,True
+sup_01170,techpark-one,south-delights,PrimeFoods-1170,Dairy,3.9,3,0.945,True
+sup_01171,techpark-one,snapeats,MetroCash-1171,Pantry,3.4,5,0.883,True
+sup_01172,techpark-one,south-delights,CampusSupply-1172,Produce,3.8,3,0.964,True
+sup_01173,techpark-one,south-delights,MetroCash-1173,Beverages,3.7,6,0.849,True
+sup_01174,techpark-one,quench,MetroCash-1174,Cooking Oil,4.7,7,0.958,True
+sup_01175,techpark-one,south-delights,SouthFresh-1175,Cooking Oil,4.0,4,0.935,True
+sup_01176,techpark-one,snapeats,MetroCash-1176,Produce,4.8,6,0.869,True
+sup_01177,techpark-one,quench,MetroCash-1177,Bakery,3.9,2,0.891,True
+sup_01178,bennett-campus,campus-cafe,CoolSupply-1178,Dairy,4.6,6,0.899,True
+sup_01179,techpark-one,south-delights,MetroCash-1179,Beverages,4.3,3,0.877,True
+sup_01180,techpark-one,quench,CityFoods-1180,Bakery,4.7,6,0.956,True
+sup_01181,techpark-one,quench,MetroCash-1181,Beverages,4.4,5,0.965,True
+sup_01182,bennett-campus,campus-cafe,PrimeFoods-1182,Beverages,4.8,6,0.836,True
+sup_01183,techpark-one,south-delights,FreshFarm-1183,Pantry,4.6,7,0.933,True
+sup_01184,techpark-one,south-delights,CampusSupply-1184,Packaging,3.8,6,0.961,True
+sup_01185,techpark-one,south-delights,VegSource-1185,Dairy,4.7,2,0.989,True
+sup_01186,techpark-one,quench,CoolSupply-1186,Bakery,4.6,1,0.891,True
+sup_01187,techpark-one,quench,VegSource-1187,Produce,3.8,6,0.835,True
+sup_01188,techpark-one,south-delights,CampusSupply-1188,Cooking Oil,4.5,6,0.971,True
+sup_01189,techpark-one,snapeats,SouthFresh-1189,Packaging,4.8,1,0.96,True
+sup_01190,techpark-one,quench,PrimeFoods-1190,Dairy,4.4,5,0.936,True
+sup_01191,techpark-one,south-delights,BeanHouse-1191,Produce,4.8,4,0.975,True
+sup_01192,bennett-campus,campus-cafe,VegSource-1192,Pantry,4.0,6,0.897,True
+sup_01193,techpark-one,snapeats,VegSource-1193,Cooking Oil,4.8,2,0.834,True
+sup_01194,techpark-one,quench,PrimeFoods-1194,Beverages,4.3,4,0.905,True
+sup_01195,techpark-one,quench,CityFoods-1195,Packaging,4.7,7,0.972,True
+sup_01196,techpark-one,quench,PrimeFoods-1196,Produce,4.8,7,0.848,True
+sup_01197,techpark-one,quench,PrimeFoods-1197,Bakery,4.2,6,0.892,True
+sup_01198,techpark-one,quench,CampusSupply-1198,Produce,4.3,1,0.951,True
+sup_01199,techpark-one,snapeats,MetroCash-1199,Produce,4.9,3,0.974,True
+sup_01200,techpark-one,quench,VegSource-1200,Packaging,3.3,6,0.956,True
+sup_01201,bennett-campus,campus-cafe,PrimeFoods-1201,Packaging,3.5,1,0.835,True
+sup_01202,techpark-one,south-delights,VegSource-1202,Pantry,4.0,1,0.941,True
+sup_01203,bennett-campus,campus-cafe,CoolSupply-1203,Pantry,4.0,7,0.975,True
+sup_01204,techpark-one,quench,CoolSupply-1204,Packaging,4.1,4,0.957,True
+sup_01205,techpark-one,quench,CityFoods-1205,Packaging,4.4,3,0.835,True
+sup_01206,bennett-campus,campus-cafe,VegSource-1206,Pantry,3.9,4,0.852,True
+sup_01207,techpark-one,south-delights,PrimeFoods-1207,Pantry,3.7,5,0.929,True
+sup_01208,techpark-one,quench,CityFoods-1208,Bakery,4.4,7,0.926,True
+sup_01209,bennett-campus,campus-cafe,CityFoods-1209,Packaging,4.8,5,0.851,True
+sup_01210,techpark-one,quench,SouthFresh-1210,Packaging,3.5,7,0.868,True
+sup_01211,bennett-campus,campus-cafe,VegSource-1211,Packaging,4.6,5,0.975,True
+sup_01212,bennett-campus,campus-cafe,DailyHarvest-1212,Beverages,4.7,2,0.965,True
+sup_01213,techpark-one,snapeats,CityFoods-1213,Produce,3.4,3,0.897,True
+sup_01214,techpark-one,south-delights,MetroCash-1214,Produce,4.7,1,0.9,True
+sup_01215,techpark-one,south-delights,MetroCash-1215,Bakery,4.5,4,0.879,True
+sup_01216,techpark-one,south-delights,FreshFarm-1216,Cooking Oil,3.8,4,0.911,True
+sup_01217,bennett-campus,campus-cafe,DailyHarvest-1217,Bakery,4.6,3,0.916,True
+sup_01218,techpark-one,snapeats,BeanHouse-1218,Produce,3.9,3,0.882,True
+sup_01219,techpark-one,south-delights,SouthFresh-1219,Packaging,3.9,4,0.839,True
+sup_01220,techpark-one,quench,FreshFarm-1220,Dairy,4.7,2,0.85,True
+sup_01221,techpark-one,quench,SouthFresh-1221,Bakery,4.5,6,0.93,True
+sup_01222,techpark-one,snapeats,SouthFresh-1222,Dairy,4.9,5,0.888,True
+sup_01223,techpark-one,snapeats,FreshFarm-1223,Packaging,4.9,4,0.827,True
+sup_01224,techpark-one,south-delights,DailyHarvest-1224,Packaging,3.9,3,0.833,True
+sup_01225,techpark-one,quench,SouthFresh-1225,Dairy,4.9,4,0.912,True
+sup_01226,techpark-one,snapeats,CityFoods-1226,Beverages,4.0,2,0.954,True
+sup_01227,techpark-one,south-delights,CoolSupply-1227,Produce,3.8,3,0.956,True
+sup_01228,techpark-one,south-delights,PrimeFoods-1228,Produce,4.6,6,0.986,True
+sup_01229,bennett-campus,campus-cafe,SouthFresh-1229,Beverages,3.4,5,0.837,True
+sup_01230,techpark-one,quench,FreshFarm-1230,Cooking Oil,3.9,7,0.855,True
+sup_01231,bennett-campus,campus-cafe,CampusSupply-1231,Cooking Oil,4.2,5,0.965,True
+sup_01232,bennett-campus,campus-cafe,SouthFresh-1232,Produce,4.5,6,0.858,True
+sup_01233,techpark-one,quench,CityFoods-1233,Packaging,4.3,5,0.869,True
+sup_01234,techpark-one,quench,FreshFarm-1234,Produce,3.8,2,0.849,True
+sup_01235,techpark-one,south-delights,FreshFarm-1235,Pantry,4.0,4,0.921,True
+sup_01236,techpark-one,quench,CoolSupply-1236,Cooking Oil,4.4,2,0.903,True
+sup_01237,bennett-campus,campus-cafe,CoolSupply-1237,Bakery,3.8,3,0.903,True
+sup_01238,techpark-one,quench,PrimeFoods-1238,Dairy,3.5,1,0.942,True
+sup_01239,techpark-one,quench,CampusSupply-1239,Beverages,4.4,5,0.828,True
+sup_01240,techpark-one,south-delights,CityFoods-1240,Pantry,3.5,4,0.98,True
+sup_01241,techpark-one,snapeats,CoolSupply-1241,Pantry,4.4,6,0.87,True
+sup_01242,techpark-one,snapeats,CityFoods-1242,Cooking Oil,3.9,1,0.843,True
+sup_01243,techpark-one,quench,FreshFarm-1243,Packaging,3.7,5,0.88,True
+sup_01244,bennett-campus,campus-cafe,MetroCash-1244,Pantry,4.8,2,0.914,True
+sup_01245,techpark-one,south-delights,BeanHouse-1245,Pantry,4.4,1,0.9,True
+sup_01246,techpark-one,south-delights,DailyHarvest-1246,Packaging,4.5,3,0.985,True
+sup_01247,techpark-one,snapeats,CampusSupply-1247,Pantry,4.9,6,0.824,True
+sup_01248,techpark-one,south-delights,CoolSupply-1248,Produce,4.7,2,0.861,True
+sup_01249,techpark-one,snapeats,BeanHouse-1249,Packaging,4.8,5,0.832,True
+sup_01250,techpark-one,snapeats,MetroCash-1250,Dairy,4.1,6,0.894,True
+sup_01251,techpark-one,quench,CityFoods-1251,Produce,3.4,6,0.91,True
+sup_01252,bennett-campus,campus-cafe,CoolSupply-1252,Produce,4.0,1,0.843,True
+sup_01253,bennett-campus,campus-cafe,SouthFresh-1253,Dairy,4.1,5,0.848,True
+sup_01254,techpark-one,quench,PrimeFoods-1254,Produce,4.0,4,0.899,True
+sup_01255,bennett-campus,campus-cafe,CampusSupply-1255,Produce,3.6,6,0.859,True
+sup_01256,techpark-one,snapeats,BeanHouse-1256,Produce,4.5,6,0.979,True
+sup_01257,techpark-one,south-delights,BeanHouse-1257,Bakery,4.2,1,0.856,True
+sup_01258,bennett-campus,campus-cafe,MetroCash-1258,Packaging,4.9,6,0.858,True
+sup_01259,techpark-one,south-delights,SouthFresh-1259,Produce,4.2,4,0.821,True
+sup_01260,bennett-campus,campus-cafe,MetroCash-1260,Packaging,4.4,3,0.943,True
+sup_01261,techpark-one,snapeats,VegSource-1261,Packaging,3.5,7,0.85,True
+sup_01262,techpark-one,quench,MetroCash-1262,Packaging,4.1,5,0.832,True
+sup_01263,techpark-one,south-delights,CoolSupply-1263,Packaging,4.6,7,0.972,True
+sup_01264,techpark-one,snapeats,BeanHouse-1264,Pantry,3.6,2,0.881,True
+sup_01265,bennett-campus,campus-cafe,SouthFresh-1265,Packaging,3.4,3,0.905,True
+sup_01266,bennett-campus,campus-cafe,DailyHarvest-1266,Packaging,4.2,4,0.899,True
+sup_01267,techpark-one,south-delights,VegSource-1267,Produce,4.4,6,0.957,True
+sup_01268,techpark-one,snapeats,CoolSupply-1268,Produce,4.6,5,0.95,True
+sup_01269,techpark-one,south-delights,FreshFarm-1269,Bakery,3.6,5,0.988,True
+sup_01270,bennett-campus,campus-cafe,CoolSupply-1270,Dairy,4.2,6,0.871,True
+sup_01271,techpark-one,quench,CampusSupply-1271,Cooking Oil,3.9,6,0.936,True
+sup_01272,techpark-one,quench,DailyHarvest-1272,Bakery,4.0,6,0.868,True
+sup_01273,bennett-campus,campus-cafe,FreshFarm-1273,Packaging,4.3,1,0.903,True
+sup_01274,bennett-campus,campus-cafe,MetroCash-1274,Beverages,3.8,1,0.887,True
+sup_01275,techpark-one,snapeats,VegSource-1275,Dairy,3.5,4,0.968,True
+sup_01276,techpark-one,snapeats,MetroCash-1276,Pantry,4.7,3,0.905,True
+sup_01277,techpark-one,south-delights,VegSource-1277,Packaging,4.0,7,0.901,True
+sup_01278,techpark-one,snapeats,PrimeFoods-1278,Pantry,4.1,4,0.967,True
+sup_01279,techpark-one,snapeats,VegSource-1279,Packaging,4.4,2,0.966,True
+sup_01280,techpark-one,quench,CoolSupply-1280,Produce,3.6,4,0.878,True
+sup_01281,techpark-one,quench,VegSource-1281,Bakery,4.0,7,0.841,True
+sup_01282,techpark-one,snapeats,SouthFresh-1282,Dairy,4.8,3,0.96,True
+sup_01283,techpark-one,south-delights,MetroCash-1283,Packaging,4.5,7,0.874,True
+sup_01284,techpark-one,snapeats,SouthFresh-1284,Packaging,4.2,7,0.984,True
+sup_01285,techpark-one,snapeats,FreshFarm-1285,Produce,3.4,1,0.838,True
+sup_01286,techpark-one,snapeats,FreshFarm-1286,Dairy,3.3,1,0.902,True
+sup_01287,techpark-one,snapeats,SouthFresh-1287,Pantry,3.8,4,0.88,True
+sup_01288,techpark-one,south-delights,BeanHouse-1288,Produce,3.3,4,0.863,True
+sup_01289,bennett-campus,campus-cafe,FreshFarm-1289,Dairy,3.3,2,0.94,True
+sup_01290,techpark-one,snapeats,FreshFarm-1290,Beverages,4.1,5,0.896,True
+sup_01291,techpark-one,quench,DailyHarvest-1291,Cooking Oil,4.9,7,0.958,True
+sup_01292,techpark-one,quench,VegSource-1292,Pantry,4.0,7,0.98,True
+sup_01293,techpark-one,quench,DailyHarvest-1293,Beverages,3.7,7,0.95,True
+sup_01294,techpark-one,snapeats,CityFoods-1294,Packaging,4.1,4,0.95,True
+sup_01295,bennett-campus,campus-cafe,CampusSupply-1295,Packaging,3.3,5,0.872,True
+sup_01296,bennett-campus,campus-cafe,DailyHarvest-1296,Dairy,4.9,6,0.948,True
+sup_01297,techpark-one,snapeats,BeanHouse-1297,Packaging,4.5,5,0.851,True
+sup_01298,techpark-one,snapeats,BeanHouse-1298,Produce,4.2,4,0.968,True
+sup_01299,techpark-one,snapeats,SouthFresh-1299,Dairy,3.3,7,0.979,True
+sup_01300,bennett-campus,campus-cafe,PrimeFoods-1300,Pantry,4.0,7,0.85,True
+sup_01301,techpark-one,south-delights,SouthFresh-1301,Pantry,4.5,5,0.833,True
+sup_01302,techpark-one,snapeats,DailyHarvest-1302,Produce,3.3,7,0.947,True
+sup_01303,techpark-one,south-delights,DailyHarvest-1303,Pantry,4.3,7,0.834,True
+sup_01304,techpark-one,south-delights,CoolSupply-1304,Bakery,3.7,3,0.841,True
+sup_01305,bennett-campus,campus-cafe,BeanHouse-1305,Cooking Oil,3.5,7,0.885,True
+sup_01306,techpark-one,south-delights,SouthFresh-1306,Bakery,4.4,2,0.945,True
+sup_01307,techpark-one,quench,FreshFarm-1307,Cooking Oil,4.1,3,0.84,True
+sup_01308,techpark-one,south-delights,FreshFarm-1308,Pantry,4.4,5,0.918,True
+sup_01309,techpark-one,snapeats,CoolSupply-1309,Produce,3.5,6,0.944,True
+sup_01310,techpark-one,snapeats,CityFoods-1310,Cooking Oil,3.9,4,0.956,True
+sup_01311,techpark-one,south-delights,MetroCash-1311,Packaging,3.7,7,0.938,True
+sup_01312,techpark-one,snapeats,PrimeFoods-1312,Bakery,4.9,6,0.899,True
+sup_01313,techpark-one,south-delights,SouthFresh-1313,Packaging,4.6,1,0.936,True
+sup_01314,techpark-one,quench,MetroCash-1314,Cooking Oil,3.8,4,0.946,True
+sup_01315,techpark-one,quench,MetroCash-1315,Dairy,4.6,6,0.931,True
+sup_01316,bennett-campus,campus-cafe,CityFoods-1316,Pantry,4.4,2,0.917,True
+sup_01317,bennett-campus,campus-cafe,CoolSupply-1317,Bakery,4.2,4,0.966,True
+sup_01318,bennett-campus,campus-cafe,BeanHouse-1318,Dairy,4.7,3,0.923,True
+sup_01319,techpark-one,south-delights,CoolSupply-1319,Produce,4.7,2,0.958,True
+sup_01320,techpark-one,quench,MetroCash-1320,Pantry,3.7,5,0.956,True
+sup_01321,techpark-one,quench,CampusSupply-1321,Cooking Oil,4.8,4,0.984,True
+sup_01322,techpark-one,snapeats,CityFoods-1322,Cooking Oil,4.6,6,0.863,True
+sup_01323,techpark-one,south-delights,CoolSupply-1323,Packaging,3.9,5,0.89,True
+sup_01324,techpark-one,south-delights,VegSource-1324,Cooking Oil,3.8,6,0.981,True
+sup_01325,bennett-campus,campus-cafe,MetroCash-1325,Produce,4.2,7,0.842,True
+sup_01326,techpark-one,south-delights,CityFoods-1326,Beverages,3.5,3,0.855,True
+sup_01327,bennett-campus,campus-cafe,BeanHouse-1327,Bakery,4.1,2,0.939,True
+sup_01328,bennett-campus,campus-cafe,CoolSupply-1328,Pantry,4.0,3,0.841,True
+sup_01329,techpark-one,quench,PrimeFoods-1329,Cooking Oil,4.3,5,0.826,True
+sup_01330,bennett-campus,campus-cafe,CityFoods-1330,Bakery,3.6,5,0.829,True
+sup_01331,techpark-one,quench,PrimeFoods-1331,Pantry,3.9,2,0.955,True
+sup_01332,techpark-one,south-delights,FreshFarm-1332,Cooking Oil,3.6,2,0.822,True
+sup_01333,techpark-one,south-delights,CoolSupply-1333,Cooking Oil,3.4,3,0.908,True
+sup_01334,techpark-one,snapeats,MetroCash-1334,Beverages,4.3,1,0.954,True
+sup_01335,techpark-one,snapeats,DailyHarvest-1335,Packaging,4.6,4,0.874,True
+sup_01336,techpark-one,quench,CityFoods-1336,Beverages,4.3,3,0.952,True
+sup_01337,techpark-one,snapeats,SouthFresh-1337,Pantry,4.5,6,0.846,True
+sup_01338,techpark-one,quench,VegSource-1338,Packaging,4.8,7,0.938,True
+sup_01339,techpark-one,south-delights,MetroCash-1339,Produce,4.7,1,0.973,True
+sup_01340,techpark-one,snapeats,VegSource-1340,Beverages,3.3,2,0.851,True
+sup_01341,techpark-one,quench,VegSource-1341,Pantry,4.1,6,0.91,True
+sup_01342,techpark-one,south-delights,CampusSupply-1342,Dairy,3.8,3,0.911,True
+sup_01343,bennett-campus,campus-cafe,SouthFresh-1343,Dairy,4.5,2,0.866,True
+sup_01344,techpark-one,snapeats,BeanHouse-1344,Dairy,3.5,5,0.876,True
+sup_01345,techpark-one,south-delights,FreshFarm-1345,Beverages,4.0,6,0.984,True
+sup_01346,bennett-campus,campus-cafe,MetroCash-1346,Cooking Oil,4.8,1,0.964,True
+sup_01347,techpark-one,snapeats,MetroCash-1347,Bakery,4.4,5,0.908,True
+sup_01348,bennett-campus,campus-cafe,VegSource-1348,Bakery,3.7,2,0.83,True
+sup_01349,techpark-one,south-delights,CoolSupply-1349,Produce,4.0,6,0.952,True
+sup_01350,techpark-one,quench,CampusSupply-1350,Pantry,4.3,3,0.945,True
+sup_01351,techpark-one,snapeats,PrimeFoods-1351,Beverages,4.6,1,0.91,True
+sup_01352,techpark-one,south-delights,DailyHarvest-1352,Bakery,4.8,7,0.917,True
+sup_01353,techpark-one,south-delights,CoolSupply-1353,Pantry,3.5,1,0.928,True
+sup_01354,techpark-one,snapeats,DailyHarvest-1354,Packaging,3.5,4,0.837,True
+sup_01355,techpark-one,quench,FreshFarm-1355,Pantry,4.3,2,0.908,True
+sup_01356,techpark-one,snapeats,PrimeFoods-1356,Packaging,3.5,7,0.846,True
+sup_01357,techpark-one,quench,PrimeFoods-1357,Bakery,3.5,6,0.975,True
+sup_01358,bennett-campus,campus-cafe,PrimeFoods-1358,Pantry,3.3,5,0.989,True
+sup_01359,techpark-one,quench,CoolSupply-1359,Dairy,4.0,4,0.868,True
+sup_01360,techpark-one,snapeats,SouthFresh-1360,Bakery,3.5,5,0.93,True
+sup_01361,bennett-campus,campus-cafe,PrimeFoods-1361,Bakery,4.7,4,0.848,True
+sup_01362,techpark-one,snapeats,FreshFarm-1362,Beverages,3.3,7,0.926,True
+sup_01363,techpark-one,south-delights,CampusSupply-1363,Cooking Oil,3.7,6,0.99,True
+sup_01364,techpark-one,quench,FreshFarm-1364,Produce,4.3,2,0.937,True
+sup_01365,techpark-one,quench,BeanHouse-1365,Packaging,3.8,5,0.856,True
+sup_01366,techpark-one,snapeats,SouthFresh-1366,Packaging,3.5,6,0.83,True
+sup_01367,techpark-one,south-delights,BeanHouse-1367,Bakery,4.8,7,0.838,True
+sup_01368,techpark-one,snapeats,PrimeFoods-1368,Dairy,4.0,1,0.953,True
+sup_01369,techpark-one,south-delights,VegSource-1369,Beverages,4.1,1,0.869,True
+sup_01370,techpark-one,south-delights,VegSource-1370,Pantry,3.9,6,0.841,True
+sup_01371,bennett-campus,campus-cafe,DailyHarvest-1371,Dairy,3.6,5,0.846,True
+sup_01372,techpark-one,quench,CoolSupply-1372,Cooking Oil,4.5,3,0.889,True
+sup_01373,techpark-one,south-delights,CampusSupply-1373,Bakery,4.0,2,0.883,True
+sup_01374,bennett-campus,campus-cafe,CityFoods-1374,Bakery,4.0,1,0.844,True
+sup_01375,bennett-campus,campus-cafe,PrimeFoods-1375,Packaging,3.7,5,0.915,True
+sup_01376,techpark-one,snapeats,BeanHouse-1376,Bakery,3.3,1,0.978,True
+sup_01377,techpark-one,quench,SouthFresh-1377,Dairy,3.5,3,0.841,True
+sup_01378,techpark-one,south-delights,DailyHarvest-1378,Produce,4.2,2,0.905,True
+sup_01379,techpark-one,quench,CoolSupply-1379,Produce,4.8,4,0.828,True
+sup_01380,techpark-one,south-delights,VegSource-1380,Bakery,4.1,6,0.954,True
+sup_01381,bennett-campus,campus-cafe,VegSource-1381,Packaging,3.7,7,0.927,True
+sup_01382,techpark-one,quench,FreshFarm-1382,Pantry,3.3,4,0.835,True
+sup_01383,techpark-one,quench,MetroCash-1383,Produce,3.3,6,0.895,True
+sup_01384,techpark-one,snapeats,CampusSupply-1384,Pantry,3.5,5,0.927,True
+sup_01385,bennett-campus,campus-cafe,VegSource-1385,Packaging,4.9,7,0.937,True
+sup_01386,techpark-one,snapeats,CityFoods-1386,Beverages,4.4,5,0.945,True
+sup_01387,techpark-one,quench,BeanHouse-1387,Dairy,3.5,4,0.863,True
+sup_01388,bennett-campus,campus-cafe,VegSource-1388,Bakery,4.1,2,0.906,True
+sup_01389,bennett-campus,campus-cafe,DailyHarvest-1389,Cooking Oil,3.5,7,0.928,True
+sup_01390,techpark-one,quench,CityFoods-1390,Cooking Oil,4.1,5,0.958,True
+sup_01391,techpark-one,quench,FreshFarm-1391,Produce,4.5,4,0.881,True
+sup_01392,techpark-one,snapeats,FreshFarm-1392,Bakery,3.6,1,0.886,True
+sup_01393,techpark-one,south-delights,DailyHarvest-1393,Beverages,3.8,6,0.859,True
+sup_01394,bennett-campus,campus-cafe,CoolSupply-1394,Cooking Oil,3.5,2,0.821,True
+sup_01395,techpark-one,snapeats,BeanHouse-1395,Beverages,3.5,6,0.867,True
+sup_01396,techpark-one,south-delights,CityFoods-1396,Produce,4.4,6,0.884,True
+sup_01397,techpark-one,quench,DailyHarvest-1397,Bakery,4.4,7,0.903,True
+sup_01398,bennett-campus,campus-cafe,CampusSupply-1398,Beverages,4.8,6,0.985,True
+sup_01399,bennett-campus,campus-cafe,CampusSupply-1399,Pantry,3.4,1,0.96,True
+sup_01400,bennett-campus,campus-cafe,DailyHarvest-1400,Dairy,3.5,5,0.985,True
+sup_01401,bennett-campus,campus-cafe,PrimeFoods-1401,Beverages,3.3,5,0.844,True
+sup_01402,techpark-one,south-delights,CoolSupply-1402,Bakery,3.9,4,0.897,True
+sup_01403,bennett-campus,campus-cafe,VegSource-1403,Beverages,3.8,4,0.839,True
+sup_01404,bennett-campus,campus-cafe,VegSource-1404,Packaging,3.5,6,0.85,True
+sup_01405,techpark-one,quench,CoolSupply-1405,Dairy,3.4,3,0.982,True
+sup_01406,bennett-campus,campus-cafe,FreshFarm-1406,Pantry,4.8,1,0.903,True
+sup_01407,bennett-campus,campus-cafe,CityFoods-1407,Packaging,4.8,3,0.921,True
+sup_01408,techpark-one,snapeats,CityFoods-1408,Cooking Oil,4.9,6,0.852,True
+sup_01409,techpark-one,quench,FreshFarm-1409,Bakery,4.5,4,0.93,True
+sup_01410,techpark-one,quench,CampusSupply-1410,Dairy,4.2,3,0.9,True
+sup_01411,techpark-one,quench,VegSource-1411,Produce,4.1,4,0.961,True
+sup_01412,techpark-one,south-delights,BeanHouse-1412,Beverages,3.3,4,0.911,True
+sup_01413,bennett-campus,campus-cafe,BeanHouse-1413,Beverages,3.4,2,0.952,True
+sup_01414,techpark-one,snapeats,MetroCash-1414,Dairy,3.7,6,0.847,True
+sup_01415,bennett-campus,campus-cafe,CampusSupply-1415,Produce,3.8,6,0.96,True
+sup_01416,techpark-one,quench,CampusSupply-1416,Pantry,4.2,7,0.929,True
+sup_01417,bennett-campus,campus-cafe,MetroCash-1417,Produce,4.2,2,0.963,True
+sup_01418,techpark-one,snapeats,CityFoods-1418,Cooking Oil,4.8,2,0.89,True
+sup_01419,bennett-campus,campus-cafe,CityFoods-1419,Beverages,3.2,4,0.902,True
+sup_01420,techpark-one,snapeats,BeanHouse-1420,Produce,4.2,2,0.852,True
+sup_01421,techpark-one,south-delights,CityFoods-1421,Bakery,4.9,4,0.955,True
+sup_01422,techpark-one,quench,DailyHarvest-1422,Pantry,4.5,2,0.856,True
+sup_01423,bennett-campus,campus-cafe,DailyHarvest-1423,Produce,3.3,7,0.913,True
+sup_01424,techpark-one,quench,MetroCash-1424,Packaging,3.3,1,0.935,True
+sup_01425,techpark-one,quench,VegSource-1425,Packaging,4.6,1,0.939,True
+sup_01426,techpark-one,snapeats,CampusSupply-1426,Bakery,3.2,6,0.83,True
+sup_01427,techpark-one,south-delights,PrimeFoods-1427,Bakery,4.9,4,0.951,True
+sup_01428,techpark-one,south-delights,MetroCash-1428,Bakery,3.5,5,0.948,True
+sup_01429,techpark-one,snapeats,SouthFresh-1429,Packaging,4.6,7,0.955,True
+sup_01430,techpark-one,quench,SouthFresh-1430,Produce,4.8,5,0.912,True
+sup_01431,techpark-one,south-delights,VegSource-1431,Beverages,3.8,5,0.952,True
+sup_01432,techpark-one,south-delights,DailyHarvest-1432,Packaging,3.4,6,0.847,True
+sup_01433,techpark-one,quench,CoolSupply-1433,Beverages,4.1,2,0.974,True
+sup_01434,techpark-one,south-delights,CoolSupply-1434,Dairy,4.4,6,0.882,True
+sup_01435,techpark-one,snapeats,FreshFarm-1435,Packaging,3.4,3,0.882,True
+sup_01436,bennett-campus,campus-cafe,BeanHouse-1436,Cooking Oil,4.1,7,0.89,True
+sup_01437,techpark-one,south-delights,DailyHarvest-1437,Bakery,4.8,6,0.927,True
+sup_01438,bennett-campus,campus-cafe,SouthFresh-1438,Cooking Oil,3.4,7,0.83,True
+sup_01439,techpark-one,snapeats,DailyHarvest-1439,Dairy,3.6,3,0.904,True
+sup_01440,bennett-campus,campus-cafe,SouthFresh-1440,Pantry,4.5,1,0.84,True
+sup_01441,bennett-campus,campus-cafe,PrimeFoods-1441,Pantry,4.0,2,0.99,True
+sup_01442,bennett-campus,campus-cafe,BeanHouse-1442,Beverages,3.8,2,0.888,True
+sup_01443,techpark-one,snapeats,BeanHouse-1443,Bakery,4.2,1,0.838,True
+sup_01444,bennett-campus,campus-cafe,CoolSupply-1444,Beverages,4.1,3,0.949,True
+sup_01445,techpark-one,quench,CoolSupply-1445,Produce,4.7,1,0.973,True
+sup_01446,bennett-campus,campus-cafe,FreshFarm-1446,Cooking Oil,3.3,2,0.853,True
+sup_01447,techpark-one,snapeats,CampusSupply-1447,Pantry,4.1,2,0.947,True
+sup_01448,techpark-one,snapeats,MetroCash-1448,Dairy,4.1,4,0.822,True
+sup_01449,techpark-one,snapeats,CampusSupply-1449,Bakery,3.2,3,0.854,True
+sup_01450,techpark-one,snapeats,MetroCash-1450,Packaging,4.5,6,0.844,True
+sup_01451,bennett-campus,campus-cafe,CityFoods-1451,Produce,4.6,3,0.899,True
+sup_01452,techpark-one,snapeats,FreshFarm-1452,Packaging,4.0,6,0.827,True
+sup_01453,bennett-campus,campus-cafe,FreshFarm-1453,Bakery,4.0,7,0.985,True
+sup_01454,bennett-campus,campus-cafe,CityFoods-1454,Pantry,4.3,2,0.853,True
+sup_01455,bennett-campus,campus-cafe,MetroCash-1455,Pantry,3.7,3,0.93,True
+sup_01456,techpark-one,snapeats,CampusSupply-1456,Beverages,3.8,2,0.936,True
+sup_01457,bennett-campus,campus-cafe,CityFoods-1457,Produce,3.3,3,0.874,True
+sup_01458,techpark-one,south-delights,SouthFresh-1458,Produce,3.8,1,0.89,True
+sup_01459,bennett-campus,campus-cafe,CityFoods-1459,Cooking Oil,4.5,4,0.903,True
+sup_01460,techpark-one,quench,DailyHarvest-1460,Packaging,4.8,5,0.829,True
+sup_01461,bennett-campus,campus-cafe,CampusSupply-1461,Packaging,4.6,7,0.971,True
+sup_01462,techpark-one,south-delights,PrimeFoods-1462,Packaging,4.8,4,0.865,True
+sup_01463,techpark-one,south-delights,CityFoods-1463,Packaging,3.6,4,0.966,True
+sup_01464,techpark-one,snapeats,MetroCash-1464,Beverages,4.4,3,0.837,True
+sup_01465,techpark-one,snapeats,CoolSupply-1465,Beverages,4.8,3,0.926,True
+sup_01466,techpark-one,south-delights,BeanHouse-1466,Beverages,4.4,7,0.976,True
+sup_01467,bennett-campus,campus-cafe,CampusSupply-1467,Packaging,4.6,7,0.828,True
+sup_01468,techpark-one,quench,PrimeFoods-1468,Cooking Oil,4.3,2,0.889,True
+sup_01469,techpark-one,south-delights,BeanHouse-1469,Dairy,4.4,4,0.872,True
+sup_01470,bennett-campus,campus-cafe,BeanHouse-1470,Pantry,3.7,2,0.854,True
+sup_01471,techpark-one,snapeats,CoolSupply-1471,Produce,4.3,6,0.919,True
+sup_01472,techpark-one,snapeats,MetroCash-1472,Bakery,4.6,1,0.936,True
+sup_01473,techpark-one,quench,VegSource-1473,Dairy,4.4,4,0.962,True
+sup_01474,techpark-one,south-delights,VegSource-1474,Cooking Oil,3.5,4,0.897,True
+sup_01475,techpark-one,south-delights,MetroCash-1475,Dairy,4.8,1,0.841,True
+sup_01476,techpark-one,south-delights,FreshFarm-1476,Bakery,4.5,2,0.836,True
+sup_01477,techpark-one,snapeats,BeanHouse-1477,Beverages,3.6,1,0.988,True
+sup_01478,bennett-campus,campus-cafe,FreshFarm-1478,Bakery,4.6,4,0.934,True
+sup_01479,techpark-one,south-delights,FreshFarm-1479,Beverages,3.5,1,0.921,True
+sup_01480,techpark-one,quench,BeanHouse-1480,Cooking Oil,3.8,2,0.831,True
+sup_01481,techpark-one,quench,FreshFarm-1481,Bakery,4.7,1,0.836,True
+sup_01482,bennett-campus,campus-cafe,PrimeFoods-1482,Packaging,3.7,3,0.828,True
+sup_01483,bennett-campus,campus-cafe,FreshFarm-1483,Produce,4.9,3,0.978,True
+sup_01484,techpark-one,snapeats,FreshFarm-1484,Packaging,3.2,4,0.835,True
+sup_01485,bennett-campus,campus-cafe,SouthFresh-1485,Pantry,4.2,5,0.843,True
+sup_01486,bennett-campus,campus-cafe,MetroCash-1486,Cooking Oil,4.4,2,0.856,True
+sup_01487,techpark-one,snapeats,PrimeFoods-1487,Bakery,4.1,5,0.9,True
+sup_01488,techpark-one,quench,FreshFarm-1488,Cooking Oil,3.2,2,0.921,True
+sup_01489,techpark-one,south-delights,DailyHarvest-1489,Produce,4.5,1,0.956,True
+sup_01490,techpark-one,south-delights,MetroCash-1490,Bakery,4.5,4,0.862,True
+sup_01491,techpark-one,quench,FreshFarm-1491,Packaging,4.7,6,0.982,True
+sup_01492,techpark-one,south-delights,DailyHarvest-1492,Pantry,4.9,3,0.917,True
+sup_01493,techpark-one,quench,BeanHouse-1493,Pantry,4.9,6,0.889,True
+sup_01494,techpark-one,quench,VegSource-1494,Bakery,3.9,7,0.823,True
+sup_01495,techpark-one,snapeats,PrimeFoods-1495,Beverages,4.1,1,0.845,True
+sup_01496,techpark-one,quench,CityFoods-1496,Packaging,3.7,6,0.871,True
+sup_01497,techpark-one,south-delights,BeanHouse-1497,Cooking Oil,3.3,1,0.849,True
+sup_01498,techpark-one,quench,FreshFarm-1498,Packaging,4.7,3,0.909,True
+sup_01499,bennett-campus,campus-cafe,CampusSupply-1499,Packaging,4.6,2,0.895,True
+sup_01500,techpark-one,snapeats,DailyHarvest-1500,Packaging,4.7,6,0.849,True
+sup_01501,bennett-campus,campus-cafe,VegSource-1501,Beverages,4.6,6,0.982,True
+sup_01502,techpark-one,snapeats,DailyHarvest-1502,Cooking Oil,4.4,4,0.983,True
+sup_01503,techpark-one,south-delights,PrimeFoods-1503,Beverages,3.5,7,0.965,True
+sup_01504,techpark-one,snapeats,DailyHarvest-1504,Beverages,3.4,7,0.946,True
+sup_01505,bennett-campus,campus-cafe,BeanHouse-1505,Beverages,4.8,5,0.875,True
+sup_01506,techpark-one,south-delights,CoolSupply-1506,Beverages,3.3,2,0.841,True
+sup_01507,techpark-one,quench,DailyHarvest-1507,Dairy,4.4,4,0.877,True
+sup_01508,bennett-campus,campus-cafe,SouthFresh-1508,Packaging,4.3,2,0.853,True
+sup_01509,bennett-campus,campus-cafe,SouthFresh-1509,Bakery,4.6,3,0.923,True
+sup_01510,bennett-campus,campus-cafe,DailyHarvest-1510,Beverages,3.5,1,0.935,True
+sup_01511,techpark-one,quench,VegSource-1511,Dairy,4.6,5,0.925,True
+sup_01512,techpark-one,snapeats,CampusSupply-1512,Dairy,4.7,7,0.873,True
+sup_01513,techpark-one,quench,BeanHouse-1513,Packaging,3.4,7,0.855,True
+sup_01514,techpark-one,quench,PrimeFoods-1514,Bakery,4.1,1,0.911,True
+sup_01515,techpark-one,snapeats,BeanHouse-1515,Dairy,4.7,1,0.973,True
+sup_01516,techpark-one,south-delights,DailyHarvest-1516,Dairy,3.3,2,0.93,True
+sup_01517,bennett-campus,campus-cafe,FreshFarm-1517,Dairy,4.7,5,0.867,True
+sup_01518,techpark-one,quench,DailyHarvest-1518,Pantry,3.8,6,0.916,True
+sup_01519,techpark-one,snapeats,MetroCash-1519,Bakery,4.6,5,0.982,True
+sup_01520,techpark-one,snapeats,PrimeFoods-1520,Cooking Oil,4.2,1,0.947,True
+sup_01521,techpark-one,south-delights,CoolSupply-1521,Dairy,3.8,7,0.964,True
+sup_01522,techpark-one,snapeats,MetroCash-1522,Bakery,3.9,3,0.926,True
+sup_01523,techpark-one,south-delights,BeanHouse-1523,Beverages,3.7,6,0.912,True
+sup_01524,bennett-campus,campus-cafe,PrimeFoods-1524,Produce,4.5,6,0.979,True
+sup_01525,techpark-one,south-delights,PrimeFoods-1525,Beverages,3.3,1,0.989,True
+sup_01526,techpark-one,snapeats,DailyHarvest-1526,Packaging,3.5,6,0.875,True
+sup_01527,bennett-campus,campus-cafe,SouthFresh-1527,Bakery,3.5,4,0.969,True
+sup_01528,techpark-one,south-delights,SouthFresh-1528,Beverages,3.2,5,0.966,True
+sup_01529,techpark-one,snapeats,CoolSupply-1529,Bakery,4.8,1,0.867,True
+sup_01530,techpark-one,snapeats,CoolSupply-1530,Packaging,3.7,1,0.872,True
+sup_01531,techpark-one,quench,VegSource-1531,Beverages,3.6,2,0.834,True
+sup_01532,techpark-one,south-delights,MetroCash-1532,Bakery,4.6,2,0.889,True
+sup_01533,techpark-one,quench,MetroCash-1533,Packaging,4.1,6,0.943,True
+sup_01534,bennett-campus,campus-cafe,PrimeFoods-1534,Beverages,4.8,6,0.963,True
+sup_01535,techpark-one,south-delights,CampusSupply-1535,Cooking Oil,4.2,1,0.853,True
+sup_01536,techpark-one,snapeats,CampusSupply-1536,Pantry,3.9,6,0.923,True
+sup_01537,techpark-one,south-delights,PrimeFoods-1537,Produce,3.5,3,0.871,True
+sup_01538,techpark-one,snapeats,MetroCash-1538,Pantry,3.7,3,0.94,True
+sup_01539,techpark-one,snapeats,FreshFarm-1539,Beverages,3.6,3,0.947,True
+sup_01540,bennett-campus,campus-cafe,MetroCash-1540,Dairy,3.8,7,0.937,True
+sup_01541,bennett-campus,campus-cafe,FreshFarm-1541,Packaging,4.0,4,0.908,True
+sup_01542,techpark-one,south-delights,SouthFresh-1542,Bakery,3.5,2,0.897,True
+sup_01543,techpark-one,snapeats,CampusSupply-1543,Produce,4.1,2,0.948,True
+sup_01544,techpark-one,south-delights,SouthFresh-1544,Pantry,4.4,1,0.85,True
+sup_01545,techpark-one,snapeats,CoolSupply-1545,Pantry,4.4,7,0.926,True
+sup_01546,techpark-one,south-delights,CoolSupply-1546,Pantry,4.0,5,0.937,True
+sup_01547,techpark-one,south-delights,BeanHouse-1547,Dairy,3.6,5,0.899,True
+sup_01548,bennett-campus,campus-cafe,SouthFresh-1548,Pantry,4.9,7,0.942,True
+sup_01549,techpark-one,quench,DailyHarvest-1549,Packaging,4.5,3,0.885,True
+sup_01550,bennett-campus,campus-cafe,PrimeFoods-1550,Produce,4.4,3,0.874,True
+sup_01551,bennett-campus,campus-cafe,VegSource-1551,Dairy,4.9,3,0.948,True
+sup_01552,bennett-campus,campus-cafe,FreshFarm-1552,Produce,3.4,4,0.899,True
+sup_01553,techpark-one,quench,DailyHarvest-1553,Dairy,4.4,1,0.978,True
+sup_01554,techpark-one,south-delights,CampusSupply-1554,Packaging,3.7,5,0.978,True
+sup_01555,techpark-one,south-delights,CityFoods-1555,Produce,4.7,3,0.861,True
+sup_01556,techpark-one,quench,FreshFarm-1556,Bakery,4.0,2,0.949,True
+sup_01557,techpark-one,quench,PrimeFoods-1557,Bakery,3.3,7,0.84,True
+sup_01558,techpark-one,snapeats,VegSource-1558,Dairy,4.6,5,0.907,True
+sup_01559,techpark-one,quench,DailyHarvest-1559,Bakery,4.6,3,0.99,True
+sup_01560,techpark-one,quench,MetroCash-1560,Dairy,3.3,1,0.849,True
+sup_01561,techpark-one,snapeats,CampusSupply-1561,Produce,4.2,6,0.91,True
+sup_01562,techpark-one,snapeats,DailyHarvest-1562,Produce,4.6,2,0.972,True
+sup_01563,techpark-one,quench,FreshFarm-1563,Cooking Oil,4.2,3,0.957,True
+sup_01564,techpark-one,snapeats,DailyHarvest-1564,Beverages,3.9,6,0.843,True
+sup_01565,bennett-campus,campus-cafe,CoolSupply-1565,Dairy,3.7,2,0.969,True
+sup_01566,techpark-one,snapeats,PrimeFoods-1566,Bakery,3.7,6,0.846,True
+sup_01567,techpark-one,quench,CoolSupply-1567,Packaging,3.9,1,0.825,True
+sup_01568,techpark-one,snapeats,CoolSupply-1568,Bakery,4.5,2,0.88,True
+sup_01569,bennett-campus,campus-cafe,BeanHouse-1569,Packaging,3.7,6,0.965,True
+sup_01570,techpark-one,quench,CoolSupply-1570,Bakery,4.8,1,0.91,True
+sup_01571,techpark-one,quench,CoolSupply-1571,Pantry,3.3,1,0.96,True
+sup_01572,techpark-one,snapeats,CityFoods-1572,Packaging,4.6,1,0.97,True
+sup_01573,techpark-one,south-delights,FreshFarm-1573,Cooking Oil,4.7,1,0.96,True
+sup_01574,techpark-one,south-delights,SouthFresh-1574,Pantry,3.6,5,0.851,True
+sup_01575,techpark-one,snapeats,CampusSupply-1575,Beverages,3.4,5,0.891,True
+sup_01576,bennett-campus,campus-cafe,SouthFresh-1576,Beverages,4.0,5,0.896,True
+sup_01577,techpark-one,south-delights,BeanHouse-1577,Pantry,4.8,1,0.898,True
+sup_01578,techpark-one,south-delights,PrimeFoods-1578,Cooking Oil,4.6,5,0.986,True
+sup_01579,techpark-one,quench,SouthFresh-1579,Cooking Oil,3.3,6,0.826,True
+sup_01580,techpark-one,south-delights,CampusSupply-1580,Cooking Oil,4.4,5,0.839,True
+sup_01581,bennett-campus,campus-cafe,MetroCash-1581,Dairy,4.7,2,0.955,True
+sup_01582,techpark-one,south-delights,CityFoods-1582,Dairy,3.5,3,0.964,True
+sup_01583,techpark-one,snapeats,SouthFresh-1583,Packaging,3.3,1,0.901,True
+sup_01584,techpark-one,quench,PrimeFoods-1584,Packaging,4.7,7,0.926,True
+sup_01585,techpark-one,quench,DailyHarvest-1585,Pantry,3.9,6,0.9,True
+sup_01586,techpark-one,south-delights,DailyHarvest-1586,Pantry,3.7,3,0.845,True
+sup_01587,techpark-one,south-delights,PrimeFoods-1587,Packaging,3.9,4,0.824,True
+sup_01588,techpark-one,snapeats,DailyHarvest-1588,Packaging,3.5,7,0.929,True
+sup_01589,techpark-one,snapeats,CityFoods-1589,Packaging,3.5,7,0.971,True
+sup_01590,techpark-one,snapeats,CampusSupply-1590,Dairy,4.5,7,0.894,True
+sup_01591,techpark-one,south-delights,PrimeFoods-1591,Cooking Oil,3.5,6,0.855,True
+sup_01592,techpark-one,south-delights,SouthFresh-1592,Pantry,4.2,7,0.897,True
+sup_01593,techpark-one,south-delights,SouthFresh-1593,Dairy,4.0,1,0.873,True
+sup_01594,techpark-one,snapeats,CoolSupply-1594,Beverages,4.3,4,0.909,True
+sup_01595,techpark-one,south-delights,CampusSupply-1595,Packaging,3.6,5,0.856,True
+sup_01596,techpark-one,snapeats,DailyHarvest-1596,Bakery,3.7,1,0.917,True
+sup_01597,techpark-one,snapeats,MetroCash-1597,Pantry,3.8,5,0.905,True
+sup_01598,techpark-one,quench,FreshFarm-1598,Cooking Oil,3.3,4,0.963,True
+sup_01599,techpark-one,snapeats,BeanHouse-1599,Pantry,4.9,7,0.9,True
+sup_01600,techpark-one,quench,FreshFarm-1600,Produce,4.0,3,0.911,True
+sup_01601,techpark-one,south-delights,PrimeFoods-1601,Pantry,4.2,1,0.978,True
+sup_01602,techpark-one,south-delights,VegSource-1602,Beverages,4.7,6,0.966,True
+sup_01603,bennett-campus,campus-cafe,FreshFarm-1603,Produce,3.9,3,0.949,True
+sup_01604,techpark-one,south-delights,CampusSupply-1604,Bakery,4.4,1,0.913,True
+sup_01605,techpark-one,quench,DailyHarvest-1605,Beverages,3.7,3,0.905,True
+sup_01606,techpark-one,snapeats,CampusSupply-1606,Bakery,3.5,1,0.939,True
+sup_01607,techpark-one,snapeats,FreshFarm-1607,Cooking Oil,3.8,5,0.981,True
+sup_01608,techpark-one,snapeats,PrimeFoods-1608,Beverages,4.5,2,0.985,True
+sup_01609,bennett-campus,campus-cafe,MetroCash-1609,Produce,3.9,5,0.869,True
+sup_01610,techpark-one,snapeats,FreshFarm-1610,Pantry,4.4,7,0.913,True
+sup_01611,bennett-campus,campus-cafe,SouthFresh-1611,Pantry,4.5,3,0.973,True
+sup_01612,techpark-one,snapeats,PrimeFoods-1612,Beverages,4.2,4,0.832,True
+sup_01613,bennett-campus,campus-cafe,VegSource-1613,Pantry,4.3,5,0.855,True
+sup_01614,techpark-one,quench,CoolSupply-1614,Cooking Oil,3.3,4,0.857,True
+sup_01615,techpark-one,south-delights,FreshFarm-1615,Beverages,3.3,5,0.906,True
+sup_01616,techpark-one,quench,CampusSupply-1616,Cooking Oil,3.3,3,0.864,True
+sup_01617,bennett-campus,campus-cafe,VegSource-1617,Dairy,3.8,3,0.942,True
+sup_01618,techpark-one,snapeats,DailyHarvest-1618,Beverages,3.4,6,0.828,True
+sup_01619,techpark-one,snapeats,CampusSupply-1619,Beverages,3.2,5,0.856,True
+sup_01620,bennett-campus,campus-cafe,CampusSupply-1620,Pantry,3.6,4,0.934,True
+sup_01621,techpark-one,snapeats,CampusSupply-1621,Dairy,4.3,6,0.843,True
+sup_01622,techpark-one,quench,CoolSupply-1622,Packaging,4.9,1,0.86,True
+sup_01623,techpark-one,quench,MetroCash-1623,Dairy,3.5,5,0.977,True
+sup_01624,bennett-campus,campus-cafe,MetroCash-1624,Packaging,4.4,7,0.982,True
+sup_01625,techpark-one,quench,CityFoods-1625,Cooking Oil,4.8,1,0.828,True
+sup_01626,techpark-one,snapeats,SouthFresh-1626,Dairy,4.9,6,0.846,True
+sup_01627,bennett-campus,campus-cafe,DailyHarvest-1627,Pantry,3.9,3,0.948,True
+sup_01628,techpark-one,south-delights,CityFoods-1628,Bakery,3.4,1,0.857,True
+sup_01629,techpark-one,south-delights,MetroCash-1629,Pantry,3.7,6,0.968,True
+sup_01630,bennett-campus,campus-cafe,FreshFarm-1630,Cooking Oil,3.6,5,0.983,True
+sup_01631,techpark-one,south-delights,FreshFarm-1631,Produce,4.4,4,0.93,True
+sup_01632,techpark-one,quench,MetroCash-1632,Dairy,4.3,1,0.826,True
+sup_01633,techpark-one,south-delights,CampusSupply-1633,Produce,4.2,6,0.963,True
+sup_01634,techpark-one,quench,PrimeFoods-1634,Produce,3.9,2,0.88,True
+sup_01635,bennett-campus,campus-cafe,MetroCash-1635,Packaging,3.4,5,0.848,True
+sup_01636,techpark-one,quench,CoolSupply-1636,Beverages,3.5,1,0.92,True
+sup_01637,techpark-one,south-delights,CoolSupply-1637,Dairy,4.5,7,0.914,True
+sup_01638,bennett-campus,campus-cafe,DailyHarvest-1638,Pantry,3.2,7,0.973,True
+sup_01639,techpark-one,snapeats,MetroCash-1639,Produce,3.3,1,0.873,True
+sup_01640,bennett-campus,campus-cafe,VegSource-1640,Produce,3.7,5,0.931,True
+sup_01641,bennett-campus,campus-cafe,MetroCash-1641,Bakery,3.9,6,0.922,True
+sup_01642,bennett-campus,campus-cafe,CityFoods-1642,Packaging,3.5,2,0.982,True
+sup_01643,bennett-campus,campus-cafe,FreshFarm-1643,Bakery,4.2,2,0.876,True
+sup_01644,techpark-one,snapeats,FreshFarm-1644,Dairy,4.8,1,0.911,True
+sup_01645,techpark-one,quench,SouthFresh-1645,Cooking Oil,3.9,4,0.912,True
+sup_01646,techpark-one,south-delights,FreshFarm-1646,Dairy,3.8,3,0.856,True
+sup_01647,techpark-one,snapeats,BeanHouse-1647,Bakery,3.7,4,0.915,True
+sup_01648,techpark-one,south-delights,CityFoods-1648,Beverages,3.2,4,0.936,True
+sup_01649,techpark-one,snapeats,BeanHouse-1649,Beverages,3.5,1,0.95,True
+sup_01650,techpark-one,south-delights,CampusSupply-1650,Bakery,4.8,5,0.987,True
+sup_01651,techpark-one,snapeats,CityFoods-1651,Pantry,4.8,2,0.853,True
+sup_01652,techpark-one,quench,MetroCash-1652,Dairy,3.6,3,0.975,True
+sup_01653,techpark-one,snapeats,PrimeFoods-1653,Cooking Oil,4.1,5,0.88,True
+sup_01654,bennett-campus,campus-cafe,MetroCash-1654,Bakery,3.4,3,0.971,True
+sup_01655,techpark-one,snapeats,PrimeFoods-1655,Dairy,4.2,3,0.872,True
+sup_01656,bennett-campus,campus-cafe,MetroCash-1656,Cooking Oil,4.9,3,0.831,True
+sup_01657,techpark-one,south-delights,FreshFarm-1657,Produce,3.8,5,0.914,True
+sup_01658,techpark-one,quench,SouthFresh-1658,Dairy,3.9,7,0.984,True
+sup_01659,bennett-campus,campus-cafe,VegSource-1659,Bakery,3.4,6,0.886,True
+sup_01660,techpark-one,south-delights,CampusSupply-1660,Produce,3.2,7,0.837,True
+sup_01661,techpark-one,south-delights,BeanHouse-1661,Packaging,3.5,4,0.925,True
+sup_01662,techpark-one,south-delights,MetroCash-1662,Cooking Oil,4.3,7,0.878,True
+sup_01663,techpark-one,south-delights,CoolSupply-1663,Produce,3.9,7,0.954,True
+sup_01664,bennett-campus,campus-cafe,CoolSupply-1664,Beverages,4.5,4,0.904,True
+sup_01665,bennett-campus,campus-cafe,CityFoods-1665,Dairy,4.0,6,0.849,True
+sup_01666,techpark-one,snapeats,DailyHarvest-1666,Beverages,4.6,2,0.98,True
+sup_01667,bennett-campus,campus-cafe,VegSource-1667,Pantry,3.3,5,0.83,True
+sup_01668,bennett-campus,campus-cafe,VegSource-1668,Packaging,4.0,3,0.879,True
+sup_01669,techpark-one,snapeats,VegSource-1669,Bakery,4.6,4,0.899,True
+sup_01670,bennett-campus,campus-cafe,CoolSupply-1670,Bakery,4.3,4,0.985,True
+sup_01671,bennett-campus,campus-cafe,CityFoods-1671,Packaging,4.6,1,0.898,True
+sup_01672,techpark-one,snapeats,VegSource-1672,Packaging,4.6,6,0.822,True
+sup_01673,bennett-campus,campus-cafe,CoolSupply-1673,Pantry,3.4,2,0.974,True
+sup_01674,techpark-one,quench,CityFoods-1674,Packaging,3.7,3,0.873,True
+sup_01675,bennett-campus,campus-cafe,FreshFarm-1675,Cooking Oil,4.2,7,0.898,True
+sup_01676,techpark-one,quench,CityFoods-1676,Bakery,3.9,6,0.972,True
+sup_01677,techpark-one,quench,CityFoods-1677,Bakery,4.0,1,0.96,True
+sup_01678,techpark-one,snapeats,BeanHouse-1678,Dairy,3.2,3,0.852,True
+sup_01679,bennett-campus,campus-cafe,VegSource-1679,Pantry,4.9,5,0.942,True
+sup_01680,techpark-one,quench,DailyHarvest-1680,Bakery,4.8,2,0.856,True
+sup_01681,techpark-one,quench,CampusSupply-1681,Produce,3.6,6,0.824,True
+sup_01682,techpark-one,quench,VegSource-1682,Pantry,3.5,3,0.964,True
+sup_01683,techpark-one,snapeats,CoolSupply-1683,Bakery,4.4,2,0.965,True
+sup_01684,techpark-one,south-delights,CoolSupply-1684,Dairy,4.9,7,0.918,True
+sup_01685,techpark-one,quench,BeanHouse-1685,Cooking Oil,4.1,4,0.887,True
+sup_01686,techpark-one,quench,MetroCash-1686,Packaging,4.3,1,0.956,True
+sup_01687,bennett-campus,campus-cafe,FreshFarm-1687,Beverages,4.4,4,0.978,True
+sup_01688,techpark-one,south-delights,CityFoods-1688,Bakery,4.7,5,0.986,True
+sup_01689,techpark-one,quench,CoolSupply-1689,Produce,4.0,5,0.964,True
+sup_01690,techpark-one,snapeats,SouthFresh-1690,Cooking Oil,4.1,7,0.841,True
+sup_01691,bennett-campus,campus-cafe,CoolSupply-1691,Cooking Oil,3.3,7,0.951,True
+sup_01692,bennett-campus,campus-cafe,DailyHarvest-1692,Bakery,3.8,1,0.95,True
+sup_01693,bennett-campus,campus-cafe,DailyHarvest-1693,Bakery,4.0,4,0.904,True
+sup_01694,bennett-campus,campus-cafe,CoolSupply-1694,Packaging,3.7,1,0.92,True
+sup_01695,techpark-one,south-delights,MetroCash-1695,Produce,3.9,1,0.972,True
+sup_01696,bennett-campus,campus-cafe,FreshFarm-1696,Dairy,3.8,5,0.835,True
+sup_01697,techpark-one,snapeats,BeanHouse-1697,Cooking Oil,4.5,2,0.969,True
+sup_01698,techpark-one,quench,CityFoods-1698,Pantry,4.6,2,0.964,True
+sup_01699,bennett-campus,campus-cafe,CampusSupply-1699,Produce,3.9,1,0.873,True
+sup_01700,techpark-one,quench,BeanHouse-1700,Bakery,4.1,4,0.876,True
+sup_01701,techpark-one,south-delights,CityFoods-1701,Dairy,3.9,6,0.83,True
+sup_01702,techpark-one,snapeats,SouthFresh-1702,Beverages,3.8,3,0.943,True
+sup_01703,techpark-one,quench,DailyHarvest-1703,Cooking Oil,4.5,3,0.904,True
+sup_01704,techpark-one,snapeats,SouthFresh-1704,Dairy,3.6,5,0.852,True
+sup_01705,techpark-one,quench,FreshFarm-1705,Packaging,4.7,7,0.835,True
+sup_01706,techpark-one,south-delights,FreshFarm-1706,Pantry,3.9,6,0.952,True
+sup_01707,techpark-one,quench,VegSource-1707,Packaging,3.9,4,0.822,True
+sup_01708,techpark-one,quench,CityFoods-1708,Packaging,3.6,4,0.959,True
+sup_01709,techpark-one,quench,CampusSupply-1709,Pantry,4.8,5,0.842,True
+sup_01710,techpark-one,south-delights,BeanHouse-1710,Pantry,3.9,6,0.986,True
+sup_01711,bennett-campus,campus-cafe,CityFoods-1711,Cooking Oil,3.7,6,0.938,True
+sup_01712,bennett-campus,campus-cafe,CityFoods-1712,Dairy,4.2,3,0.857,True
+sup_01713,techpark-one,south-delights,CityFoods-1713,Beverages,4.3,4,0.877,True
+sup_01714,techpark-one,south-delights,VegSource-1714,Dairy,3.8,3,0.938,True
+sup_01715,techpark-one,south-delights,SouthFresh-1715,Pantry,3.4,5,0.856,True
+sup_01716,techpark-one,south-delights,CampusSupply-1716,Produce,4.6,1,0.885,True
+sup_01717,bennett-campus,campus-cafe,BeanHouse-1717,Dairy,4.9,2,0.879,True
+sup_01718,techpark-one,south-delights,PrimeFoods-1718,Pantry,3.3,5,0.922,True
+sup_01719,techpark-one,quench,VegSource-1719,Beverages,4.7,1,0.914,True
+sup_01720,techpark-one,snapeats,FreshFarm-1720,Pantry,3.2,5,0.925,True
+sup_01721,techpark-one,south-delights,SouthFresh-1721,Packaging,3.6,2,0.874,True
+sup_01722,bennett-campus,campus-cafe,SouthFresh-1722,Packaging,4.2,2,0.978,True
+sup_01723,techpark-one,south-delights,VegSource-1723,Produce,4.4,4,0.973,True
+sup_01724,bennett-campus,campus-cafe,MetroCash-1724,Dairy,3.6,4,0.87,True
+sup_01725,bennett-campus,campus-cafe,FreshFarm-1725,Bakery,4.2,5,0.85,True
+sup_01726,techpark-one,south-delights,PrimeFoods-1726,Cooking Oil,3.7,7,0.926,True
+sup_01727,techpark-one,snapeats,CityFoods-1727,Packaging,3.3,1,0.926,True
+sup_01728,techpark-one,snapeats,BeanHouse-1728,Dairy,4.1,7,0.951,True
+sup_01729,techpark-one,quench,VegSource-1729,Packaging,3.6,7,0.988,True
+sup_01730,bennett-campus,campus-cafe,CoolSupply-1730,Pantry,4.3,7,0.902,True
+sup_01731,techpark-one,south-delights,CampusSupply-1731,Pantry,4.7,2,0.844,True
+sup_01732,techpark-one,south-delights,CampusSupply-1732,Produce,4.5,6,0.968,True
+sup_01733,bennett-campus,campus-cafe,VegSource-1733,Bakery,4.0,1,0.875,True
+sup_01734,techpark-one,south-delights,CoolSupply-1734,Pantry,3.5,4,0.936,True
+sup_01735,techpark-one,south-delights,SouthFresh-1735,Produce,3.7,7,0.902,True
+sup_01736,techpark-one,snapeats,VegSource-1736,Produce,3.7,6,0.949,True
+sup_01737,techpark-one,south-delights,FreshFarm-1737,Produce,4.1,3,0.943,True
+sup_01738,bennett-campus,campus-cafe,DailyHarvest-1738,Packaging,4.9,3,0.977,True
+sup_01739,bennett-campus,campus-cafe,PrimeFoods-1739,Pantry,3.6,6,0.949,True
+sup_01740,bennett-campus,campus-cafe,CampusSupply-1740,Bakery,4.8,5,0.888,True
+sup_01741,techpark-one,snapeats,BeanHouse-1741,Beverages,4.8,4,0.849,True
+sup_01742,bennett-campus,campus-cafe,VegSource-1742,Cooking Oil,3.3,6,0.882,True
+sup_01743,techpark-one,quench,PrimeFoods-1743,Beverages,4.6,5,0.922,True
+sup_01744,techpark-one,snapeats,BeanHouse-1744,Packaging,4.0,3,0.977,True
+sup_01745,bennett-campus,campus-cafe,SouthFresh-1745,Packaging,4.6,3,0.851,True
+sup_01746,techpark-one,quench,DailyHarvest-1746,Beverages,4.6,5,0.928,True
+sup_01747,techpark-one,quench,FreshFarm-1747,Bakery,3.4,3,0.927,True
+sup_01748,techpark-one,snapeats,CityFoods-1748,Beverages,3.7,4,0.904,True
+sup_01749,techpark-one,south-delights,VegSource-1749,Produce,4.7,6,0.951,True
+sup_01750,bennett-campus,campus-cafe,CoolSupply-1750,Produce,4.1,5,0.965,True
+sup_01751,techpark-one,quench,CoolSupply-1751,Dairy,4.0,1,0.89,True
+sup_01752,techpark-one,snapeats,PrimeFoods-1752,Packaging,4.2,7,0.989,True
+sup_01753,bennett-campus,campus-cafe,CityFoods-1753,Cooking Oil,3.9,7,0.884,True
+sup_01754,techpark-one,snapeats,DailyHarvest-1754,Cooking Oil,4.1,5,0.978,True
+sup_01755,techpark-one,south-delights,MetroCash-1755,Dairy,4.4,1,0.833,True
+sup_01756,techpark-one,snapeats,CityFoods-1756,Cooking Oil,3.9,1,0.887,True
+sup_01757,techpark-one,quench,BeanHouse-1757,Dairy,4.2,5,0.98,True
+sup_01758,techpark-one,quench,MetroCash-1758,Produce,3.7,5,0.874,True
+sup_01759,bennett-campus,campus-cafe,FreshFarm-1759,Beverages,4.4,6,0.972,True
+sup_01760,bennett-campus,campus-cafe,CityFoods-1760,Dairy,4.2,3,0.865,True
+sup_01761,techpark-one,quench,FreshFarm-1761,Beverages,4.8,6,0.878,True
+sup_01762,techpark-one,south-delights,DailyHarvest-1762,Beverages,3.5,3,0.972,True
+sup_01763,bennett-campus,campus-cafe,BeanHouse-1763,Bakery,4.2,2,0.951,True
+sup_01764,techpark-one,quench,CoolSupply-1764,Beverages,3.9,1,0.949,True
+sup_01765,techpark-one,south-delights,CampusSupply-1765,Produce,4.7,1,0.857,True
+sup_01766,techpark-one,quench,FreshFarm-1766,Dairy,3.3,7,0.891,True
+sup_01767,techpark-one,south-delights,MetroCash-1767,Pantry,4.8,7,0.936,True
+sup_01768,techpark-one,quench,BeanHouse-1768,Dairy,4.3,1,0.907,True
+sup_01769,techpark-one,snapeats,CoolSupply-1769,Cooking Oil,4.7,7,0.884,True
+sup_01770,bennett-campus,campus-cafe,DailyHarvest-1770,Beverages,4.1,4,0.836,True
+sup_01771,techpark-one,snapeats,DailyHarvest-1771,Dairy,3.5,3,0.836,True
+sup_01772,techpark-one,snapeats,PrimeFoods-1772,Packaging,4.5,7,0.872,True
+sup_01773,techpark-one,quench,FreshFarm-1773,Dairy,4.2,5,0.828,True
+sup_01774,techpark-one,snapeats,MetroCash-1774,Cooking Oil,4.5,1,0.832,True
+sup_01775,techpark-one,quench,BeanHouse-1775,Bakery,4.8,3,0.912,True
+sup_01776,techpark-one,snapeats,CoolSupply-1776,Dairy,4.7,1,0.916,True
+sup_01777,techpark-one,quench,DailyHarvest-1777,Packaging,4.2,7,0.96,True
+sup_01778,techpark-one,south-delights,BeanHouse-1778,Produce,4.4,5,0.86,True
+sup_01779,techpark-one,snapeats,CoolSupply-1779,Cooking Oil,4.9,5,0.902,True
+sup_01780,bennett-campus,campus-cafe,CampusSupply-1780,Pantry,3.7,7,0.931,True
+sup_01781,techpark-one,quench,MetroCash-1781,Packaging,4.3,5,0.96,True
+sup_01782,techpark-one,quench,FreshFarm-1782,Produce,3.7,7,0.896,True
+sup_01783,techpark-one,quench,CampusSupply-1783,Produce,3.4,2,0.855,True
+sup_01784,techpark-one,south-delights,BeanHouse-1784,Packaging,4.8,4,0.903,True
+sup_01785,techpark-one,snapeats,CityFoods-1785,Pantry,4.0,2,0.946,True
+sup_01786,techpark-one,south-delights,FreshFarm-1786,Beverages,3.2,4,0.938,True
+sup_01787,bennett-campus,campus-cafe,MetroCash-1787,Dairy,4.0,2,0.982,True
+sup_01788,bennett-campus,campus-cafe,CoolSupply-1788,Pantry,4.2,7,0.858,True
+sup_01789,techpark-one,south-delights,SouthFresh-1789,Bakery,3.8,2,0.827,True
+sup_01790,bennett-campus,campus-cafe,CampusSupply-1790,Dairy,4.0,6,0.835,True
+sup_01791,techpark-one,snapeats,FreshFarm-1791,Cooking Oil,3.6,5,0.986,True
+sup_01792,bennett-campus,campus-cafe,MetroCash-1792,Pantry,4.8,2,0.97,True
+sup_01793,techpark-one,quench,DailyHarvest-1793,Produce,3.9,2,0.915,True
+sup_01794,techpark-one,quench,FreshFarm-1794,Packaging,3.3,4,0.945,True
+sup_01795,techpark-one,snapeats,PrimeFoods-1795,Produce,3.2,7,0.95,True
+sup_01796,techpark-one,quench,SouthFresh-1796,Produce,3.4,7,0.963,True
+sup_01797,techpark-one,quench,CityFoods-1797,Bakery,3.3,2,0.902,True
+sup_01798,techpark-one,south-delights,CampusSupply-1798,Packaging,4.3,6,0.896,True
+sup_01799,techpark-one,quench,MetroCash-1799,Cooking Oil,3.4,7,0.849,True
+sup_01800,techpark-one,snapeats,DailyHarvest-1800,Cooking Oil,3.4,7,0.922,True
+sup_01801,techpark-one,snapeats,CampusSupply-1801,Cooking Oil,4.3,4,0.905,True
+sup_01802,bennett-campus,campus-cafe,DailyHarvest-1802,Packaging,4.8,5,0.927,True
+sup_01803,techpark-one,quench,DailyHarvest-1803,Bakery,4.6,5,0.919,True
+sup_01804,techpark-one,quench,VegSource-1804,Produce,4.6,1,0.973,True
+sup_01805,techpark-one,snapeats,FreshFarm-1805,Bakery,3.8,1,0.981,True
+sup_01806,techpark-one,quench,VegSource-1806,Packaging,4.7,7,0.988,True
+sup_01807,bennett-campus,campus-cafe,DailyHarvest-1807,Produce,3.6,1,0.965,True
+sup_01808,techpark-one,snapeats,PrimeFoods-1808,Pantry,3.7,1,0.877,True
+sup_01809,bennett-campus,campus-cafe,CoolSupply-1809,Bakery,4.7,2,0.939,True
+sup_01810,techpark-one,quench,BeanHouse-1810,Packaging,4.3,1,0.94,True
+sup_01811,bennett-campus,campus-cafe,CoolSupply-1811,Cooking Oil,4.4,6,0.966,True
+sup_01812,bennett-campus,campus-cafe,CityFoods-1812,Packaging,4.1,3,0.967,True
+sup_01813,techpark-one,south-delights,CoolSupply-1813,Cooking Oil,4.0,7,0.842,True
+sup_01814,bennett-campus,campus-cafe,DailyHarvest-1814,Pantry,4.4,4,0.896,True
+sup_01815,techpark-one,south-delights,CityFoods-1815,Beverages,3.4,4,0.958,True
+sup_01816,techpark-one,quench,CoolSupply-1816,Bakery,4.7,1,0.954,True
+sup_01817,techpark-one,south-delights,FreshFarm-1817,Bakery,4.3,3,0.974,True
+sup_01818,techpark-one,snapeats,BeanHouse-1818,Produce,4.0,7,0.926,True
+sup_01819,techpark-one,south-delights,SouthFresh-1819,Cooking Oil,4.0,2,0.849,True
+sup_01820,bennett-campus,campus-cafe,CoolSupply-1820,Produce,3.6,3,0.974,True
+sup_01821,techpark-one,quench,MetroCash-1821,Pantry,4.0,3,0.932,True
+sup_01822,techpark-one,snapeats,BeanHouse-1822,Dairy,3.5,2,0.964,True
+sup_01823,bennett-campus,campus-cafe,PrimeFoods-1823,Bakery,3.8,7,0.912,True
+sup_01824,bennett-campus,campus-cafe,CampusSupply-1824,Pantry,4.4,4,0.981,True
+sup_01825,techpark-one,south-delights,CoolSupply-1825,Beverages,3.6,7,0.913,True
+sup_01826,bennett-campus,campus-cafe,BeanHouse-1826,Beverages,4.8,6,0.97,True
+sup_01827,bennett-campus,campus-cafe,MetroCash-1827,Dairy,3.9,5,0.983,True
+sup_01828,techpark-one,snapeats,CoolSupply-1828,Bakery,4.4,1,0.902,True
+sup_01829,bennett-campus,campus-cafe,FreshFarm-1829,Produce,4.3,5,0.927,True
+sup_01830,techpark-one,snapeats,FreshFarm-1830,Dairy,3.7,2,0.927,True
+sup_01831,techpark-one,quench,MetroCash-1831,Bakery,3.6,1,0.912,True
+sup_01832,techpark-one,quench,CityFoods-1832,Produce,3.4,2,0.881,True
+sup_01833,techpark-one,quench,CoolSupply-1833,Bakery,4.6,3,0.968,True
+sup_01834,techpark-one,snapeats,BeanHouse-1834,Produce,4.1,3,0.949,True
+sup_01835,techpark-one,south-delights,VegSource-1835,Beverages,3.8,3,0.898,True
+sup_01836,techpark-one,snapeats,MetroCash-1836,Beverages,3.6,4,0.883,True
+sup_01837,techpark-one,south-delights,FreshFarm-1837,Pantry,3.3,3,0.975,True
+sup_01838,techpark-one,quench,MetroCash-1838,Bakery,4.6,7,0.867,True
+sup_01839,techpark-one,snapeats,SouthFresh-1839,Packaging,3.2,6,0.825,True
+sup_01840,techpark-one,snapeats,SouthFresh-1840,Pantry,4.3,7,0.867,True
+sup_01841,techpark-one,quench,MetroCash-1841,Pantry,3.5,2,0.894,True
+sup_01842,techpark-one,snapeats,MetroCash-1842,Dairy,3.8,5,0.838,True
+sup_01843,bennett-campus,campus-cafe,BeanHouse-1843,Packaging,4.6,1,0.821,True
+sup_01844,techpark-one,quench,CityFoods-1844,Pantry,3.2,5,0.941,True
+sup_01845,bennett-campus,campus-cafe,MetroCash-1845,Produce,4.4,4,0.85,True
+sup_01846,techpark-one,snapeats,MetroCash-1846,Packaging,4.8,5,0.875,True
+sup_01847,techpark-one,quench,FreshFarm-1847,Packaging,3.3,1,0.894,True
+sup_01848,techpark-one,quench,DailyHarvest-1848,Produce,3.9,6,0.843,True
+sup_01849,techpark-one,south-delights,CampusSupply-1849,Pantry,4.4,5,0.833,True
+sup_01850,techpark-one,south-delights,BeanHouse-1850,Packaging,4.2,7,0.955,True
+sup_01851,techpark-one,south-delights,FreshFarm-1851,Bakery,4.5,4,0.888,True
+sup_01852,techpark-one,south-delights,VegSource-1852,Beverages,4.1,6,0.969,True
+sup_01853,techpark-one,south-delights,CampusSupply-1853,Beverages,4.6,2,0.966,True
+sup_01854,bennett-campus,campus-cafe,DailyHarvest-1854,Packaging,4.3,3,0.915,True
+sup_01855,bennett-campus,campus-cafe,BeanHouse-1855,Pantry,4.0,5,0.907,True
+sup_01856,techpark-one,snapeats,CoolSupply-1856,Beverages,4.0,4,0.843,True
+sup_01857,bennett-campus,campus-cafe,DailyHarvest-1857,Beverages,4.7,6,0.839,True
+sup_01858,techpark-one,south-delights,CoolSupply-1858,Bakery,4.0,4,0.848,True
+sup_01859,techpark-one,snapeats,SouthFresh-1859,Beverages,4.3,2,0.893,True
+sup_01860,techpark-one,quench,VegSource-1860,Bakery,4.4,5,0.977,True
+sup_01861,techpark-one,quench,VegSource-1861,Cooking Oil,3.6,7,0.828,True
+sup_01862,techpark-one,south-delights,SouthFresh-1862,Bakery,4.1,7,0.941,True
+sup_01863,techpark-one,quench,CityFoods-1863,Bakery,3.7,5,0.986,True
+sup_01864,techpark-one,snapeats,CoolSupply-1864,Dairy,4.7,7,0.929,True
+sup_01865,techpark-one,south-delights,VegSource-1865,Beverages,3.6,2,0.929,True
+sup_01866,techpark-one,quench,FreshFarm-1866,Dairy,4.5,4,0.91,True
+sup_01867,techpark-one,south-delights,BeanHouse-1867,Cooking Oil,4.3,5,0.971,True
+sup_01868,bennett-campus,campus-cafe,DailyHarvest-1868,Pantry,3.7,6,0.862,True
+sup_01869,techpark-one,snapeats,CoolSupply-1869,Pantry,4.4,1,0.888,True
+sup_01870,techpark-one,quench,FreshFarm-1870,Bakery,3.3,2,0.932,True
+sup_01871,techpark-one,south-delights,CoolSupply-1871,Packaging,3.4,1,0.881,True
+sup_01872,bennett-campus,campus-cafe,FreshFarm-1872,Bakery,3.8,2,0.933,True
+sup_01873,techpark-one,quench,SouthFresh-1873,Beverages,3.7,5,0.878,True
+sup_01874,techpark-one,south-delights,VegSource-1874,Produce,3.2,6,0.869,True
+sup_01875,bennett-campus,campus-cafe,SouthFresh-1875,Cooking Oil,4.5,4,0.82,True
+sup_01876,techpark-one,south-delights,CampusSupply-1876,Beverages,3.5,7,0.867,True
+sup_01877,techpark-one,snapeats,CampusSupply-1877,Cooking Oil,4.8,2,0.847,True
+sup_01878,bennett-campus,campus-cafe,VegSource-1878,Beverages,3.3,6,0.912,True
+sup_01879,techpark-one,south-delights,DailyHarvest-1879,Dairy,4.1,7,0.963,True
+sup_01880,techpark-one,quench,CoolSupply-1880,Cooking Oil,4.3,2,0.921,True
+sup_01881,techpark-one,quench,CoolSupply-1881,Beverages,3.6,1,0.897,True
+sup_01882,techpark-one,quench,PrimeFoods-1882,Dairy,4.1,6,0.89,True
+sup_01883,techpark-one,snapeats,MetroCash-1883,Packaging,4.0,4,0.843,True
+sup_01884,techpark-one,south-delights,SouthFresh-1884,Cooking Oil,4.1,3,0.878,True
+sup_01885,bennett-campus,campus-cafe,PrimeFoods-1885,Bakery,4.4,4,0.872,True
+sup_01886,bennett-campus,campus-cafe,FreshFarm-1886,Packaging,3.2,5,0.867,True
+sup_01887,techpark-one,south-delights,BeanHouse-1887,Produce,4.5,2,0.96,True
+sup_01888,bennett-campus,campus-cafe,SouthFresh-1888,Dairy,4.6,3,0.989,True
+sup_01889,bennett-campus,campus-cafe,SouthFresh-1889,Bakery,3.2,7,0.92,True
+sup_01890,bennett-campus,campus-cafe,PrimeFoods-1890,Produce,4.4,1,0.974,True
+sup_01891,techpark-one,south-delights,BeanHouse-1891,Bakery,3.2,1,0.91,True
+sup_01892,techpark-one,south-delights,CoolSupply-1892,Bakery,4.4,3,0.851,True
+sup_01893,techpark-one,quench,VegSource-1893,Dairy,4.8,1,0.922,True
+sup_01894,techpark-one,quench,BeanHouse-1894,Bakery,4.9,7,0.957,True
+sup_01895,bennett-campus,campus-cafe,PrimeFoods-1895,Beverages,3.7,5,0.97,True
+sup_01896,techpark-one,south-delights,PrimeFoods-1896,Packaging,4.2,1,0.895,True
+sup_01897,techpark-one,snapeats,FreshFarm-1897,Cooking Oil,3.4,2,0.951,True
+sup_01898,techpark-one,snapeats,FreshFarm-1898,Bakery,4.4,1,0.943,True
+sup_01899,bennett-campus,campus-cafe,BeanHouse-1899,Bakery,4.1,6,0.837,True
+sup_01900,bennett-campus,campus-cafe,SouthFresh-1900,Produce,4.5,2,0.906,True
+sup_01901,techpark-one,snapeats,DailyHarvest-1901,Pantry,3.8,3,0.896,True
+sup_01902,bennett-campus,campus-cafe,SouthFresh-1902,Pantry,3.2,4,0.867,True
+sup_01903,techpark-one,snapeats,MetroCash-1903,Dairy,3.8,6,0.949,True
+sup_01904,techpark-one,quench,BeanHouse-1904,Produce,3.6,5,0.95,True
+sup_01905,techpark-one,quench,FreshFarm-1905,Dairy,4.8,7,0.922,True
+sup_01906,techpark-one,snapeats,BeanHouse-1906,Cooking Oil,4.3,4,0.852,True
+sup_01907,bennett-campus,campus-cafe,FreshFarm-1907,Pantry,3.9,1,0.868,True
+sup_01908,techpark-one,quench,SouthFresh-1908,Produce,3.4,2,0.903,True
+sup_01909,techpark-one,quench,VegSource-1909,Pantry,3.5,5,0.978,True
+sup_01910,techpark-one,quench,VegSource-1910,Cooking Oil,4.0,6,0.875,True
+sup_01911,techpark-one,snapeats,CoolSupply-1911,Bakery,3.7,6,0.825,True
+sup_01912,techpark-one,south-delights,CoolSupply-1912,Bakery,3.8,3,0.975,True
+sup_01913,bennett-campus,campus-cafe,MetroCash-1913,Beverages,4.0,6,0.972,True
+sup_01914,techpark-one,quench,CoolSupply-1914,Cooking Oil,3.4,5,0.928,True
+sup_01915,bennett-campus,campus-cafe,CityFoods-1915,Dairy,3.3,6,0.825,True
+sup_01916,techpark-one,quench,DailyHarvest-1916,Packaging,4.4,7,0.963,True
+sup_01917,techpark-one,snapeats,MetroCash-1917,Packaging,4.3,6,0.98,True
+sup_01918,techpark-one,quench,CityFoods-1918,Produce,3.7,1,0.974,True
+sup_01919,techpark-one,snapeats,CoolSupply-1919,Pantry,4.6,2,0.858,True
+sup_01920,techpark-one,snapeats,DailyHarvest-1920,Packaging,3.8,3,0.867,True
+sup_01921,techpark-one,snapeats,BeanHouse-1921,Beverages,4.6,4,0.853,True
+sup_01922,techpark-one,south-delights,CoolSupply-1922,Cooking Oil,4.4,6,0.946,True
+sup_01923,bennett-campus,campus-cafe,PrimeFoods-1923,Packaging,4.3,7,0.841,True
+sup_01924,techpark-one,south-delights,PrimeFoods-1924,Beverages,3.8,6,0.906,True
+sup_01925,techpark-one,south-delights,MetroCash-1925,Packaging,4.8,2,0.926,True
+sup_01926,techpark-one,quench,CityFoods-1926,Bakery,3.8,6,0.893,True
+sup_01927,bennett-campus,campus-cafe,CityFoods-1927,Dairy,4.2,2,0.888,True
+sup_01928,techpark-one,quench,SouthFresh-1928,Pantry,4.2,7,0.976,True
+sup_01929,bennett-campus,campus-cafe,BeanHouse-1929,Packaging,3.7,3,0.979,True
+sup_01930,bennett-campus,campus-cafe,CityFoods-1930,Packaging,3.8,2,0.879,True
+sup_01931,bennett-campus,campus-cafe,VegSource-1931,Packaging,4.7,6,0.839,True
+sup_01932,techpark-one,south-delights,MetroCash-1932,Cooking Oil,3.4,6,0.912,True
+sup_01933,techpark-one,south-delights,CampusSupply-1933,Produce,4.4,2,0.875,True
+sup_01934,techpark-one,south-delights,SouthFresh-1934,Bakery,3.3,1,0.917,True
+sup_01935,techpark-one,snapeats,FreshFarm-1935,Cooking Oil,4.1,4,0.828,True
+sup_01936,techpark-one,snapeats,MetroCash-1936,Produce,3.4,3,0.853,True
+sup_01937,techpark-one,south-delights,BeanHouse-1937,Dairy,4.2,2,0.974,True
+sup_01938,techpark-one,snapeats,MetroCash-1938,Dairy,4.3,3,0.879,True
+sup_01939,techpark-one,south-delights,DailyHarvest-1939,Produce,4.3,1,0.978,True
+sup_01940,techpark-one,snapeats,MetroCash-1940,Packaging,4.1,7,0.839,True
+sup_01941,bennett-campus,campus-cafe,FreshFarm-1941,Pantry,4.3,7,0.83,True
+sup_01942,bennett-campus,campus-cafe,SouthFresh-1942,Cooking Oil,3.8,2,0.909,True
+sup_01943,bennett-campus,campus-cafe,VegSource-1943,Dairy,3.8,3,0.904,True
+sup_01944,techpark-one,quench,BeanHouse-1944,Beverages,4.6,4,0.823,True
+sup_01945,bennett-campus,campus-cafe,MetroCash-1945,Beverages,3.8,2,0.879,True
+sup_01946,techpark-one,quench,DailyHarvest-1946,Dairy,4.1,3,0.844,True
+sup_01947,techpark-one,quench,DailyHarvest-1947,Packaging,4.7,4,0.856,True
+sup_01948,bennett-campus,campus-cafe,FreshFarm-1948,Packaging,4.4,7,0.923,True
+sup_01949,techpark-one,south-delights,FreshFarm-1949,Produce,3.8,4,0.982,True
+sup_01950,bennett-campus,campus-cafe,CoolSupply-1950,Packaging,3.9,6,0.868,True
+sup_01951,bennett-campus,campus-cafe,MetroCash-1951,Packaging,4.7,6,0.887,True
+sup_01952,techpark-one,snapeats,DailyHarvest-1952,Cooking Oil,4.5,3,0.878,True
+sup_01953,bennett-campus,campus-cafe,CityFoods-1953,Produce,3.2,3,0.892,True
+sup_01954,bennett-campus,campus-cafe,BeanHouse-1954,Bakery,4.5,7,0.933,True
+sup_01955,techpark-one,south-delights,VegSource-1955,Dairy,3.5,4,0.901,True
+sup_01956,bennett-campus,campus-cafe,CampusSupply-1956,Packaging,4.5,3,0.982,True
+sup_01957,bennett-campus,campus-cafe,MetroCash-1957,Packaging,4.0,4,0.852,True
+sup_01958,techpark-one,quench,MetroCash-1958,Cooking Oil,4.7,6,0.951,True
+sup_01959,techpark-one,south-delights,SouthFresh-1959,Dairy,3.8,5,0.958,True
+sup_01960,techpark-one,snapeats,SouthFresh-1960,Bakery,3.6,7,0.905,True
+sup_01961,techpark-one,quench,BeanHouse-1961,Pantry,3.5,6,0.964,True
+sup_01962,techpark-one,snapeats,MetroCash-1962,Bakery,3.9,7,0.919,True
+sup_01963,bennett-campus,campus-cafe,CoolSupply-1963,Cooking Oil,3.6,2,0.826,True
+sup_01964,techpark-one,south-delights,CoolSupply-1964,Beverages,3.5,4,0.867,True
+sup_01965,bennett-campus,campus-cafe,VegSource-1965,Pantry,4.4,4,0.863,True
+sup_01966,techpark-one,quench,MetroCash-1966,Dairy,4.1,5,0.933,True
+sup_01967,bennett-campus,campus-cafe,SouthFresh-1967,Pantry,4.9,4,0.878,True
+sup_01968,techpark-one,south-delights,CityFoods-1968,Pantry,4.6,7,0.923,True
+sup_01969,techpark-one,snapeats,BeanHouse-1969,Packaging,4.7,4,0.961,True
+sup_01970,techpark-one,snapeats,FreshFarm-1970,Beverages,4.5,6,0.906,True
+sup_01971,techpark-one,snapeats,CoolSupply-1971,Bakery,4.7,5,0.953,True
+sup_01972,techpark-one,south-delights,CityFoods-1972,Produce,4.3,7,0.987,True
+sup_01973,techpark-one,quench,CoolSupply-1973,Packaging,3.6,4,0.952,True
+sup_01974,techpark-one,snapeats,MetroCash-1974,Pantry,4.3,6,0.904,True
+sup_01975,techpark-one,quench,CityFoods-1975,Bakery,3.4,1,0.85,True
+sup_01976,bennett-campus,campus-cafe,BeanHouse-1976,Cooking Oil,4.1,5,0.93,True
+sup_01977,bennett-campus,campus-cafe,VegSource-1977,Cooking Oil,3.7,3,0.964,True
+sup_01978,techpark-one,quench,PrimeFoods-1978,Pantry,3.9,2,0.883,True
+sup_01979,techpark-one,quench,BeanHouse-1979,Dairy,4.0,7,0.86,True
+sup_01980,techpark-one,quench,VegSource-1980,Dairy,3.8,3,0.971,True
+sup_01981,techpark-one,quench,CoolSupply-1981,Produce,4.4,6,0.844,True
+sup_01982,bennett-campus,campus-cafe,PrimeFoods-1982,Beverages,3.3,4,0.892,True
+sup_01983,techpark-one,south-delights,CoolSupply-1983,Packaging,3.5,5,0.904,True
+sup_01984,techpark-one,south-delights,VegSource-1984,Produce,3.5,5,0.868,True
+sup_01985,techpark-one,snapeats,CityFoods-1985,Dairy,3.9,7,0.831,True
+sup_01986,techpark-one,south-delights,SouthFresh-1986,Beverages,3.4,3,0.899,True
+sup_01987,techpark-one,quench,CityFoods-1987,Dairy,4.5,3,0.957,True
+sup_01988,techpark-one,quench,VegSource-1988,Dairy,3.8,5,0.962,True
+sup_01989,techpark-one,quench,FreshFarm-1989,Bakery,3.9,2,0.865,True
+sup_01990,techpark-one,quench,FreshFarm-1990,Cooking Oil,3.9,2,0.849,True
+sup_01991,techpark-one,south-delights,FreshFarm-1991,Pantry,4.7,4,0.888,True
+sup_01992,techpark-one,south-delights,MetroCash-1992,Dairy,4.3,2,0.941,True
+sup_01993,techpark-one,snapeats,FreshFarm-1993,Pantry,4.5,7,0.839,True
+sup_01994,techpark-one,quench,CoolSupply-1994,Bakery,3.7,4,0.902,True
+sup_01995,techpark-one,snapeats,BeanHouse-1995,Bakery,3.4,7,0.822,True
+sup_01996,techpark-one,quench,CoolSupply-1996,Dairy,4.8,6,0.929,True
+sup_01997,techpark-one,quench,CampusSupply-1997,Bakery,3.6,2,0.93,True
+sup_01998,bennett-campus,campus-cafe,PrimeFoods-1998,Beverages,4.6,5,0.843,True
+sup_01999,techpark-one,south-delights,CampusSupply-1999,Packaging,4.7,7,0.91,True
+sup_02000,techpark-one,quench,MetroCash-2000,Beverages,4.0,4,0.863,True

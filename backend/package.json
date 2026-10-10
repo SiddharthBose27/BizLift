@@ -1,0 +1,46 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --env-file=.env index.js",
+    "bootstrap:demo": "node scripts/bootstrapDemoData.js",
+    "seed:sample": "node scripts/validateSampleData.js",
+    "generate:sample": "python3 scripts/generateSampleData.py",
+    "start": "node --env-file=.env index.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:deploy": "prisma migrate deploy",
+    "db:seed": "node --env-file=.env scripts/seedPostgres.js",
+    "test:tenant": "node scripts/testTenantBoundary.js",
+    "test:architecture": "node scripts/testArchitecture.js",
+    "test:data": "node scripts/testDataPlatform.js",
+    "test:ml": "node scripts/testMLPlatform.js",
+    "test:realtime": "node scripts/testRealtimePlatform.js",
+    "test:procurement": "node scripts/testProcurementPlatform.js",
+    "test:copilot": "node scripts/testAICopilot.js",
+    "test:auth-credentials": "node scripts/testAuthCredentials.js",
+    "test:observability": "node scripts/testObservability.js",
+    "smoke": "node --env-file=.env scripts/testSmoke.js",
+    "doctor": "node --env-file=.env scripts/doctor.js",
+    "test:all": "node --env-file=.env scripts/testAll.js",
+    "release:check": "node scripts/releaseCheck.js",
+    "demo:admin": "node --env-file=.env scripts/provisionDemoPlatformAdmin.js",
+    "demo:org-admin": "node --env-file=.env scripts/provisionDemoOrgAdmin.js",
+    "test:batch7": "node scripts/testBatch7Integration.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "@prisma/client": "^6.19.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.19.0"
+  }
+}
